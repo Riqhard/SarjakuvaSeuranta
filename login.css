@@ -1,0 +1,133 @@
+html, body {  
+    background-color: #2C423F;
+}
+
+body{
+    min-height: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("pictures/LoginBG.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top;
+    color: #000000;
+}
+footer {
+  position: sticky;
+  top: 100vh;
+  margin: auto;
+  background-color: #000;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+a{
+    color: #101;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(139, 81, 255);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+[type='submit']{
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: 45%;
+    border-radius: 8px;
+    
+    width: 150px;
+}
+  
+[type='submit']:hover{
+background-color: #333;
+color: white;
+border-radius: 8px;
+}
+
+button{
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: 40%;
+    border-radius: 8px;
+    
+    width: 150px;
+}
+  
+button:hover{
+background-color: #333;
+color: white;
+border-radius: 8px;
+}
+
+.login_logo{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+}
+
+.container{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    max-width: 750px;
+    margin: auto;
+
+}
+form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    width: 750px;
+    margin: auto;
+    background-color: #e6eaec;
+    border-radius: 10px;
+    padding: 3px;
+}
+fieldset{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+  
+    margin: 10px 0;
+    padding: 10px;
+}
+legend{
+    
+    background-color: #333d4252;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: solid white 1px;
+    border-radius: 5px;
+  
+    color: #fff;
+    width: auto;
+    float: none;
+    padding: 0 10px;
+}
+
+
+

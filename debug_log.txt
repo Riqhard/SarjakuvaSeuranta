@@ -1,0 +1,307 @@
+2024-09-20 10:55:04 loggedIn:
+2024-09-23 07:55:45 POST:array (
+)
+2024-09-23 07:55:45 loggedIn:
+2024-09-23 07:55:45 array (
+)
+2024-09-23 07:55:47 loggedIn:
+2024-09-23 07:55:49 loggedIn:
+2024-09-23 07:55:50 POST:array (
+)
+2024-09-23 07:55:50 loggedIn:
+2024-09-23 07:55:50 array (
+)
+2024-09-23 07:55:51 loggedIn:
+2024-09-23 08:00:47 loggedIn:
+2024-09-23 08:00:51 POST:array (
+)
+2024-09-23 08:00:51 loggedIn:
+2024-09-23 08:00:51 array (
+)
+2024-09-23 08:00:53 POST:array (
+)
+2024-09-23 08:00:53 loggedIn:
+2024-09-23 08:00:53 array (
+)
+2024-09-23 08:02:11 POST:array (
+)
+2024-09-23 08:02:11 loggedIn:
+2024-09-23 08:02:11 array (
+)
+2024-09-23 08:05:49 POST:array (
+)
+2024-09-23 08:05:49 array (
+)
+2024-09-23 08:05:49 loggedIn:
+2024-09-23 08:05:54 POST:array (
+)
+2024-09-23 08:05:54 array (
+)
+2024-09-23 08:05:54 loggedIn:
+2024-09-23 08:06:29 POST:array (
+)
+2024-09-23 08:06:29 array (
+)
+2024-09-23 08:06:29 loggedIn:
+2024-09-23 08:08:18 POST:array (
+)
+2024-09-23 08:08:18 array (
+)
+2024-09-23 08:08:18 loggedIn:
+2024-09-23 08:08:20 POST:array (
+)
+2024-09-23 08:08:20 array (
+)
+2024-09-23 08:08:20 loggedIn:
+2024-09-23 08:08:31 POST:array (
+)
+2024-09-23 08:08:31 array (
+)
+2024-09-23 08:08:31 loggedIn:
+2024-09-23 08:09:05 POST:array (
+)
+2024-09-23 08:09:05 array (
+)
+2024-09-23 08:09:05 loggedIn:
+2024-09-23 08:10:05 POST:array (
+)
+2024-09-23 08:10:05 array (
+)
+2024-09-23 08:10:05 loggedIn:
+2024-09-23 08:10:21 POST:array (
+)
+2024-09-23 08:10:21 array (
+)
+2024-09-23 08:10:21 loggedIn:
+2024-09-23 08:10:44 POST:array (
+)
+2024-09-23 08:10:44 array (
+)
+2024-09-23 08:10:44 loggedIn:
+2024-09-23 08:13:34 POST:array (
+)
+2024-09-23 08:13:34 array (
+)
+2024-09-23 08:13:34 loggedIn:
+2024-09-23 08:13:35 POST:array (
+)
+2024-09-23 08:13:35 array (
+)
+2024-09-23 08:13:35 loggedIn:
+2024-09-23 08:14:06 POST:array (
+)
+2024-09-23 08:14:06 array (
+)
+2024-09-23 08:14:06 loggedIn:
+2024-09-23 08:14:07 POST:array (
+)
+2024-09-23 08:14:07 array (
+)
+2024-09-23 08:14:07 loggedIn:
+2024-09-23 08:14:08 POST:array (
+)
+2024-09-23 08:14:08 array (
+)
+2024-09-23 08:14:08 loggedIn:
+2024-09-23 08:14:38 POST:array (
+)
+2024-09-23 08:14:38 array (
+)
+2024-09-23 08:14:38 loggedIn:
+2024-09-23 08:15:08 POST:array (
+)
+2024-09-23 08:15:08 array (
+)
+2024-09-23 08:15:08 loggedIn:
+2024-09-23 08:16:10 POST:array (
+)
+2024-09-23 08:16:10 array (
+)
+2024-09-23 08:16:10 loggedIn:
+2024-09-23 08:17:37 POST:array (
+)
+2024-09-23 08:17:37 array (
+)
+2024-09-23 08:17:37 loggedIn:
+2024-09-23 08:18:02 POST:array (
+)
+2024-09-23 08:18:02 array (
+)
+2024-09-23 08:18:02 loggedIn:
+2024-09-23 08:18:09 POST:array (
+)
+2024-09-23 08:18:09 array (
+)
+2024-09-23 08:18:09 loggedIn:
+2024-09-23 08:18:22 POST:array (
+)
+2024-09-23 08:18:22 array (
+)
+2024-09-23 08:18:22 loggedIn:
+2024-09-23 08:19:49 POST:array (
+)
+2024-09-23 08:19:49 array (
+)
+2024-09-23 08:19:49 loggedIn:
+2024-09-23 08:20:12 POST:array (
+)
+2024-09-23 08:20:12 array (
+)
+2024-09-23 08:20:12 loggedIn:
+2024-09-23 08:20:23 POST:array (
+)
+2024-09-23 08:20:23 array (
+)
+2024-09-23 08:20:23 loggedIn:
+2024-09-23 08:20:30 POST:array (
+)
+2024-09-23 08:20:30 array (
+)
+2024-09-23 08:20:30 loggedIn:
+2024-09-23 08:21:07 POST:array (
+)
+2024-09-23 08:21:07 array (
+)
+2024-09-23 08:21:07 loggedIn:
+2024-09-23 08:21:24 POST:array (
+)
+2024-09-23 08:21:24 array (
+)
+2024-09-23 08:21:24 loggedIn:
+2024-09-23 08:21:46 POST:array (
+)
+2024-09-23 08:21:46 array (
+)
+2024-09-23 08:21:46 loggedIn:
+2024-09-23 08:22:04 POST:array (
+)
+2024-09-23 08:22:04 array (
+)
+2024-09-23 08:22:04 loggedIn:
+2024-09-23 08:22:27 POST:array (
+)
+2024-09-23 08:22:27 array (
+)
+2024-09-23 08:22:27 loggedIn:
+2024-09-23 08:22:50 POST:array (
+)
+2024-09-23 08:22:50 array (
+)
+2024-09-23 08:22:50 loggedIn:
+2024-09-23 08:23:04 POST:array (
+)
+2024-09-23 08:23:04 array (
+)
+2024-09-23 08:23:04 loggedIn:
+2024-09-23 08:23:13 POST:array (
+)
+2024-09-23 08:23:13 array (
+)
+2024-09-23 08:23:13 loggedIn:
+2024-09-23 08:23:20 POST:array (
+)
+2024-09-23 08:23:20 array (
+)
+2024-09-23 08:23:20 loggedIn:
+2024-09-23 08:25:10 POST:array (
+)
+2024-09-23 08:25:10 array (
+)
+2024-09-23 08:25:10 loggedIn:
+2024-09-23 08:25:11 loggedIn:
+2024-09-23 08:25:15 POST:array (
+)
+2024-09-23 08:25:15 array (
+)
+2024-09-23 08:25:15 loggedIn:
+2024-09-23 08:25:17 loggedIn:
+2024-09-23 08:25:19 loggedIn:
+2024-09-23 08:25:21 POST:array (
+)
+2024-09-23 08:25:21 array (
+)
+2024-09-23 08:25:21 loggedIn:
+2024-09-23 08:31:43 loggedIn:
+2024-09-23 08:33:06 POST:array (
+)
+2024-09-23 08:33:06 loggedIn:
+2024-09-23 08:33:06 array (
+)
+2024-09-23 08:34:06 POST:array (
+)
+2024-09-23 08:34:06 loggedIn:
+2024-09-23 08:34:06 array (
+)
+2024-09-23 08:34:07 loggedIn:
+2024-09-23 08:34:09 loggedIn:
+2024-09-23 08:34:13 loggedIn:
+2024-09-23 08:34:33 loggedIn:
+2024-09-23 08:34:34 loggedIn:
+2024-09-23 08:34:39 loggedIn:
+2024-09-23 08:34:42 POST:array (
+)
+2024-09-23 08:34:42 loggedIn:
+2024-09-23 08:34:42 array (
+)
+2024-09-23 08:34:45 loggedIn:
+2024-09-23 08:34:46 loggedIn:
+2024-09-23 08:35:05 loggedIn:
+2024-09-23 09:43:49 loggedIn:
+2024-09-23 09:43:49 kentta:name,arvo:Riku Kilpimaa,apu:
+2024-09-23 09:43:49 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-09-23 09:43:49 kentta:password,arvo:asdasdasdasd,apu:
+2024-09-23 09:43:49 kentta:password2,arvo:asdasdasdasd,apu:
+2024-09-23 09:43:49 array (
+)
+2024-09-23 09:43:49 INSERT INTO users (name, email, password) VALUES ('Riku Kilpimaa', 'RikuKilpimaa@hotmail.fi', '$2y$10$c.xSE2nUv0Ka9sdyBYNZh..dDS5pUMh5virxYp56adzoEM0RHROua')
+2024-09-23 09:43:49 INSERT INTO signup_tokens (users_id,token) VALUES (37,'82318d1aa8a59baf6be82f690a00b620')
+2024-09-23 09:43:52 Viesti lähetetty: RikuKilpimaa@hotmail.fi!
+2024-09-23 09:48:18 loggedIn:29
+2024-09-23 09:49:29 loggedIn:29
+2024-09-23 09:49:29 kentta:name,arvo:Riku Kilpimaa,apu:
+2024-09-23 09:49:29 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-09-23 09:49:29 kentta:password,arvo:asdasdasdasd,apu:
+2024-09-23 09:49:29 kentta:password2,arvo:asdasdasdasd,apu:
+2024-09-23 09:49:29 array (
+)
+2024-09-23 09:49:29 INSERT INTO users (name, email, password) VALUES ('Riku Kilpimaa', 'RikuKilpimaa@hotmail.fi', '$2y$10$HoIWrKo65WsbF8eSdDZU9uQNRZNYAB1NG7I.vl4FJzLIU732EuswK')
+2024-09-23 09:49:29 INSERT INTO signup_tokens (users_id,token) VALUES (39,'9e723a587e2704dc90d84af56fe616c4')
+2024-09-23 09:49:32 Viesti lähetetty: RikuKilpimaa@hotmail.fi!
+2024-09-23 09:49:36 loggedIn:29
+2024-09-23 09:51:33 loggedIn:29
+2024-09-23 09:52:03 loggedIn:29
+2024-09-23 09:52:15 loggedIn:29
+2024-09-23 09:52:18 loggedIn:29
+2024-09-23 09:52:48 loggedIn:29
+2024-09-23 09:53:53 loggedIn:29
+2024-09-23 09:53:54 loggedIn:29
+2024-09-23 09:55:52 loggedIn:29
+2024-09-23 09:56:51 loggedIn:29
+2024-09-23 09:57:35 loggedIn:29
+2024-09-23 09:57:48 loggedIn:29
+2024-09-23 09:58:15 loggedIn:29
+2024-09-23 09:58:22 loggedIn:29
+2024-09-23 09:58:25 loggedIn:29
+2024-09-23 10:04:22 loggedIn:29
+2024-09-23 10:05:09 loggedIn:29
+2024-09-23 10:06:21 loggedIn:29
+2024-09-23 10:07:00 loggedIn:29
+2024-09-23 10:07:47 loggedIn:29
+2024-09-23 10:09:01 loggedIn:29
+2024-09-23 10:09:57 loggedIn:29
+2024-09-23 10:10:16 loggedIn:29
+2024-09-23 10:10:16 loggedIn:29
+2024-09-23 10:11:13 loggedIn:29
+2024-09-23 10:11:33 loggedIn:29
+2024-09-23 10:11:56 loggedIn:29
+2024-09-23 10:13:43 loggedIn:29
+2024-09-23 10:13:57 loggedIn:29
+2024-09-23 10:14:32 loggedIn:29
+2024-09-23 10:15:04 loggedIn:29
+2024-09-23 10:19:24 loggedIn:29
+2024-09-23 10:19:29 loggedIn:29
+2024-09-23 10:19:31 loggedIn:29
+2024-09-23 10:19:49 loggedIn:29
+2024-09-23 10:19:50 loggedIn:29
+2024-09-23 10:19:51 loggedIn:29
+2024-09-23 10:19:52 loggedIn:29
