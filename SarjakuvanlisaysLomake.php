@@ -49,10 +49,10 @@ if ($success != "success") { ?>
 </div>
 
 <div class="row">
-    <label for="chapters" class="col-sm-4 form-label">Luvut</label>
+    <label for="chapters" class="col-sm-4 form-label">Sivumäärä</label>
     <div class="col-sm-8">
     <input type="number" class="mb-1 form-control <?= is_invalid('chapters'); ?>" name="chapters" id="chapters" 
-           placeholder="chapters" value="<?= arvo("chapters"); ?>"
+           placeholder="0" value="<?= arvo("chapters"); ?>"
            pattern="<?= pattern('chapters'); ?>" required>
     <div class="invalid-feedback">
     <?= $errors['chapters'] ?? ""; ?>

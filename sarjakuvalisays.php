@@ -51,7 +51,7 @@ if (isset($_POST['nappula'])){
 
         debuggeri($errors);    
         if (empty($errors)) {
-            echo "$title : $description : $image : $chapters";
+            // echo "$title : $description : $image : $chapters";
             $query = "INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('$title', '$description', $image, '$chapters')";
             debuggeri($query);
             $result = mysqli_my_query($query);

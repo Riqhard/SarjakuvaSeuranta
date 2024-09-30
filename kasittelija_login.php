@@ -6,6 +6,7 @@ $success = "success";
 $sallittu = true;
 $ilmoitukset['errorMsg'] = 'Kirjautuminen epäonnistui. '; 
 debuggeri("POST:".var_export($_POST,true));
+$user_id = $_SESSION['user_id'] ?? 0;
 
 
 if ($sallittu) {   

@@ -28,8 +28,8 @@ $patterns['email'] = "/^[$w]+[$w.+-]*@[$w-]+(\.[$w-]{2,})?\.[a-zA-Z]{2,}$/";
 $patterns['image'] = "/^[^\s]+\.(jpe?g|png|gif|bmp)$/"; 
 $patterns['rememberme'] = "/^checked$/";
 
-$patterns['title'] = "/^[a-zåäöA-ZÅÄÖ '\-]+$/";
-$patterns['description'] =  "/^[a-zåäöA-ZÅÄÖ '\-]+$/";
+$patterns['title'] = "/^[A-ZÅÄÖa-zåäö0-9\s\.\,\!\?\-\:\']{2,100}$/";
+$patterns['description'] =  "/^[A-ZÅÄÖa-zåäö0-9\s\.\,\!\?\-\:\'\"\(\)\n]{2,1000}$/";
 $patterns['chapters'] =  "/^[0-9]{1,5}$/";
 
 

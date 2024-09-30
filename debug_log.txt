@@ -149,3 +149,170 @@
 2024-09-28 23:21:47 loggedIn:50
 2024-09-28 23:21:50 loggedIn:50
 2024-09-28 23:21:50 loggedIn:50
+2024-09-30 10:33:37 loggedIn:50
+2024-09-30 10:40:02 loggedIn:50
+2024-09-30 10:40:30 loggedIn:50
+2024-09-30 10:40:30 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 10:40:30 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,apu:1
+2024-09-30 10:40:30 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,pattern:/^[a-zåäöA-ZÅÄÖ '\-]+$/
+2024-09-30 10:40:30 kentta:chapters,arvo:64,apu:
+2024-09-30 10:40:30 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-09-30 10:42:34 loggedIn:50
+2024-09-30 10:42:34 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 10:42:34 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,apu:1
+2024-09-30 10:42:34 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,pattern:/^[A-Za-z0-9\s\.\,\!\?\-\:\'"\(\)
+]{10,1000}$/
+2024-09-30 10:42:34 kentta:chapters,arvo:64,apu:
+2024-09-30 10:42:34 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-09-30 10:42:49 loggedIn:50
+2024-09-30 10:42:49 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 10:42:49 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,apu:1
+2024-09-30 10:42:49 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,pattern:/^[A-Za-z0-9\s\.\,\!\?\-\:\'"\(\)
+]{10,1000}$/
+2024-09-30 10:42:49 kentta:chapters,arvo:64,apu:
+2024-09-30 10:42:49 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-09-30 10:42:58 loggedIn:50
+2024-09-30 10:42:58 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 10:42:58 kentta:description,arvo:17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,apu:1
+2024-09-30 10:42:58 kentta:description,arvo:17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,pattern:/^[A-Za-z0-9\s\.\,\!\?\-\:\'"\(\)
+]{10,1000}$/
+2024-09-30 10:42:58 kentta:chapters,arvo:64,apu:
+2024-09-30 10:42:58 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-09-30 10:43:04 loggedIn:50
+2024-09-30 10:43:04 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 10:43:04 kentta:description,arvo:asd,apu:1
+2024-09-30 10:43:04 kentta:description,arvo:asd,pattern:/^[A-Za-z0-9\s\.\,\!\?\-\:\'"\(\)
+]{10,1000}$/
+2024-09-30 10:43:04 kentta:chapters,arvo:64,apu:
+2024-09-30 10:43:04 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-09-30 10:44:54 loggedIn:50
+2024-09-30 10:44:54 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 10:44:54 kentta:description,arvo:asd,apu:
+2024-09-30 10:44:54 kentta:chapters,arvo:64,apu:
+2024-09-30 10:44:54 File fingerpori-17_74cd01.jpg,mime: image/jpeg, jpg, 8991 tavua
+2024-09-30 10:44:54 array (
+)
+2024-09-30 10:44:54 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Fingerpori 17', 'asd', 'fingerpori-17_74cd01.jpg', '64')
+2024-09-30 10:44:54 lisays:1
+2024-09-30 10:45:01 loggedIn:50
+2024-09-30 10:45:49 loggedIn:50
+2024-09-30 11:00:40 loggedIn:50
+2024-09-30 11:10:36 loggedIn:50
+2024-09-30 11:10:38 loggedIn:50
+2024-09-30 11:10:49 loggedIn:50
+2024-09-30 11:10:52 loggedIn:50
+2024-09-30 11:11:27 loggedIn:50
+2024-09-30 11:11:28 loggedIn:50
+2024-09-30 11:12:37 loggedIn:50
+2024-09-30 11:12:39 loggedIn:50
+2024-09-30 11:12:40 loggedIn:50
+2024-09-30 11:20:53 loggedIn:50
+2024-09-30 11:21:42 loggedIn:50
+2024-09-30 11:21:45 loggedIn:50
+2024-09-30 11:22:33 loggedIn:50
+2024-09-30 11:22:36 loggedIn:50
+2024-09-30 11:24:19 loggedIn:50
+2024-09-30 11:25:44 loggedIn:50
+2024-09-30 11:25:59 loggedIn:50
+2024-09-30 11:32:17 loggedIn:50
+2024-09-30 11:32:50 loggedIn:50
+2024-09-30 11:38:27 loggedIn:50
+2024-09-30 11:38:31 loggedIn:50
+2024-09-30 11:38:33 loggedIn:50
+2024-09-30 11:38:38 loggedIn:50
+2024-09-30 11:38:39 loggedIn:50
+2024-09-30 11:39:45 loggedIn:50
+2024-09-30 12:19:28 loggedIn:50
+2024-09-30 12:23:10 loggedIn:50
+2024-09-30 12:23:13 loggedIn:50
+2024-09-30 12:24:08 loggedIn:50
+2024-09-30 12:24:21 loggedIn:50
+2024-09-30 12:25:36 loggedIn:50
+2024-09-30 12:25:37 kentta:title,arvo:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA,apu:
+2024-09-30 12:25:37 kentta:description,arvo:Onko tuote tai haluamasi malli päässyt loppumaan?
+
+Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.,apu:1
+2024-09-30 12:25:37 kentta:description,arvo:Onko tuote tai haluamasi malli päässyt loppumaan?
+
+Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.,pattern:/^[A-Za-z0-9\s\.\,\!\?\-\:\'"\(\)
+]{2,1000}$/
+2024-09-30 12:25:37 kentta:chapters,arvo:64,apu:
+2024-09-30 12:25:37 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-09-30 12:25:57 loggedIn:50
+2024-09-30 12:25:57 kentta:title,arvo:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA,apu:
+2024-09-30 12:25:57 kentta:description,arvo:Onko tuote tai haluamasi malli päässyt loppumaan?
+Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.,apu:1
+2024-09-30 12:25:57 kentta:description,arvo:Onko tuote tai haluamasi malli päässyt loppumaan?
+Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.,pattern:/^[A-Za-z0-9\s\.\,\!\?\-\:\'"\(\)
+]{2,1000}$/
+2024-09-30 12:25:57 kentta:chapters,arvo:64,apu:
+2024-09-30 12:25:57 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-09-30 12:27:27 loggedIn:50
+2024-09-30 12:27:27 kentta:title,arvo:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA,apu:
+2024-09-30 12:27:27 kentta:description,arvo:Onko tuote tai haluamasi malli päässyt loppumaan?
+Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.,apu:
+2024-09-30 12:27:27 kentta:chapters,arvo:64,apu:
+2024-09-30 12:27:27 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_989e85.png,mime: image/png, png, 3015206 tavua
+2024-09-30 12:27:27 array (
+)
+2024-09-30 12:27:27 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA', 'Onko tuote tai haluamasi malli päässyt loppumaan?\r\nJos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.', 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_989e85.png', '64')
+2024-09-30 12:27:27 lisays:1
+2024-09-30 12:27:32 loggedIn:50
+2024-09-30 12:28:24 loggedIn:50
+2024-09-30 12:28:24 kentta:title,arvo:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA,apu:
+2024-09-30 12:28:24 kentta:description,arvo:Onko tuote tai haluamasi malli päässyt loppumaan?
+
+Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.,apu:
+2024-09-30 12:28:24 kentta:chapters,arvo:64,apu:
+2024-09-30 12:28:24 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_3b41a8.png,mime: image/png, png, 3015206 tavua
+2024-09-30 12:28:24 array (
+)
+2024-09-30 12:28:24 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA', 'Onko tuote tai haluamasi malli päässyt loppumaan?\r\n\r\nJos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.', 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_3b41a8.png', '64')
+2024-09-30 12:28:24 lisays:1
+2024-09-30 12:28:37 loggedIn:50
+2024-09-30 12:28:39 loggedIn:50
+2024-09-30 12:30:44 loggedIn:50
+2024-09-30 12:30:45 loggedIn:50
+2024-09-30 12:30:51 loggedIn:50
+2024-09-30 12:31:22 loggedIn:50
+2024-09-30 12:31:22 kentta:title,arvo:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA,apu:
+2024-09-30 12:31:22 kentta:description,arvo:Onko tuote tai haluamasi malli päässyt loppumaan?
+
+Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.,apu:
+2024-09-30 12:31:22 kentta:chapters,arvo:64,apu:
+2024-09-30 12:31:22 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_8deefa.png,mime: image/png, png, 3015206 tavua
+2024-09-30 12:31:22 array (
+)
+2024-09-30 12:31:22 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA', 'Onko tuote tai haluamasi malli päässyt loppumaan?\r\n\r\nJos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerromme heti, kun tuote on taas saatavilla.', 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_8deefa.png', '64')
+2024-09-30 12:31:22 lisays:1
+2024-09-30 12:31:25 loggedIn:50
+2024-09-30 12:31:26 loggedIn:50
+2024-09-30 12:32:35 loggedIn:50
+2024-09-30 12:33:07 loggedIn:50
+2024-09-30 12:38:13 loggedIn:50

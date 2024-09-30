@@ -4,7 +4,6 @@ if (typeof virheilmoitukset !== 'undefined')
     const menutoggle = () => {
     try {
         console.log("menutoggle");
-        //alert("menutoggle");
         let x = document.querySelector("nav");
         x.className = x.className === "" ? "responsive" : "";
         throw new Error("menutoggle toimii.");
@@ -32,7 +31,6 @@ if (typeof virheilmoitukset !== 'undefined')
     
       fileInput.addEventListener('change', () => {
         const file = fileInput.files[0];
-        //console.log(file);
         const reader = new FileReader();
         reader.addEventListener('load', () => {
           previewImage.src = reader.result;
@@ -44,9 +42,6 @@ if (typeof virheilmoitukset !== 'undefined')
           }
         });
       }
-    
-    //document.querySelector("#tallenna").addEventListener("click", menutoggle)
-    //document.querySelector("#tallenna").onclick = menutoggle;
     
     /* Bootstrap-muotoiltujen ilmoitusten poisto */
     const ilmoitukset = document.querySelector("#ilmoitukset");
@@ -104,38 +99,3 @@ if (typeof virheilmoitukset !== 'undefined')
         });
     })();
     
-    
-    /*  Jatkuva vieritys */
-    /*
-    window.onscroll = () => {
-      console.log(window.innerHeight + window.scrollY)
-      if (window.innerHeight + window.scrollY >= document.body.offsetHeight-1) {
-        load();
-        } 
-      };
-    
-    
-    let url = "./posts.php";
-    let counter = 1;
-    const quantity = 25;
-    // Ensimmäinen erä postauksia
-    document.addEventListener('DOMContentLoaded', load);
-    
-    // Lisää postauksia
-    function load() {
-        const start = counter;
-        const end = start + quantity - 1;
-        counter = end + 1;
-        fetch(`${url}?start=${start}&end=${end}`)
-        .then(response => response.json())
-        .then(data => {
-            data.posts.forEach(add_post);
-            console.log(document.body.offsetHeight);
-        })
-    };
-    
-    const add_post = contents => {
-        const post = document.createElement('div');
-        post.innerHTML = contents;
-        document.querySelector('#posts').append(post);
-    };*/

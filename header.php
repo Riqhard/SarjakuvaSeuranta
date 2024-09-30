@@ -54,7 +54,7 @@ function active($sivu,$active){
   return $active == $sivu ? 'active' : '';  
   }
 
-/* Huom. nav-suojaus vie viimeiset linkit oikealle. */
+
 ?>
 <?php
 if ($loggedIn = loggedIn()) {

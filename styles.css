@@ -323,8 +323,15 @@ ul {
     padding: 0;
 }
 li {
-    padding: 10px;
-    margin: 5px 0;
+  background-color: #AF5B5B;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+/* Joka toinen listan item eri väriseksi */
+li:nth-child(even) {
+  background-color: #6c5baf;
+  border: 1px solid #000;
+  border-radius: 3px;
 }
 .odd {
     background-color: #6c5baf;
@@ -338,6 +345,12 @@ li {
 }
 #results{
   text-align: left;
+}
+
+img.titlekuva {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
 }
   
 

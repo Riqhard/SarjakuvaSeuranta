@@ -4,11 +4,9 @@ $message = "";
 $success = "success";
 
 if (isset($_SESSION['user_id'])) {
-    echo "Käyttäjä on kirjautunut sisään, ID: " . $_SESSION['user_id'] . "<br><br>";
-    $user_id = $_SESSION['user_id'];
+    echo "Käyttäjä on kirjautunut sisään, ID: " . $user_id . "<br><br>";
 } else {
     echo "Käyttäjä ei ole kirjautunut sisään.<br><br>";
-    $user_id = "";
 }
 
 
