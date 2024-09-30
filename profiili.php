@@ -8,7 +8,7 @@ include "header.php";
 ?>
 <div id="sailio">
 
-    <div id="uutis_otsikko">
+    <div class="uutis_otsikko">
         Profiili
     </div>
 
@@ -36,6 +36,10 @@ include "header.php";
         <li>Matkustelu</li>
         <li>Lukeminen</li>
         </ul>
+    </div>
+
+    <div id="sisalto">
+    <a href="changepassword.php">Change password</a>
     </div>
 
 </div>

@@ -13,7 +13,7 @@ include 'header.php';
 
 
 <div id="sailio">
-    <div id="uutis_otsikko">
+    <div class="uutis_otsikko">
 
     <h3>Uutisia</h3>
     </div>

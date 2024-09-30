@@ -27,7 +27,7 @@ include "activation.php";
 
 
 <div class="div-button">
-<button class="verification-button" href="<?php echo "http://$PALVELIN/$PALVELU/login.php";?>">Kirjaudu</button>
+<a class="btn btn-lg btn-success" href="<?php echo "http://$PALVELIN/$PALVELU/login.php";?>">Kirjaudu</a>
 </div>
 
 </div>

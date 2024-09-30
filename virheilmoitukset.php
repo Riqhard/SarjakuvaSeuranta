@@ -28,6 +28,11 @@ $patterns['email'] = "/^[$w]+[$w.+-]*@[$w-]+(\.[$w-]{2,})?\.[a-zA-Z]{2,}$/";
 $patterns['image'] = "/^[^\s]+\.(jpe?g|png|gif|bmp)$/"; 
 $patterns['rememberme'] = "/^checked$/";
 
+$patterns['title'] = "/^[a-zåäöA-ZÅÄÖ '\-]+$/";
+$patterns['description'] =  "/^[a-zåäöA-ZÅÄÖ '\-]+$/";
+$patterns['chapters'] =  "/^[0-9]{1,5}$/";
+
+
 function randomString($length = 3){
     return bin2hex(random_bytes($length));
     }
@@ -77,6 +82,11 @@ $virheilmoitukset['password2']['customError'] = "Salasanat eivät täsmää";
 $virheilmoitukset['email']['emailExistsError'] = "Sähköpostiosoite on jo käytössä";     
 $virheilmoitukset['firstname']['nameExistsError'] = "Nimi on jo käytössä";  
 $virheilmoitukset['lastname']['nameExistsError'] = "Nimi on jo käytössä";  
+ 
+$virheilmoitukset['title']['valueMissing'] = "Anna sarjakuvalle nimi";
+$virheilmoitukset['description']['valueMissing'] = "Anna sarjakuvan kuvaus";
+$virheilmoitukset['chapters']['valueMissing'] = "Anna sarjakuvan luku";
+
 $virheilmoitukset['accountNotExistErr'] = "Tuntematon sähköpostiosoite"; 
 $virheilmoitukset['accountExistsMsg'] = "Sähköposti on lähetetty antamaasi sähköpostiosoitteeseen";   
 $virheilmoitukset['verificationRequiredErr'] = "Vahvista sähköpostiosoite ensin";
@@ -108,7 +118,10 @@ function validointi($kentat){
                 }
             else {
                 if (is_array($arvo)) $values[$kentta] = $arvo;
-                else $values[$kentta] = $yhteys->real_escape_string(strip_tags(trim($arvo)));
+                else {
+                    $arvo = strip_tags(trim($arvo));
+                    $values[$kentta] = $yhteys->real_escape_string($arvo);
+                    }
                 } 
             }    
         }

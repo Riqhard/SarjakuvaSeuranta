@@ -7,7 +7,7 @@ $LINKKI_VERIFICATION = "verification.php";
 $PALVELUOSOITE = "asiakaspalvelu@sarjakuvat.fi";
 
 define("OLETUSSIVU","profiili.php");
-define("PROFIILIKUVAKANSIO","profiilikuvat");
+define("PROFIILIKUVAKANSIO","sarjakuvien_kuvat");
 define("PROFIILIKUVAKOKO",5242880);
 define("EMAIL_FROM","wohjelmointi@gmail.com");
 define("EMAIL_FROM_NAME","Ohjelmointikurssi");

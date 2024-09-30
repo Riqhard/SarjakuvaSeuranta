@@ -1,6 +1,7 @@
 <?php 
 if (!session_id()) session_start();
 ini_set('default_charset', 'utf-8');
+ini_set('upload_max_filesize', '10M');
 ?>
 
 <!DOCTYPE html>
@@ -20,8 +21,19 @@ else {
   echo "<link rel='stylesheet' type='text/css' href='styles.css'>";
   }
 ?>
+
+
 <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<script defer src="scripts.js"></script>
+
+
+<?php
+if (isset($js)){
+  echo "<script defer src='$js'></script>";
+  }
+else {
+  echo "<script defer src='scripts.js'></script>";
+  }
+?>
     
 </head>
 <body>    
@@ -46,10 +58,8 @@ function active($sivu,$active){
 ?>
 <?php
 if ($loggedIn = loggedIn()) {
-  include 'profiilin_navigointi.html';
+  if($navbar ?? true){  include 'profiilin_navigointi.html';}
 }else{
-  if($navbar ?? true){  
-  include 'navigointi.html';
-  }
+  if($navbar ?? true){  include 'navigointi.html';}
 }
 ?>

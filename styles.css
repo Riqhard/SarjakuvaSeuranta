@@ -46,11 +46,11 @@ footer {
 
 
 a{
-    color: #101;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 a:hover{
-    color: azure;
+    color: rgb(134, 205, 255);
     text-decoration: underline;
 }
 #sisalto{
@@ -154,7 +154,7 @@ form{
     flex-wrap: wrap;
 }
 
-#uutis_otsikko
+.uutis_otsikko
 {
     max-width: 750px; 
     margin: auto;
@@ -316,5 +316,60 @@ nav {
 
 
 
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    margin: 5px 0;
+}
+.odd {
+    background-color: #6c5baf;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.even {
+    background-color: #AF5B5B;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+#results{
+  text-align: left;
+}
   
+
+
+form{
+  text-align: left;
+}
+
+.label-responsive {
+  display: block;
+  width: 150px;
+}
+
+.label-additional {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+[type='submit']{
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+  margin-right: auto;
+  border-radius: 8px;
   
+  width: 150px;
+}
+
+[type='submit']:hover{
+background-color: #333;
+color: white;
+border-radius: 8px;
+}

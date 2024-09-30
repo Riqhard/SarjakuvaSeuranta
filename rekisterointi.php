@@ -4,6 +4,10 @@ $message = "";
 $success = "";
 $lisays = $lisattiin_token = $lahetetty = false;
 
+
+
+
+
 if (isset($_POST['painike'])){
     /*foreach ($kentat as $kentta) {
         $arvo = $_POST[$kentta] ?? "";
@@ -53,15 +57,11 @@ debuggeri($errors);
 if (empty($errors)) {
     $created = date('Y-m-d H:i:s');
     $password = password_hash($password, PASSWORD_DEFAULT);
-    $query = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
+    $query = "INSERT INTO users (name, email, password, created) VALUES ('$name', '$email', '$password', '$created')";
     debuggeri($query);
-    if($yhteys->query($query) === TRUE){
-        echo "New record created successfully";
-        $result = $yhteys->query($query);
-        $lisays = $yhteys->affected_rows;
-    } else {
-        echo "Error: " . $query . "<br>" . $yhteys->error;
-    }
+    $result = mysqli_my_query($query);
+    $lisays = $yhteys->affected_rows;
+    debuggeri("lisays:$lisays");
     }
 
 if ($lisays) {  

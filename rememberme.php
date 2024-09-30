@@ -83,7 +83,7 @@ if (insert_rememberme_token($user_id, $selector, $hash_validator, $expiry)) {
     /* Huom. httponly : true */
     setcookie('rememberme', $token, $expiry_seconds, "", "", false, true);
     /* Huom. tätä tarvitaan vain tokenin poistoon rememberme_tokens-taulusta */
-    // $_SESSION['user_id'] = $user_id;
+    //$_SESSION['user_id'] = $user_id;
     }
 }
 

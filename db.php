@@ -1,7 +1,6 @@
 <?php
-
 try {
-   $yhteys = new mysqli($db_server, $db_username, $db_password, $DB, $port);
+   $yhteys = new mysqli($db_server, $db_username, $db_password, $DB);
    if ($yhteys->connect_error) {
        die("Yhteyden muodostaminen epäonnistui: " . $yhteys->connect_error);
        }
@@ -10,6 +9,20 @@ try {
 catch (Throwable $e) {
    die("Virhe yhteyden muodostamisessa: " . $e->getMessage());
    }
+
+function mysqli_my_query($query) {
+   $yhteys = $GLOBALS['yhteys']; 
+   $result = false;
+   try {
+      $result = $yhteys->query($query); 
+      } 
+   catch (Exception $e) {
+      echo "<p class='alert alert-danger'>Virhe tietokantakyselyssä.</p>";
+      debuggeri("Virhe $yhteys->errno kyselyssa $query: " . $e->getMessage());
+      }
+   return $result;
+   }
+   
 
 function db_connect(){
 return $GLOBALS['yhteys'];   

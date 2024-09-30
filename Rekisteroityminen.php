@@ -37,11 +37,11 @@ if ($success != "success") { ?>
 <legend>Rekisteröityminen</legend>
 
 <div class="row">
-<label for="name" class="col-sm-4 form-label">Etunimi</label>
+<label for="name" class="col-sm-4 form-label">Nimi</label>
 <div class="col-sm-8">
 <input type="text" id="name" name="name" class="form-control <?= is_invalid('name'); ?>" title="Kirjoita name (väh. 2 merkkiä) ilman erikoismerkkejä" value="" 
 pattern="<?= pattern("name"); ?>"
-placeholder="name" value="<?= arvo("name"); ?>" 
+placeholder="John Doe" value="<?= arvo("name"); ?>" 
        required autofocus> 
        <div class="invalid-feedback"><?= $errors['name'] ?? ""; ?> </div>
 </div>

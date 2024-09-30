@@ -32,6 +32,7 @@ if (isset($_POST['painike'])){
             if ($is_active){
                if (!session_id()) session_start();
                $_SESSION["loggedIn"] = $role;
+               $_SESSION['user_id'] = $id;
                if ($rememberme) rememberme($id);
                if (isset($_SESSION['next_page'])){
                   $location = $_SESSION['next_page'];

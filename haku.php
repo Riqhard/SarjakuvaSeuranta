@@ -2,41 +2,30 @@
 include "asetukset.php";
 include "db.php";
 include "rememberme.php";
+
 $loggedIn = secure_page();
-$title = 'Profiili';
+$title = 'Haku';
+$js = 'hakujs.js';
 include "header.php"; 
 ?>
+
 <div id="sailio">
 
-    <div id="uutis_otsikko">
-        Profiili
+    <div class="uutis_otsikko">
+        Haku
     </div>
 
-    <div id="sisalto">
-        <div class="sisalto_otsikko">Nimi:</div>
-        <div>Matti Meikäläinen</div>
-    </div>
 
-    <div id="sisalto">
-        <div class="sisalto_otsikko">Ammatti:</div>
-        <div>Ohjelmistokehittäjä</div>
-    </div>
+<div class="uutis_otsikko">
 
-    <div id="sisalto">
-        <div class="sisalto_otsikko">Yhteystiedot:</div>
-        <div>Email: matti.meikäläinen@example.com</div>
-        <div>Puhelin: 040-1234567</div>
-    </div>
+<h1>Hakutulokset</h1>
+<input type="text" id="search" placeholder="Hae sarjakuvia..." onkeyup="filterResults()">
+    <ul id="results">
 
-    <div id="sisalto">
-        <div class="sisalto_otsikko">Harrastukset:</div>
-        <ul class="hobbies-list">
-        <li>Koodaus</li>
-        <li>Valokuvaus</li>
-        <li>Matkustelu</li>
-        <li>Lukeminen</li>
-        </ul>
-    </div>
+    </ul>
 
+    
+
+</div>
 </div>
 <?php include "footer.html"; ?>
