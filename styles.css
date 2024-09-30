@@ -141,7 +141,14 @@ form{
     margin-top: 5px;
 }
 
-
+.previewImage{
+    max-width: 400px;
+    height: auto;
+    margin: 10px;
+    padding: 3px;
+    flex-grow: 4;
+    object-fit: cover;
+}
 #sailio{
     padding-top: 3px;
     max-width: 1200px; 
@@ -385,4 +392,30 @@ form{
 background-color: #333;
 color: white;
 border-radius: 8px;
+}
+.nappula{
+  align-content: center;
+  width: 150px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 45%;
+}
+.delete-button {
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 10px 0;
+  align-content: center;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: 45%;
+  border-radius: 8px;
+  
+  width: 150px;
+}
+
+.delete-button:hover {
+  background-color: #333;
+  color: white;
+  border-radius: 8px;
 }

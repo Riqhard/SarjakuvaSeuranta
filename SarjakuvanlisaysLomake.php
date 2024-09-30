@@ -27,7 +27,7 @@ if ($success != "success") { ?>
 <legend>Sarjakuvien lisäys</legend>
 
 <div class="row">
-<label for="title" class="col-sm-4 form-label">Sarjakuvan Nimi</label>
+<label for="title" class="col-sm-2 form-label">Sarjakuvan Nimi</label>
 <div class="col-sm-8">
 <input pattern="<?= pattern("title"); ?>" type="text" class="mb-1 form-control <?= is_invalid('title'); ?>" name="title" id="title" 
        placeholder="Sarjakuvan nimi" value="<?= arvo("title"); ?>" 
@@ -39,7 +39,7 @@ if ($success != "success") { ?>
 </div>
 
 <div class="row mb-sm-1">
-    <label for="description" class="form-label mb-0 col-sm-4">Kuvaus</label>
+    <label for="description" class="form-label mb-0 col-sm-2">Kuvaus</label>
     <div class="col-sm-8">
     <textarea id="description" name="description" class="form-control <?= is_invalid('description'); ?>" placeholder="Kuvaus" rows="3"><?= arvo("description"); ?></textarea>
     <div class="invalid-feedback">
@@ -49,7 +49,7 @@ if ($success != "success") { ?>
 </div>
 
 <div class="row">
-    <label for="chapters" class="col-sm-4 form-label">Sivumäärä</label>
+    <label for="chapters" class="col-sm-2 form-label">Sivumäärä</label>
     <div class="col-sm-8">
     <input type="number" class="mb-1 form-control <?= is_invalid('chapters'); ?>" name="chapters" id="chapters" 
            placeholder="0" value="<?= arvo("chapters"); ?>"
@@ -63,26 +63,41 @@ if ($success != "success") { ?>
 
 
 <div class="row mb-sm-1">
-<label for="image" class="form-label mb-0 col-sm-4">Kuva</label>
+<label for="image" class="form-label mb-0 col-sm-2">Kuva</label>
 <div class="col-sm-8">
-<input id="image" name="image" type="file" accept="image/*" pattern="<?= pattern('image'); ?>" class="form-control <?= is_invalid('image'); ?>" placeholder="kuva"></input>
+<input id="image" name="image" type="file" accept="image/*" pattern="<?= pattern('image'); ?>" class="form-control <?= is_invalid('image'); ?> " placeholder="kuva"></input>
 <div class="invalid-feedback">
 <?= $errors['image'] ?? ""; ?>
 </div>
 <div class="previewDiv mt-1 col-sm-8 d-none" id="previewDiv">
 <img class="previewImage" src="" id="previewImage" width="" height="">
-<button type="button" class="btn btn-outline-secondary btn-sm float-end mt-1" onclick="tyhjennaKuva('image')">Poista</button>
+<br>
+<button type="button" class="btn btn-outline-secondary float-end btn-sm mt-1" onclick="tyhjennaKuva('image')">Poista</button>
 </div>
 </div>
 </div>
 
 
-<button name='nappula' type="submit" class="mt-3 float-end btn btn-primary">Lisää sarjakuva</button>
+<button name='nappula' type="submit" class="mt-3 float-end btn btn-primary nappula">Lisää sarjakuva</button>
 </fieldset>
 </form>
 </div>
 
-<?php } ?>
+<?php }else{?>
+
+<div class="uutis_otsikko">
+
+<div class="login_logo">
+<a href="index.php">
+<img src="pictures/BatmanCut.png" alt="Profiilikuva" class="profile-image">
+</a>
+</div>
+
+</div>
+
+
+<?php
+} ?>
 
 <div  id="ilmoitukset" class="alert alert-<?= $success ;?> alert-dismissible fade show <?= $display ?? ""; ?>" role="alert">
 <p><?= $message; ?></p>

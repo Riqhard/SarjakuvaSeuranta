@@ -316,3 +316,115 @@ Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerrom
 2024-09-30 12:32:35 loggedIn:50
 2024-09-30 12:33:07 loggedIn:50
 2024-09-30 12:38:13 loggedIn:50
+2024-09-30 12:42:02 loggedIn:50
+2024-09-30 12:42:05 loggedIn:50
+2024-09-30 12:42:20 loggedIn:50
+2024-09-30 12:43:18 loggedIn:50
+2024-09-30 12:44:10 loggedIn:50
+2024-09-30 12:47:06 loggedIn:50
+2024-09-30 12:47:07 loggedIn:50
+2024-09-30 12:47:35 loggedIn:50
+2024-09-30 12:47:49 loggedIn:50
+2024-09-30 12:47:56 loggedIn:50
+2024-09-30 12:48:00 loggedIn:50
+2024-09-30 12:48:09 loggedIn:50
+2024-09-30 13:17:12 loggedIn:50
+2024-09-30 13:18:55 loggedIn:50
+2024-09-30 13:18:59 loggedIn:50
+2024-09-30 13:20:05 loggedIn:50
+2024-09-30 13:20:27 loggedIn:50
+2024-09-30 13:21:32 loggedIn:50
+2024-09-30 13:21:36 loggedIn:50
+2024-09-30 13:22:58 loggedIn:50
+2024-09-30 13:23:19 loggedIn:50
+2024-09-30 13:23:26 loggedIn:50
+2024-09-30 13:24:28 loggedIn:50
+2024-09-30 13:24:29 loggedIn:50
+2024-09-30 13:25:55 loggedIn:50
+2024-09-30 13:25:57 loggedIn:50
+2024-09-30 13:27:12 loggedIn:50
+2024-09-30 13:27:12 loggedIn:50
+2024-09-30 13:27:16 loggedIn:50
+2024-09-30 13:27:17 loggedIn:50
+2024-09-30 13:28:03 loggedIn:50
+2024-09-30 13:28:05 loggedIn:50
+2024-09-30 13:28:05 loggedIn:50
+2024-09-30 13:28:07 loggedIn:50
+2024-09-30 13:30:09 loggedIn:50
+2024-09-30 13:30:11 loggedIn:50
+2024-09-30 13:30:35 loggedIn:50
+2024-09-30 13:30:35 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 13:30:35 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,apu:
+2024-09-30 13:30:35 kentta:chapters,arvo:64,apu:
+2024-09-30 13:30:35 File fingerpori-17_05e3cc.jpg,mime: image/jpeg, jpg, 8991 tavua
+2024-09-30 13:30:35 array (
+)
+2024-09-30 13:30:35 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Fingerpori 17', 'Taas on aika nauraa!\r\n\r\n17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.', 'fingerpori-17_05e3cc.jpg', '64')
+2024-09-30 13:30:35 lisays:1
+2024-09-30 13:33:22 loggedIn:50
+2024-09-30 13:33:22 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 13:33:22 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,apu:
+2024-09-30 13:33:22 kentta:chapters,arvo:64,apu:
+2024-09-30 13:33:22 File fingerpori-17_c05827.jpg,mime: image/jpeg, jpg, 8991 tavua
+2024-09-30 13:33:22 array (
+)
+2024-09-30 13:33:22 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Fingerpori 17', 'Taas on aika nauraa!\r\n\r\n17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.', 'fingerpori-17_c05827.jpg', '64')
+2024-09-30 13:33:22 lisays:1
+2024-09-30 13:34:02 loggedIn:50
+2024-09-30 13:34:02 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 13:34:02 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,apu:
+2024-09-30 13:34:02 kentta:chapters,arvo:64,apu:
+2024-09-30 13:34:02 File fingerpori-17_67c6d2.jpg,mime: image/jpeg, jpg, 8991 tavua
+2024-09-30 13:34:02 array (
+)
+2024-09-30 13:34:02 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Fingerpori 17', 'Taas on aika nauraa!\r\n\r\n17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.', 'fingerpori-17_67c6d2.jpg', '64')
+2024-09-30 13:34:02 lisays:1
+2024-09-30 13:34:14 loggedIn:50
+2024-09-30 13:34:14 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 13:34:14 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,apu:
+2024-09-30 13:34:14 kentta:chapters,arvo:64,apu:
+2024-09-30 13:34:14 File fingerpori-17_ef49db.jpg,mime: image/jpeg, jpg, 8991 tavua
+2024-09-30 13:34:14 array (
+)
+2024-09-30 13:34:14 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Fingerpori 17', 'Taas on aika nauraa!\r\n\r\n17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.', 'fingerpori-17_ef49db.jpg', '64')
+2024-09-30 13:34:14 lisays:1
+2024-09-30 13:34:20 loggedIn:50
+2024-09-30 13:34:20 kentta:title,arvo:Fingerpori 17,apu:
+2024-09-30 13:34:20 kentta:description,arvo:Taas on aika nauraa!
+
+17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.,apu:
+2024-09-30 13:34:20 kentta:chapters,arvo:64,apu:
+2024-09-30 13:34:20 File fingerpori-17_e7ba15.jpg,mime: image/jpeg, jpg, 8991 tavua
+2024-09-30 13:34:20 array (
+)
+2024-09-30 13:34:20 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Fingerpori 17', 'Taas on aika nauraa!\r\n\r\n17. Fingerpori-kokoelman kantta koristaa Petri Malja, monet liemet keittänyt Fingerpolin retrotutkija ja Heimo Vesan työkaveri. Pertti Jarla on omin käsin koonnut vuoden hauskimmat fingerstripit koko kansan riemupakkaukseksi. Ihmekaupunki Fingerporin tutut hahmot tulkitsevat vuoden tapahtumat omintakeisella tyylillään.', 'fingerpori-17_e7ba15.jpg', '64')
+2024-09-30 13:34:20 lisays:1
+2024-09-30 13:34:41 loggedIn:50
+2024-09-30 13:34:42 loggedIn:50
+2024-09-30 13:34:48 loggedIn:50
+2024-09-30 13:34:48 loggedIn:50
+2024-09-30 13:35:04 loggedIn:50
+2024-09-30 13:35:06 loggedIn:50
+2024-09-30 13:35:06 loggedIn:50
+2024-09-30 13:35:10 loggedIn:50
+2024-09-30 13:35:12 loggedIn:50
+2024-09-30 13:35:12 loggedIn:50
+2024-09-30 13:35:14 loggedIn:50
+2024-09-30 13:35:16 loggedIn:50
+2024-09-30 13:35:16 loggedIn:50
+2024-09-30 13:35:16 loggedIn:50
+2024-09-30 13:35:18 loggedIn:50
+2024-09-30 13:35:18 loggedIn:50
+2024-09-30 13:35:45 loggedIn:50
+2024-09-30 13:35:47 loggedIn:50
+2024-09-30 13:36:08 loggedIn:50
+2024-09-30 13:36:22 loggedIn:50
+2024-09-30 13:36:43 loggedIn:50

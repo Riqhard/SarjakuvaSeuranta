@@ -22,9 +22,9 @@
                         <img class='titlekuva' src='$imagePath' alt='" . htmlspecialchars($row['title']) . "'> <br>
                         <strong>Title:</strong> " . htmlspecialchars($row['title']) . " <br>
                         <strong>Page count:</strong> " . htmlspecialchars($row['chapters']) . " <br>
-                        <strong>Description:</strong><br> " . htmlspecialchars($row['description']) . "
-                        
-                    </li>";
+                        <strong>Description:</strong><br> " . htmlspecialchars($row['description']) . " <br>
+                        <a class='mt-3 btn btn-primary delete-button' href='delete_comic.php?id=" . $row['sarjakuva_id'] . "&image=" . urlencode($row['image']) . "' onclick='return confirm(\"Haluatko varmasti poistaa tämän sarjakuvan?\")'>Poista</a>
+                      </li>";
             }
         } else {
             echo "<li>Ei tuloksia.</li>";

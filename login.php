@@ -86,16 +86,6 @@ debuggeri($errors);
 </fieldset>
 </form>
 
-<?php
-/*if (isset($_POST['painike']) && $errors){
-    echo '<div class="ilmoitukset mt-3">';
-    foreach ($errors as $kentta => $arvo) {
-      echo "<div class=\"alert alert-danger\" role=\"alert\">$arvo</div>";   
-      }
-    echo "</div>";
-    }*/
-?>
-
 <div id="ilmoitukset" class="alert alert-<?= $success ;?> alert-dismissible fade show <?= $display ?? ""; ?>" role="alert">
 <p><?= $message; ?></p>
 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
