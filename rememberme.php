@@ -88,25 +88,7 @@ if (insert_rememberme_token($user_id, $selector, $hash_validator, $expiry)) {
 }
 
 
-/*function secure_page() {
-if (!session_id()) session_start();
-$loggedIn = $_SESSION['loggedIn'] ?? false;   
-if (!$loggedIn || is_int($loggedIn)) {
-    $token = $_COOKIE['rememberme'] ?? '';
-    if ($token) {
-        $token = htmlspecialchars($token);
-        if ($user_id = token_is_valid($token)){
-            //if (session_regenerate_id()) {
-            //$loggedIn = hae_rooli($user_id);
-            $_SESSION['loggedIn'] = $user_id;
-            return $user_id;            }
-        }
-    $_SESSION['next_page'] = $_SERVER['PHP_SELF']; 
-    header("location: login.php");
-    exit;  
-    }
-return $loggedIn;
-};  */
+
 
 function secure_page($role = ''){
 $loggedIn = loggedIn();
@@ -119,23 +101,27 @@ return $loggedIn;
 }
 
 function loggedIn() {
-if (!session_id()) session_start();    
-$loggedIn = $_SESSION['loggedIn'] ?? false;   
-/* Huom. loggedIn voi olla 'user', 'admin', jne. 
-   loggedIn voi olla tässä user_id ja eväste vanhentunut.
-   Ilman roolin hakua muista minut vie käyttäjän peruskäyttäjän rooliin. */
-if (!$loggedIn || is_int($loggedIn)) {
-    if ($token = $_COOKIE['rememberme'] ?? '') {
-        $token = htmlspecialchars($token);
-        if ($user_id = token_is_valid($token)) {
-            // $loggedIn = hae_rooli($user_id);
-            $loggedIn = $user_id;
-            $_SESSION['loggedIn'] = $loggedIn;
+    if (!session_id()) session_start();    
+    $loggedIn = $_SESSION['loggedIn'] ?? false;   
+    /* Huom. loggedIn voi olla 'user', 'admin', jne. 
+       loggedIn voi olla tässä user_id ja eväste vanhentunut.
+       Ilman roolin hakua muista minut vie käyttäjän peruskäyttäjän rooliin. */
+    if (!$loggedIn || is_int($loggedIn)) {
+        if ($token = $_COOKIE['rememberme'] ?? '') {
+            $token = htmlspecialchars($token);
+            if ($user_id = token_is_valid($token)) {
+                $loggedIn = hae_rooli($user_id);
+                // Huom. nyt user_id ei sisälly $loggedIn:iin,
+                // vaan rooli, joten kirjautuminen rememberme-evästeellä
+                // sallii käytön vähintään session-muuttujan keston ajan 
+                // vaikka eväste vanhenisi tänä aikana.
+                // $loggedIn = $user_id;
+                $_SESSION['loggedIn'] = $loggedIn;
+                }
             }
         }
+    return $loggedIn;
     }
-return $loggedIn;
-}
 
 function nayta_rememberme($kentta){
 $nayta = "";    
@@ -146,7 +132,7 @@ return $nayta;
 
 function hae_rooli(int $user_id) {
 $yhteys = db_connect();
-$query = "SELECT name FROM users LEFT JOIN roles ON role = roles.id WHERE users.id = $user_id";
+$query = "SELECT role_name FROM users LEFT JOIN roles ON role = roles.id WHERE users.id = $user_id";
 $result = $yhteys->query($query);
 if ($result->num_rows) {
     [$role] = $result->fetch_row();

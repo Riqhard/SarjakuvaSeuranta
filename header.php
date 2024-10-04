@@ -13,6 +13,10 @@ ini_set('upload_max_filesize', '10M');
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Audiowide&effect=neon|outline|emboss|shadow-multiple">
 <?php
 if (isset($css)){
   echo "<link rel='stylesheet' type='text/css' href='$css'>";
@@ -57,9 +61,22 @@ function active($sivu,$active){
 
 ?>
 <?php
+
+switch ($loggedIn) {
+  case 'admin':
+    include 'admin_navigointi.html';
+    break;
+  case true:
+    include 'profiilin_navigointi.html';
+    break;
+  default:
+    include 'navigointi.html';
+    break;
+  } 
+/*
 if ($loggedIn = loggedIn()) {
   if($navbar ?? true){  include 'profiilin_navigointi.html';}
 }else{
   if($navbar ?? true){  include 'navigointi.html';}
-}
+}*/
 ?>

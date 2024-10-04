@@ -18,13 +18,29 @@
                 }
                 $imagePath = "sarjakuvien_kuvat/" . htmlspecialchars($row['image']);
 
-                echo "<li>
-                        <img class='titlekuva' src='$imagePath' alt='" . htmlspecialchars($row['title']) . "'> <br>
-                        <strong>Title:</strong> " . htmlspecialchars($row['title']) . " <br>
-                        <strong>Page count:</strong> " . htmlspecialchars($row['chapters']) . " <br>
-                        <strong>Description:</strong><br> " . htmlspecialchars($row['description']) . " <br>
-                        <a class='mt-3 btn btn-primary delete-button' href='delete_comic.php?id=" . $row['sarjakuva_id'] . "&image=" . urlencode($row['image']) . "' onclick='return confirm(\"Haluatko varmasti poistaa tämän sarjakuvan?\")'>Poista</a>
-                      </li>";
+
+switch ($loggedIn) {
+  case 3:
+    echo "<li>
+    <img class='titlekuva' src='$imagePath' alt='" . htmlspecialchars($row['title']) . "'> <br>
+    <strong>Title:</strong> " . htmlspecialchars($row['title']) . " <br>
+    <strong>Page count:</strong> " . htmlspecialchars($row['chapters']) . " <br>
+    <strong>Description:</strong><br> " . htmlspecialchars($row['description']) . " <br>
+    <a class='mt-3 btn btn-primary delete-button' href='delete_comic.php?id=" . $row['sarjakuva_id'] . "&image=" . urlencode($row['image']) . "' onclick='return confirm(\"Haluatko varmasti poistaa tämän sarjakuvan?\")'>Poista</a>
+  </li>";
+    break;
+  case true:
+    echo "<li>
+    <img class='titlekuva' src='$imagePath' alt='" . htmlspecialchars($row['title']) . "'> <br>
+    <strong>Title:</strong> " . htmlspecialchars($row['title']) . " <br>
+    <strong>Page count:</strong> " . htmlspecialchars($row['chapters']) . " <br>
+    <strong>Description:</strong><br> " . htmlspecialchars($row['description']) . " <br>
+   </li>";
+    break;
+  default:
+    header("location: login.php");
+    break;
+  } 
             }
         } else {
             echo "<li>Ei tuloksia.</li>";

@@ -32,12 +32,24 @@ footer {
 
 
 .logotext{
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #f6ff7c;
+    text-shadow: 0 2px 0 #000000, 0 -2px 0 #000000, 2px 0 0 #000000, -2px 0 0 #000000;
+    text-align: center;
+    justify-content: space-between;
+}
+.navlinks{
+  margin-top: 60px;
   font-size: 30px;
     color: #F6F4F3;
     text-shadow: 0 2px 0 #000000, 0 -2px 0 #000000, 2px 0 0 #000000, -2px 0 0 #000000;
     text-align: center;
     justify-content: space-between;
 }
+
 
 
 
@@ -217,7 +229,6 @@ form{
         object-fit: cover;
     }
 
-
 }
 
 
@@ -317,11 +328,21 @@ nav {
         margin-left: auto;
         margin-right: 0%;
     }
+    .logotext{
+      font-size: 30px;
+    }
 
 
   }
 
-
+  @media screen and (min-width: 1200px) {
+    .logotext{
+      font-size: 50px;
+    }
+  
+  
+  }
+  
 
 
 

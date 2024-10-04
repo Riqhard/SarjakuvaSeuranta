@@ -5,6 +5,23 @@ include "rememberme.php";
 $loggedIn = secure_page();
 $title = 'Profiili';
 include "header.php"; 
+
+
+$thisid = $_SESSION['user_id'];
+if (isset($thisid)) {
+    $sql = "SELECT name, email FROM users WHERE id = ?";
+    $stmt = $yhteys->prepare($sql);
+    $stmt->bind_param("i", $thisid);
+    $stmt->execute();
+    $stmt->bind_result($name, $email);
+    $stmt->fetch();
+    $stmt->close();
+
+} else {
+    $name = "Tuntematon";
+    $email = "Tuntematon";
+}
+
 ?>
 <div id="sailio">
 
@@ -14,32 +31,19 @@ include "header.php";
 
     <div id="sisalto">
         <div class="sisalto_otsikko">Nimi:</div>
-        <div>Matti Meikäläinen</div>
+        <div><?php echo $name ?></div>
     </div>
 
     <div id="sisalto">
-        <div class="sisalto_otsikko">Ammatti:</div>
-        <div>Ohjelmistokehittäjä</div>
+        <div class="sisalto_otsikko">Email:</div>
+        <div> <?php echo $email ?></div>
     </div>
 
     <div id="sisalto">
-        <div class="sisalto_otsikko">Yhteystiedot:</div>
-        <div>Email: matti.meikäläinen@example.com</div>
-        <div>Puhelin: 040-1234567</div>
-    </div>
-
-    <div id="sisalto">
-        <div class="sisalto_otsikko">Harrastukset:</div>
-        <ul class="hobbies-list">
-        <li>Koodaus</li>
-        <li>Valokuvaus</li>
-        <li>Matkustelu</li>
-        <li>Lukeminen</li>
-        </ul>
-    </div>
-
-    <div id="sisalto">
-    <a href="changepassword.php">Change password</a>
+    <a href="changepassword.php">Change Name</a><br>
+    <a href="changepassword.php">Change Email</a><br>
+    <a href="changepassword.php">Change password</a><br>
+    <a href="changepassword.php">Remove profile</a>
     </div>
 
 </div>

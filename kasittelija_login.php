@@ -50,9 +50,6 @@ if (isset($_POST['painike'])){
             }
          else {
             $errors['password'] = $virheilmoitukset['emailPwdErr'];
-            $_SESSION['yrityskerrat'] = $yrityskerrat % (YRITYSKERRAT + 1) + 1; 
-            $_SESSION['yritysaika'] = date("Y-m-d H:i:s");
-            $_SESSION['odotus'] = false;
             }
          }  
       }  

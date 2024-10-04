@@ -428,3 +428,280 @@ Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerrom
 2024-09-30 13:36:08 loggedIn:50
 2024-09-30 13:36:22 loggedIn:50
 2024-09-30 13:36:43 loggedIn:50
+2024-10-01 11:48:15 loggedIn:50
+2024-10-01 11:48:17 loggedIn:50
+2024-10-01 11:48:19 loggedIn:50
+2024-10-01 11:48:50 loggedIn:50
+2024-10-01 11:49:00 loggedIn:50
+2024-10-01 11:49:08 loggedIn:50
+2024-10-01 11:49:16 loggedIn:50
+2024-10-01 11:49:25 loggedIn:50
+2024-10-01 11:49:25 loggedIn:50
+2024-10-01 11:50:48 loggedIn:50
+2024-10-01 11:51:08 loggedIn:50
+2024-10-01 11:51:17 loggedIn:50
+2024-10-01 11:51:24 loggedIn:50
+2024-10-01 11:54:21 loggedIn:50
+2024-10-01 11:54:39 loggedIn:50
+2024-10-01 11:54:57 loggedIn:50
+2024-10-01 11:59:58 loggedIn:50
+2024-10-01 12:00:06 loggedIn:50
+2024-10-01 12:01:26 loggedIn:50
+2024-10-01 12:02:34 loggedIn:50
+2024-10-01 12:02:37 loggedIn:50
+2024-10-01 12:02:50 loggedIn:50
+2024-10-01 12:04:27 loggedIn:50
+2024-10-01 12:04:50 loggedIn:50
+2024-10-01 12:05:04 loggedIn:50
+2024-10-01 12:05:51 loggedIn:50
+2024-10-01 12:05:54 loggedIn:50
+2024-10-01 12:06:00 loggedIn:50
+2024-10-01 12:06:17 loggedIn:50
+2024-10-01 12:06:31 loggedIn:50
+2024-10-01 12:08:02 loggedIn:50
+2024-10-01 12:08:49 loggedIn:50
+2024-10-01 12:09:00 loggedIn:50
+2024-10-01 12:11:46 loggedIn:50
+2024-10-01 12:12:16 loggedIn:50
+2024-10-02 10:28:03 loggedIn:50
+2024-10-02 10:33:34 ,session ja cookie
+2024-10-02 10:33:34 array (
+  'loggedIn' => 50,
+)
+2024-10-02 10:33:34 array (
+  'rememberme' => '02205e6e4cbf74bca37ec604a247df43:387f67f0aafdaae095f6cbca127753074163cecc1219ff618dd9c62e561d1dda',
+  'PHPSESSID' => 'u8q7j8262kf9hu1hf4e5cfgv47',
+)
+2024-10-02 10:33:34 loggedIn:
+2024-10-02 10:33:37 POST:array (
+)
+2024-10-02 10:33:37 loggedIn:
+2024-10-02 10:33:37 array (
+)
+2024-10-02 10:33:44 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-02 10:33:44 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-02 10:33:44 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-02 10:33:44 kentta:rememberme,arvo:checked,apu:
+2024-10-02 10:33:44 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-02 10:34:17 POST:array (
+)
+2024-10-02 10:34:17 loggedIn:
+2024-10-02 10:34:17 array (
+)
+2024-10-02 10:34:18 POST:array (
+)
+2024-10-02 10:34:18 loggedIn:
+2024-10-02 10:34:18 array (
+)
+2024-10-02 10:34:23 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-02 10:34:23 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-02 10:34:23 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-02 10:34:23 kentta:rememberme,arvo:checked,apu:
+2024-10-02 10:34:23 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-02 10:34:23 loggedIn:
+2024-10-02 10:34:23 array (
+  'password' => 'Väärä käyttäjätunnus tai salasana',
+)
+2024-10-02 10:34:35 loggedIn:
+2024-10-02 10:34:40 loggedIn:
+2024-10-02 10:34:40 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-02 10:34:40 array (
+)
+2024-10-02 10:34:43 Viesti lähetetty: RikuKilpimaa@hotmail.fi!
+2024-10-02 10:34:43 INSERT INTO resetpassword_tokens (users_id,token,voimassa) VALUES (50,'71c7b3452d71794b3b7179e8d743517396c88f1b4bc8f2b85d098a52f1669c9621a95cc86e0e38375f95b69ee1371e678829','2024-10-02') 
+                      ON DUPLICATE KEY UPDATE token = '71c7b3452d71794b3b7179e8d743517396c88f1b4bc8f2b85d098a52f1669c9621a95cc86e0e38375f95b69ee1371e678829',voimassa = '2024-10-02'
+2024-10-02 10:34:43 Lisättiin 1 token.
+2024-10-02 10:34:47 loggedIn:
+2024-10-02 10:34:47 SELECT users_id FROM resetpassword_tokens WHERE token = '71c7b3452d71794b3b7179e8d743517396c88f1b4bc8f2b85d098a52f1669c9621a95cc86e0e38375f95b69ee1371e678829' AND voimassa >= '2024-10-02'
+2024-10-02 10:34:53 loggedIn:
+2024-10-02 10:34:53 SELECT users_id FROM resetpassword_tokens WHERE token = '71c7b3452d71794b3b7179e8d743517396c88f1b4bc8f2b85d098a52f1669c9621a95cc86e0e38375f95b69ee1371e678829' AND voimassa >= '2024-10-02'
+2024-10-02 10:34:53 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-02 10:34:53 kentta:password2,arvo:asdasdasdasd,apu:
+2024-10-02 10:34:53 array (
+)
+2024-10-02 10:34:53 DELETE FROM resetpassword_tokens WHERE users_id = 50
+2024-10-02 10:34:53 Poistettiin 1 token.
+2024-10-02 10:34:53 POST:array (
+)
+2024-10-02 10:34:53 loggedIn:
+2024-10-02 10:34:53 array (
+)
+2024-10-02 10:34:58 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-02 10:34:58 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-02 10:34:58 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-02 10:34:58 kentta:rememberme,arvo:checked,apu:
+2024-10-02 10:34:58 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-02 10:34:58 Poistettiin: 1 rememberme_token.
+2024-10-02 10:34:58 Lisättiin: 1 rememberme_token.
+2024-10-02 10:34:58 loggedIn:4
+2024-10-02 10:35:07 loggedIn:4
+2024-10-02 10:35:09 loggedIn:4
+2024-10-02 10:35:55 loggedIn:4
+2024-10-02 10:38:08 loggedIn:4
+2024-10-02 10:38:18 ,session ja cookie
+2024-10-02 10:38:18 array (
+  'loggedIn' => '4',
+  'user_id' => '50',
+  'yrityskerrat' => 0,
+)
+2024-10-02 10:38:18 array (
+  'rememberme' => '65d2b065b8f2ace9cd3b9711bb20ff06:d53ca94b3817852b16d9c7b0179568aac03bbf73b199cfbd69be48be490a3c97',
+  'PHPSESSID' => 'l7r7hc2ep4n368g9o2krj7kb00',
+)
+2024-10-02 10:38:18 loggedIn:
+2024-10-02 10:38:20 POST:array (
+)
+2024-10-02 10:38:20 loggedIn:
+2024-10-02 10:38:20 array (
+)
+2024-10-02 10:38:25 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-02 10:38:25 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-02 10:38:25 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-02 10:38:25 kentta:rememberme,arvo:checked,apu:
+2024-10-02 10:38:25 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-02 10:38:25 Poistettiin: 1 rememberme_token.
+2024-10-02 10:38:25 Lisättiin: 1 rememberme_token.
+2024-10-02 10:38:25 loggedIn:4
+2024-10-02 10:39:21 loggedIn:4
+2024-10-02 10:39:22 loggedIn:4
+2024-10-02 10:39:22 loggedIn:4
+2024-10-02 10:39:22 loggedIn:4
+2024-10-02 10:39:22 loggedIn:4
+2024-10-02 10:39:23 loggedIn:4
+2024-10-02 10:39:23 loggedIn:4
+2024-10-02 10:39:23 loggedIn:4
+2024-10-02 10:39:23 loggedIn:4
+2024-10-02 10:44:13 loggedIn:4
+2024-10-02 10:45:37 loggedIn:4
+2024-10-02 10:52:26 loggedIn:4
+2024-10-02 11:20:08 loggedIn:4
+2024-10-02 11:20:09 loggedIn:4
+2024-10-02 11:20:30 loggedIn:4
+2024-10-02 11:20:38 loggedIn:4
+2024-10-02 11:24:13 loggedIn:4
+2024-10-02 11:25:09 loggedIn:4
+2024-10-02 11:26:42 loggedIn:4
+2024-10-02 11:27:57 loggedIn:4
+2024-10-02 11:29:55 loggedIn:4
+2024-10-02 11:32:15 loggedIn:4
+2024-10-02 11:32:30 loggedIn:4
+2024-10-02 11:33:23 loggedIn:4
+2024-10-02 11:33:24 loggedIn:4
+2024-10-02 11:33:34 loggedIn:4
+2024-10-02 11:34:46 loggedIn:4
+2024-10-02 11:36:42 loggedIn:4
+2024-10-02 11:37:22 loggedIn:4
+2024-10-02 11:38:11 ,session ja cookie
+2024-10-02 11:38:11 array (
+  'loggedIn' => '4',
+  'user_id' => '50',
+  'yrityskerrat' => 0,
+)
+2024-10-02 11:38:11 array (
+  'rememberme' => 'e96c6834b71a75c4c75773a15eeff604:5d4a63b3eaf0cabe749b960b1155b52001817296b1b516a6740d3e8159f84ab4',
+  'PHPSESSID' => 'q1m7o5kjiucr6s46stp14n21cj',
+)
+2024-10-02 11:38:11 loggedIn:
+2024-10-02 11:38:13 POST:array (
+)
+2024-10-02 11:38:13 loggedIn:
+2024-10-02 11:38:13 array (
+)
+2024-10-02 11:38:17 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-02 11:38:17 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-02 11:38:17 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-02 11:38:17 kentta:rememberme,arvo:checked,apu:
+2024-10-02 11:38:17 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-02 11:38:17 Poistettiin: 1 rememberme_token.
+2024-10-02 11:38:17 Lisättiin: 1 rememberme_token.
+2024-10-02 11:38:17 loggedIn:3
+2024-10-02 11:39:13 loggedIn:3
+2024-10-02 11:39:25 loggedIn:3
+2024-10-02 11:39:33 loggedIn:3
+2024-10-02 11:40:01 loggedIn:3
+2024-10-02 11:40:03 loggedIn:3
+2024-10-02 11:40:05 loggedIn:3
+2024-10-02 11:40:26 loggedIn:3
+2024-10-02 11:40:26 kentta:title,arvo:Viivi ja Wagner,apu:
+2024-10-02 11:40:26 kentta:description,arvo:Tyhjä,apu:
+2024-10-02 11:40:26 kentta:chapters,arvo:64,apu:
+2024-10-02 11:40:26 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_a3ca56.png,mime: image/png, png, 3015206 tavua
+2024-10-02 11:40:26 array (
+)
+2024-10-02 11:40:26 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Viivi ja Wagner', 'Tyhjä', 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_a3ca56.png', '64')
+2024-10-02 11:40:26 lisays:1
+2024-10-02 11:40:29 loggedIn:3
+2024-10-02 11:40:30 loggedIn:3
+2024-10-02 11:43:26 loggedIn:3
+2024-10-02 11:45:32 loggedIn:3
+2024-10-03 07:27:51 loggedIn:3
+2024-10-03 09:19:28 loggedIn:3
+2024-10-03 09:20:17 loggedIn:3
+2024-10-03 09:20:45 loggedIn:3
+2024-10-04 07:54:33 loggedIn:admin
+2024-10-04 07:54:39 loggedIn:admin
+2024-10-04 07:55:46 loggedIn:admin
+2024-10-04 08:03:00 loggedIn:admin
+2024-10-04 08:03:23 loggedIn:admin
+2024-10-04 08:08:34 loggedIn:admin
+2024-10-04 08:17:51 loggedIn:admin
+2024-10-04 08:18:29 loggedIn:admin
+2024-10-04 08:18:39 loggedIn:admin
+2024-10-04 08:22:44 ,session ja cookie
+2024-10-04 08:22:44 array (
+  'loggedIn' => 'admin',
+)
+2024-10-04 08:22:44 array (
+  'rememberme' => '6e7e8bc416c181292a5812c405b796d7:490803cf38a995f0b9678d27c43f7292359de4c9c3faadcb610f9d3a7325c64f',
+  'PHPSESSID' => '8mnhgiuc0l0c9f6915g7kf0p00',
+)
+2024-10-04 08:22:44 loggedIn:
+2024-10-04 08:22:46 POST:array (
+)
+2024-10-04 08:22:46 loggedIn:
+2024-10-04 08:22:46 array (
+)
+2024-10-04 08:22:52 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-04 08:22:52 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-04 08:22:52 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 08:22:52 kentta:rememberme,arvo:checked,apu:
+2024-10-04 08:22:52 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-04 08:22:52 Poistettiin: 1 rememberme_token.
+2024-10-04 08:22:52 Lisättiin: 1 rememberme_token.
+2024-10-04 08:22:52 loggedIn:3
+2024-10-04 08:22:59 loggedIn:3
+2024-10-04 08:23:24 loggedIn:3
+2024-10-04 08:26:15 loggedIn:3
+2024-10-04 08:26:33 loggedIn:3
+2024-10-04 08:26:42 loggedIn:3
+2024-10-04 08:29:06 loggedIn:3
