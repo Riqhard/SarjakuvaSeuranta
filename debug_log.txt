@@ -705,3 +705,455 @@ Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerrom
 2024-10-04 08:26:33 loggedIn:3
 2024-10-04 08:26:42 loggedIn:3
 2024-10-04 08:29:06 loggedIn:3
+2024-10-04 08:39:20 loggedIn:3
+2024-10-04 08:39:24 loggedIn:3
+2024-10-04 08:39:25 loggedIn:3
+2024-10-04 08:45:16 loggedIn:3
+2024-10-04 08:45:16 array (
+)
+2024-10-04 08:49:48 loggedIn:3
+2024-10-04 08:49:48 array (
+)
+2024-10-04 08:51:53 loggedIn:3
+2024-10-04 08:51:53 array (
+)
+2024-10-04 09:06:35 loggedIn:3
+2024-10-04 09:06:35 array (
+)
+2024-10-04 09:07:01 loggedIn:3
+2024-10-04 09:07:01 array (
+)
+2024-10-04 09:07:12 loggedIn:3
+2024-10-04 09:07:12 array (
+)
+2024-10-04 09:07:31 loggedIn:3
+2024-10-04 09:07:31 array (
+)
+2024-10-04 09:55:57 loggedIn:3
+2024-10-04 09:55:57 array (
+)
+2024-10-04 09:56:13 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 09:56:13 kentta:password2,arvo:,apu:
+2024-10-04 09:56:13 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 09:56:13 loggedIn:3
+2024-10-04 09:56:13 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 09:58:38 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 09:58:38 kentta:password2,arvo:,apu:
+2024-10-04 09:58:38 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 09:58:38 loggedIn:3
+2024-10-04 09:58:38 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 09:58:51 kentta:password,arvo:asdasdasdasda,apu:
+2024-10-04 09:58:51 kentta:password2,arvo:,apu:
+2024-10-04 09:58:51 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 09:58:51 loggedIn:3
+2024-10-04 09:58:51 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:02:25 kentta:password,arvo:asdasdasdasda,apu:
+2024-10-04 10:02:25 kentta:password2,arvo:,apu:
+2024-10-04 10:02:25 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:02:25 loggedIn:3
+2024-10-04 10:02:25 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:02:40 kentta:password,arvo:asdasdasdasd2,apu:
+2024-10-04 10:02:40 kentta:password2,arvo:,apu:
+2024-10-04 10:02:40 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:02:40 loggedIn:3
+2024-10-04 10:02:40 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:07:29 kentta:password,arvo:asdasdasdasd2,apu:
+2024-10-04 10:07:29 kentta:password2,arvo:,apu:
+2024-10-04 10:07:29 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:07:29 loggedIn:3
+2024-10-04 10:07:29 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:07:37 kentta:password,arvo:77777777777777777,apu:
+2024-10-04 10:07:37 kentta:password2,arvo:,apu:
+2024-10-04 10:07:37 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:07:37 loggedIn:3
+2024-10-04 10:07:37 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:15:10 kentta:password,arvo:757575757575,apu:
+2024-10-04 10:15:10 kentta:password2,arvo:,apu:
+2024-10-04 10:15:10 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:15:10 loggedIn:3
+2024-10-04 10:15:10 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:20:16 kentta:password,arvo:757575757575,apu:
+2024-10-04 10:20:16 kentta:password2,arvo:,apu:
+2024-10-04 10:20:16 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:20:16 loggedIn:3
+2024-10-04 10:20:16 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:20:25 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 10:20:25 kentta:password2,arvo:,apu:
+2024-10-04 10:20:25 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:20:25 loggedIn:3
+2024-10-04 10:20:25 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:44:30 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 10:44:30 kentta:password2,arvo:,apu:
+2024-10-04 10:44:30 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:44:30 loggedIn:3
+2024-10-04 10:44:30 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:44:41 kentta:password,arvo:qweqweqweqweqwe,apu:
+2024-10-04 10:44:41 kentta:password2,arvo:,apu:
+2024-10-04 10:44:41 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:44:41 loggedIn:3
+2024-10-04 10:44:41 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:52:33 kentta:password,arvo:qweqweqweqweqwe,apu:
+2024-10-04 10:52:33 kentta:password2,arvo:,apu:
+2024-10-04 10:52:33 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:52:33 loggedIn:3
+2024-10-04 10:52:33 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:52:45 kentta:password,arvo:w2222222222q2222,apu:
+2024-10-04 10:52:45 kentta:password2,arvo:,apu:
+2024-10-04 10:52:45 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:52:45 loggedIn:3
+2024-10-04 10:52:45 array (
+  'password2' => 'Anna salasana uudestaan',
+)
+2024-10-04 10:57:06 POST:array (
+  'password' => 'w2222222222q2222',
+  'new_password' => '11111111111111111',
+  'new_password2' => '11111111111111111',
+  'painike' => '',
+)
+2024-10-04 10:57:06 kentta:password,arvo:w2222222222q2222,apu:
+2024-10-04 10:57:06 kentta:new_password,arvo:11111111111111111,apu:
+2024-10-04 10:57:06 kentta:new_password2,arvo:11111111111111111,apu:
+2024-10-04 10:57:06 loggedIn:3
+2024-10-04 10:57:06 array (
+  'password' => 'Väärä käyttäjätunnus tai salasana',
+)
+2024-10-04 10:58:25 POST:array (
+  'password' => 'w2222222222q2222',
+  'new_password' => '11111111111111111',
+  'new_password2' => '11111111111111111',
+  'painike' => '',
+)
+2024-10-04 10:58:25 kentta:password,arvo:w2222222222q2222,apu:
+2024-10-04 10:58:25 kentta:new_password,arvo:11111111111111111,apu:
+2024-10-04 10:58:25 kentta:new_password2,arvo:11111111111111111,apu:
+2024-10-04 10:58:25 loggedIn:3
+2024-10-04 10:58:25 array (
+  'password' => 'Väärä salasana',
+)
+2024-10-04 10:58:41 POST:array (
+  'password' => 'asdasdasdasd2',
+  'new_password' => 'asdasdasdasd',
+  'new_password2' => 'asdasdasdasd',
+  'painike' => '',
+)
+2024-10-04 10:58:41 kentta:password,arvo:asdasdasdasd2,apu:
+2024-10-04 10:58:41 kentta:new_password,arvo:asdasdasdasd,apu:
+2024-10-04 10:58:41 kentta:new_password2,arvo:asdasdasdasd,apu:
+2024-10-04 10:58:41 loggedIn:3
+2024-10-04 10:58:41 array (
+  'password' => 'Väärä salasana',
+)
+2024-10-04 10:58:51 POST:array (
+  'password' => 'asdasdasdasd',
+  'new_password' => 'asdasdasdasd2',
+  'new_password2' => 'asdasdasdasd1',
+  'painike' => '',
+)
+2024-10-04 10:58:51 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 10:58:51 kentta:new_password,arvo:asdasdasdasd2,apu:
+2024-10-04 10:58:51 kentta:new_password2,arvo:asdasdasdasd1,apu:
+2024-10-04 10:58:51 array (
+  'new_password2' => 'Salasanat eivät täsmää',
+)
+2024-10-04 10:58:51 loggedIn:3
+2024-10-04 10:58:51 array (
+  'new_password2' => 'Salasanat eivät täsmää',
+)
+2024-10-04 10:59:00 POST:array (
+  'password' => 'asdasdasdasd',
+  'new_password' => 'asdasdasdasd',
+  'new_password2' => 'asdasdasdasd',
+  'painike' => '',
+)
+2024-10-04 10:59:00 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 10:59:00 kentta:new_password,arvo:asdasdasdasd,apu:
+2024-10-04 10:59:00 kentta:new_password2,arvo:asdasdasdasd,apu:
+2024-10-04 10:59:00 array (
+)
+2024-10-04 10:59:33 loggedIn:3
+2024-10-04 11:13:10 loggedIn:3
+2024-10-04 11:13:12 POST:array (
+)
+2024-10-04 11:13:12 loggedIn:3
+2024-10-04 11:13:12 array (
+)
+2024-10-04 11:13:19 POST:array (
+  'email' => 'Riku.Kilpimaa@edu.omnia.fi',
+  'painike' => '',
+)
+2024-10-04 11:13:19 kentta:email,arvo:Riku.Kilpimaa@edu.omnia.fi,apu:
+2024-10-04 11:13:19 loggedIn:3
+2024-10-04 11:13:19 array (
+)
+2024-10-04 11:19:19 POST:array (
+)
+2024-10-04 11:19:19 loggedIn:3
+2024-10-04 11:19:19 array (
+)
+2024-10-04 11:19:22 POST:array (
+  'email' => 'Riku.Kilpimaa@edu.omnia.fi',
+  'painike' => '',
+)
+2024-10-04 11:19:22 kentta:email,arvo:Riku.Kilpimaa@edu.omnia.fi,apu:
+2024-10-04 11:19:22 loggedIn:3
+2024-10-04 11:19:22 array (
+)
+2024-10-04 11:19:25 loggedIn:3
+2024-10-04 11:19:29 loggedIn:3
+2024-10-04 11:19:42 POST:array (
+)
+2024-10-04 11:19:42 loggedIn:3
+2024-10-04 11:19:42 array (
+)
+2024-10-04 11:19:44 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'painike' => '',
+)
+2024-10-04 11:19:44 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-04 11:19:44 loggedIn:3
+2024-10-04 11:19:44 array (
+)
+2024-10-04 11:19:47 loggedIn:3
+2024-10-04 11:19:49 loggedIn:3
+2024-10-04 12:50:26 ,session ja cookie
+2024-10-04 12:50:26 array (
+  'loggedIn' => '3',
+  'user_id' => '50',
+  'yrityskerrat' => 0,
+)
+2024-10-04 12:50:26 array (
+  'rememberme' => '1f2f163965b82d8ada35113a3a2e7bda:3788a5e76b50977de2888e7a97a24d34088105d4c615677e38e031902aa0f448',
+  'PHPSESSID' => 'rheoioip25smrm4sp119op56cp',
+)
+2024-10-04 12:50:26 Poistettiin: 0 rememberme_token.
+2024-10-04 12:50:26 loggedIn:admin
+2024-10-04 12:51:00 ,session ja cookie
+2024-10-04 12:51:00 array (
+  'loggedIn' => 'admin',
+  'user_id' => 50,
+)
+2024-10-04 12:51:00 array (
+  'rememberme' => '1f2f163965b82d8ada35113a3a2e7bda:3788a5e76b50977de2888e7a97a24d34088105d4c615677e38e031902aa0f448',
+  'PHPSESSID' => 'csprvot9tcsrahol85b0b68daa',
+)
+2024-10-04 12:51:00 Poistettiin: 0 rememberme_token.
+2024-10-04 12:51:00 loggedIn:
+2024-10-04 12:51:06 loggedIn:
+2024-10-04 12:51:09 loggedIn:
+2024-10-04 12:51:36 loggedIn:
+2024-10-04 12:51:38 loggedIn:
+2024-10-04 12:51:39 loggedIn:
+2024-10-04 12:59:59 POST:array (
+)
+2024-10-04 12:59:59 loggedIn:
+2024-10-04 12:59:59 array (
+)
+2024-10-04 13:03:17 POST:array (
+)
+2024-10-04 13:03:17 loggedIn:
+2024-10-04 13:03:17 array (
+)
+2024-10-04 13:03:34 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'painike' => 'Kirjaudu',
+)
+2024-10-04 13:03:34 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-04 13:03:34 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 13:03:34 kentta:rememberme,arvo:,apu:
+2024-10-04 13:03:34 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-04 13:03:34 Poistettiin: 0 rememberme_token.
+2024-10-04 13:03:34 Lisättiin: 1 rememberme_token.
+2024-10-04 13:03:34 loggedIn:3
+2024-10-04 13:03:39 loggedIn:3
+2024-10-04 13:03:41 loggedIn:3
+2024-10-04 13:03:42 ,session ja cookie
+2024-10-04 13:03:42 array (
+  'loggedIn' => '3',
+  'user_id' => '1',
+  'yrityskerrat' => 0,
+)
+2024-10-04 13:03:42 array (
+  'rememberme' => 'b64734a744933988438f0761fcfc9768:70b1f3b144142ea43108d6733517d6c0f1b1886e8b06721bd949f1caf256797e',
+  'PHPSESSID' => 'g0cms3bt9iver0d398enfng6t8',
+)
+2024-10-04 13:03:42 Poistettiin: 0 rememberme_token.
+2024-10-04 13:03:42 loggedIn:admin
+2024-10-04 13:03:47 ,session ja cookie
+2024-10-04 13:03:47 array (
+  'loggedIn' => 'admin',
+  'user_id' => 1,
+)
+2024-10-04 13:03:47 array (
+  'rememberme' => 'b64734a744933988438f0761fcfc9768:70b1f3b144142ea43108d6733517d6c0f1b1886e8b06721bd949f1caf256797e',
+  'PHPSESSID' => 'mfc8ttuosned2ub56bfpmrk7ld',
+)
+2024-10-04 13:03:47 Poistettiin: 0 rememberme_token.
+2024-10-04 13:03:47 loggedIn:admin
+2024-10-04 13:03:52 ,session ja cookie
+2024-10-04 13:03:52 array (
+  'loggedIn' => 'admin',
+  'user_id' => 1,
+)
+2024-10-04 13:03:52 array (
+  'rememberme' => 'b64734a744933988438f0761fcfc9768:70b1f3b144142ea43108d6733517d6c0f1b1886e8b06721bd949f1caf256797e',
+  'PHPSESSID' => '1hkh5nvng696m9tqe4d186o3u4',
+)
+2024-10-04 13:03:52 Poistettiin: 0 rememberme_token.
+2024-10-04 13:03:52 loggedIn:admin
+2024-10-04 13:04:33 loggedIn:admin
+2024-10-04 13:04:34 loggedIn:admin
+2024-10-04 13:04:36 ,session ja cookie
+2024-10-04 13:04:36 array (
+  'loggedIn' => 'admin',
+  'user_id' => 1,
+)
+2024-10-04 13:04:36 array (
+  'rememberme' => 'b64734a744933988438f0761fcfc9768:70b1f3b144142ea43108d6733517d6c0f1b1886e8b06721bd949f1caf256797e',
+  'PHPSESSID' => '57dg1a3am9tps3q9mqemkklcg7',
+)
+2024-10-04 13:04:36 Poistettiin: 0 rememberme_token.
+2024-10-04 13:04:36 loggedIn:admin
+2024-10-04 13:05:12 loggedIn:admin
+2024-10-04 13:05:23 loggedIn:admin
+2024-10-04 13:06:16 loggedIn:
+2024-10-04 13:07:20 loggedIn:
+2024-10-04 13:07:37 loggedIn:
+2024-10-04 13:08:10 loggedIn:
+2024-10-04 13:10:35 loggedIn:
+2024-10-04 13:11:34 loggedIn:
+2024-10-04 13:16:11 loggedIn:
+2024-10-04 13:16:41 loggedIn:
+2024-10-04 13:16:58 loggedIn:
+2024-10-04 13:18:23 loggedIn:
+2024-10-04 13:19:21 loggedIn:
+2024-10-04 13:19:23 loggedIn:
+2024-10-04 13:19:23 loggedIn:
+2024-10-04 13:19:23 loggedIn:
+2024-10-04 13:19:23 loggedIn:
+2024-10-04 13:19:23 loggedIn:
+2024-10-04 13:21:15 loggedIn:
+2024-10-04 13:22:07 loggedIn:
+2024-10-04 13:22:10 POST:array (
+)
+2024-10-04 13:22:10 loggedIn:
+2024-10-04 13:22:10 array (
+)
+2024-10-04 13:22:17 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-04 13:22:17 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-04 13:22:17 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 13:22:17 kentta:rememberme,arvo:checked,apu:
+2024-10-04 13:22:17 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-04 13:22:17 RikuKilpimaa@hotmail.fi:Tuntematon sähköpostiosoite
+2024-10-04 13:22:17 loggedIn:
+2024-10-04 13:22:17 array (
+)
+2024-10-04 13:22:58 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-04 13:22:58 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-04 13:22:58 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 13:22:58 kentta:rememberme,arvo:checked,apu:
+2024-10-04 13:22:58 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-04 13:22:58 RikuKilpimaa@hotmail.fi:Tuntematon sähköpostiosoite
+2024-10-04 13:22:58 loggedIn:
+2024-10-04 13:22:58 array (
+)
+2024-10-04 13:23:00 loggedIn:
+2024-10-04 13:23:09 loggedIn:
+2024-10-04 13:23:09 kentta:name,arvo:Riku Kilpimaa,apu:
+2024-10-04 13:23:09 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-04 13:23:09 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 13:23:09 kentta:password2,arvo:asdasdasdasd,apu:
+2024-10-04 13:23:09 array (
+)
+2024-10-04 13:23:09 INSERT INTO users (name, email, password, created) VALUES ('Riku Kilpimaa', 'RikuKilpimaa@hotmail.fi', '$2y$10$YKWZYk7l9VLkZQYs.DdKyunlwIqDMaLCzfSFliOfIQbI2Sf7.Gq3G', '2024-10-04 13:23:09')
+2024-10-04 13:23:09 lisays:1
+2024-10-04 13:23:09 INSERT INTO signup_tokens (users_id,token) VALUES (51,'ad4a8e24fc8766df94907087fe87d312')
+2024-10-04 13:23:11 Viesti lähetetty: RikuKilpimaa@hotmail.fi!
+2024-10-04 13:23:56 loggedIn:
+2024-10-04 13:23:58 POST:array (
+)
+2024-10-04 13:23:58 loggedIn:
+2024-10-04 13:23:58 array (
+)
+2024-10-04 13:24:03 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-04 13:24:03 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-04 13:24:03 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-04 13:24:03 kentta:rememberme,arvo:checked,apu:
+2024-10-04 13:24:03 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-04 13:24:03 Poistettiin: 0 rememberme_token.
+2024-10-04 13:24:03 Lisättiin: 1 rememberme_token.
+2024-10-04 13:24:03 loggedIn:1
+2024-10-04 13:25:55 loggedIn:1
+2024-10-04 13:26:42 loggedIn:1
+2024-10-04 13:26:55 loggedIn:1
+2024-10-04 13:27:06 loggedIn:1
+2024-10-04 13:27:17 loggedIn:1

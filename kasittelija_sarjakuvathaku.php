@@ -20,7 +20,7 @@
 
 
 switch ($loggedIn) {
-  case 3:
+  case 'admin':
     echo "<li>
     <img class='titlekuva' src='$imagePath' alt='" . htmlspecialchars($row['title']) . "'> <br>
     <strong>Title:</strong> " . htmlspecialchars($row['title']) . " <br>

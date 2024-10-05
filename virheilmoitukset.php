@@ -17,6 +17,9 @@ $allowed_images = ['gif','png','jpg','jpeg'];
 $w = "a-zA-Z0-9";
 $patterns['password'] = "/^.{12,}$/";
 $patterns['password2'] = $patterns['password'];
+
+$patterns['new_password'] = "/^.{12,}$/";
+$patterns['new_password2'] = $patterns['new_password'];
 /* Huom. Myös heittomerkki ja tavuviiva */
 $patterns['firstname'] = "/^[a-zåäöA-ZÅÄÖ'\-]+$/";
 
@@ -78,7 +81,12 @@ function validationMessages($kentat){
 $virheilmoitukset = validationMessages($kentat);
 $virheilmoitukset['password']['patternMismatch'] = "Salasanan pitää olla vähintään 12 merkkiä pitkä";    
 $virheilmoitukset['password2']['valueMissing'] = "Anna salasana uudestaan"; 
-$virheilmoitukset['password2']['customError'] = "Salasanat eivät täsmää";     
+$virheilmoitukset['password2']['customError'] = "Salasanat eivät täsmää";  
+
+$virheilmoitukset['new_password']['patternMismatch'] = "Salasanan pitää olla vähintään 12 merkkiä pitkä"; 
+$virheilmoitukset['new_password2']['valueMissing'] = "Anna salasana uudestaan";  
+$virheilmoitukset['new_password2']['customError'] = "Salasanat eivät täsmää";  
+
 $virheilmoitukset['email']['emailExistsError'] = "Sähköpostiosoite on jo käytössä";     
 $virheilmoitukset['firstname']['nameExistsError'] = "Nimi on jo käytössä";  
 $virheilmoitukset['lastname']['nameExistsError'] = "Nimi on jo käytössä";  
@@ -91,6 +99,7 @@ $virheilmoitukset['accountNotExistErr'] = "Tuntematon sähköpostiosoite";
 $virheilmoitukset['accountExistsMsg'] = "Sähköposti on lähetetty antamaasi sähköpostiosoitteeseen";   
 $virheilmoitukset['verificationRequiredErr'] = "Vahvista sähköpostiosoite ensin";
 $virheilmoitukset['emailPwdErr'] = "Väärä käyttäjätunnus tai salasana";
+$virheilmoitukset['PwdErr'] = "Väärä salasana";
 $virheilmoitukset['emailErr'] = "Sähköpostin lähetys epäonnistui, yritä myöhemmin uudelleen";
 $virheilmoitukset_json = json_encode($virheilmoitukset);
 

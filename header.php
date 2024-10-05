@@ -61,7 +61,7 @@ function active($sivu,$active){
 
 ?>
 <?php
-
+if ($navbar ?? true){
 switch ($loggedIn) {
   case 'admin':
     include 'admin_navigointi.html';
@@ -73,6 +73,7 @@ switch ($loggedIn) {
     include 'navigointi.html';
     break;
   } 
+}
 /*
 if ($loggedIn = loggedIn()) {
   if($navbar ?? true){  include 'profiilin_navigointi.html';}

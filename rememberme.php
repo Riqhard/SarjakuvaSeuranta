@@ -27,17 +27,18 @@ return $result;
 }
 
 function find_rememberme_token(string $selector){
-$id = $hashed_validator = $user_id = $expiry = null;    
-$yhteys = db_connect();   
-$query = "SELECT id, selector, hashed_validator, user_id, expiry FROM rememberme_tokens
-          WHERE selector = ? AND expiry >= now() LIMIT 1";
-$stmt = $yhteys->prepare($query);
-$stmt->bind_param('s', $selector);
-$stmt->execute();
-$stmt->bind_result($id,$selector,$hashed_validator,$user_id,$expiry);
-$result = $stmt->fetch();
-return compact('id', 'selector', 'hashed_validator' ,'user_id', 'expiry');
-}
+    $id = $hashed_validator = $user_id = $expiry = null;    
+    $yhteys = db_connect();   
+    $query = "SELECT id, selector, hashed_validator, user_id, expiry FROM rememberme_tokens
+              WHERE selector = ? AND expiry >= now() LIMIT 1";
+    $params = ['s', $selector];
+    $stmt = $yhteys->prepare($query);
+    $stmt->bind_param(...$params);
+    $stmt->execute();
+    $result_params = [&$id, &$selector, &$hashed_validator, &$user_id, &$expiry];
+    $stmt->bind_result(...$result_params);
+    $result = $stmt->fetch();
+    return compact('id', 'selector', 'hashed_validator' ,'user_id', 'expiry');}
 
 function delete_rememberme_token(int $user_id) {
 $yhteys = db_connect();    
@@ -106,7 +107,7 @@ function loggedIn() {
     /* Huom. loggedIn voi olla 'user', 'admin', jne. 
        loggedIn voi olla tässä user_id ja eväste vanhentunut.
        Ilman roolin hakua muista minut vie käyttäjän peruskäyttäjän rooliin. */
-    if (!$loggedIn || is_int($loggedIn)) {
+    if (!$loggedIn) {
         if ($token = $_COOKIE['rememberme'] ?? '') {
             $token = htmlspecialchars($token);
             if ($user_id = token_is_valid($token)) {
@@ -117,6 +118,7 @@ function loggedIn() {
                 // vaikka eväste vanhenisi tänä aikana.
                 // $loggedIn = $user_id;
                 $_SESSION['loggedIn'] = $loggedIn;
+                $_SESSION['user_id'] = $user_id;
                 }
             }
         }

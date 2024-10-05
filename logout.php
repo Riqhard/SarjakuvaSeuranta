@@ -17,10 +17,11 @@ debuggeri(__FUNCTION__.",session ja cookie");
 debuggeri($_SESSION);    
 debuggeri($_COOKIE);    
 // $user_id = $_SESSION['user_id'] ?? '';
-if (is_int($user_id)) {
-    delete_rememberme_token($user_id);
-    }
+//if (is_int($user_id)) {
+//    delete_rememberme_token($user_id);
+//    }
 if (isset($_COOKIE['rememberme'])) {
+    delete_rememberme_token($user_id);
     unset($_COOKIE['rememberme']);
     setcookie('rememberme', '', time() - 3600, "/", "", false, true);
     }

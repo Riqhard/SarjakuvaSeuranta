@@ -40,10 +40,10 @@ if (isset($thisid)) {
     </div>
 
     <div id="sisalto">
-    <a href="changepassword.php">Change Name</a><br>
-    <a href="changepassword.php">Change Email</a><br>
-    <a href="changepassword.php">Change password</a><br>
-    <a href="changepassword.php">Remove profile</a>
+    <a href="changename.php">Vaihda Nimi</a><br>
+    <a href="changeemail.php">Vaihda Sähköpostiosoite</a><br>
+    <a href="changepassword.php">Vaihda Salasana</a><br>
+    <a href='poistaprofiili.php?id=<?php echo $thisid; ?>' onclick='return confirm("Haluatko varmasti poistaa tämän sarjakuvan?")'>Poista Profiili</a>
     </div>
 
 </div>

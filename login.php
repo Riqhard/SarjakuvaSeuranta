@@ -80,7 +80,7 @@ debuggeri($errors);
 
 <div class="row offset-sm-4">
 <!--<p class="mt-2 pt-1 mb-0">Käyttäjätunnus puuttuu?-->
-<a href="rekisteroitymislomake.php">Rekisteröidy</a>
+<a href="Rekisteroityminen.php">Rekisteröidy</a>
 </div>
 
 </fieldset>
