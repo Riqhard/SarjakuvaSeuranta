@@ -2811,3 +2811,32 @@ uusi
 2024-10-07 21:43:52 SELECT image FROM users WHERE id = ?
 2024-10-07 21:46:44 loggedIn:admin
 2024-10-07 21:46:44 SELECT image FROM users WHERE id = ?
+2024-10-07 21:48:20 loggedIn:admin
+2024-10-07 21:48:20 SELECT image FROM users WHERE id = ?
+2024-10-07 21:48:46 user_id:56
+2024-10-07 21:48:46 loggedIn:admin
+2024-10-07 21:48:50 loggedIn:admin
+2024-10-07 21:48:50 SELECT image FROM users WHERE id = ?
+2024-10-07 21:48:51 user_id:56
+2024-10-07 21:48:51 loggedIn:admin
+2024-10-07 21:48:57 user_id:56
+2024-10-07 21:48:57 _POST:
+2024-10-07 21:48:57 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 21:48:57 kentta:imgname,arvo:kuva,apu:
+2024-10-07 21:48:57 kentta:current_image,arvo:,apu:
+2024-10-07 21:48:57 tiedosto:C:\xampp\tmp\php7692.tmp, kohde:profiili_kuvat/VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_7dd8c6.png
+2024-10-07 21:48:57 tiedostotyyppi:png, koko:3015206
+2024-10-07 21:48:57 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_7dd8c6.png,mime: image/png, png, 3015206 tavua
+2024-10-07 21:48:57 image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_7dd8c6.png
+2024-10-07 21:48:57 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 21:48:57 array (
+)
+2024-10-07 21:48:57 UPDATE users SET image = 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_7dd8c6.png' WHERE id = 56
+2024-10-07 21:48:57 muutos:1
+2024-10-07 21:48:57 loggedIn:admin
+2024-10-07 21:48:57 SELECT image FROM users WHERE id = ?
+2024-10-07 21:48:59 user_id:56
+2024-10-07 21:48:59 loggedIn:admin
