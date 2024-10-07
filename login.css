@@ -128,3 +128,11 @@ legend{
     margin-top: 10px;
 }
 
+.previewImage{
+    max-width: 400px;
+    height: auto;
+    margin: 10px;
+    padding: 3px;
+    flex-grow: 4;
+    object-fit: cover;
+}

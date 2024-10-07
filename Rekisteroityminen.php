@@ -6,9 +6,9 @@ $title = "register";
 $navbar = false;
 $css = "login.css";
 
-$kentat = ['name','email','password','password2'];
+$kentat = ['firstname','email','password','password2'];
 $kentat_suomi = ['nimi','sähköpostiosoite','salasana','salasana'];
-$pakolliset = ['name','email','password','password2'];
+$pakolliset = ['firstname','email','password','password2'];
 
 //$css = 'rekisteroityminen.css';
 include "virheilmoitukset.php";
@@ -37,13 +37,13 @@ if ($success != "success") { ?>
 <legend>Rekisteröityminen</legend>
 
 <div class="row">
-<label for="name" class="col-sm-4 form-label">Nimi</label>
+<label for="firstname" class="col-sm-4 form-label">Nimi</label>
 <div class="col-sm-8">
-<input type="text" id="name" name="name" class="form-control <?= is_invalid('name'); ?>" title="Kirjoita name (väh. 2 merkkiä) ilman erikoismerkkejä" value="" 
-pattern="<?= pattern("name"); ?>"
-placeholder="John Doe" value="<?= arvo("name"); ?>" 
+<input type="name" id="firstname" name="firstname" class="form-control <?= is_invalid('firstname'); ?>" title="Kirjoita nimi (väh. 2 merkkiä) ilman erikoismerkkejä" value="" 
+pattern="<?= pattern("firstname"); ?>"
+placeholder="Nimi" value="<?= arvo("firstname"); ?>" 
        required autofocus> 
-       <div class="invalid-feedback"><?= $errors['name'] ?? ""; ?> </div>
+       <div class="invalid-feedback"><?= $errors['firstname'] ?? ""; ?> </div>
 </div>
 </div>   
 

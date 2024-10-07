@@ -69,6 +69,7 @@ function token_is_valid(string $token) {
 // parse the token to get the selector and validator [$selector, $validator] = parse_token($token);
 [$selector, $validator] = parse_token($token);
 $tokens = find_rememberme_token($selector);
+if ($validator == "" || $tokens['hashed_validator'] == "") return false;
 if (!$tokens) return false;
 $verified_token = password_verify($validator, $tokens['hashed_validator']);
 return $verified_token ? $tokens['user_id'] : false; 
@@ -134,7 +135,7 @@ return $nayta;
 
 function hae_rooli(int $user_id) {
 $yhteys = db_connect();
-$query = "SELECT role_name FROM users LEFT JOIN roles ON role = roles.id WHERE users.id = $user_id";
+$query = "SELECT name FROM users LEFT JOIN roles ON role = roles.id WHERE users.id = $user_id";
 $result = $yhteys->query($query);
 if ($result->num_rows) {
     [$role] = $result->fetch_row();

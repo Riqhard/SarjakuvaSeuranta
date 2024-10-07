@@ -39,12 +39,12 @@ debuggeri($errors);
 <legend>Uusi nimi</legend>
 
 <div class="row">
-<label for="name" class="col-sm-4 form-label">Uusi nimi</label>
+<label for="firstname" class="col-sm-4 form-label">Uusi nimi</label>
 <div class="col-sm-8">
-<input type="name" class="mb-1 form-control <?= is_invalid('name'); ?>" name="name" id="name" 
-       placeholder="etunimi.sukunimi@palvelu.fi" value="<?= arvo("name"); ?>"
-       pattern="<?= pattern('name'); ?>" required>
-<div class="invalid-feedback"><?= $errors['name'] ?? ""; ?>    </div>
+<input type="name" class="mb-1 form-control <?= is_invalid('firstname'); ?>" name="firstname" id="firstname" 
+       placeholder="etunimi.sukunimi@palvelu.fi" value="<?= arvo("firstname"); ?>"
+       pattern="<?= pattern('firstname'); ?>" required>
+<div class="invalid-feedback"><?= $errors['firstname'] ?? ""; ?>    </div>
 </div>
 </div>
 

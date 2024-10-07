@@ -1157,3 +1157,1468 @@ Jos tuote tai haluamasi malli on päässyt loppumaan, tilaa ilmoitus niin kerrom
 2024-10-04 13:26:55 loggedIn:1
 2024-10-04 13:27:06 loggedIn:1
 2024-10-04 13:27:17 loggedIn:1
+2024-10-07 07:33:29 loggedIn:1
+2024-10-07 07:33:31 loggedIn:1
+2024-10-07 07:33:41 loggedIn:1
+2024-10-07 07:34:52 loggedIn:1
+2024-10-07 07:34:55 loggedIn:1
+2024-10-07 07:34:57 loggedIn:1
+2024-10-07 07:36:07 loggedIn:1
+2024-10-07 07:36:28 loggedIn:1
+2024-10-07 07:36:30 loggedIn:1
+2024-10-07 07:36:33 loggedIn:1
+2024-10-07 07:37:31 loggedIn:1
+2024-10-07 07:37:46 loggedIn:1
+2024-10-07 07:37:50 ,session ja cookie
+2024-10-07 07:37:50 array (
+  'loggedIn' => '1',
+  'user_id' => '51',
+  'yrityskerrat' => 0,
+)
+2024-10-07 07:37:50 array (
+  'rememberme' => 'fabed5b5720890eeabfd08d3e594437a:86c0a64d05d517f98fd491082860aef4c3ef4e897eb384986a1bf02256bbe495',
+  'PHPSESSID' => 'u4hgu8katcjj55pbmhdb1v000n',
+)
+2024-10-07 07:37:50 Poistettiin: 0 rememberme_token.
+2024-10-07 07:37:50 loggedIn:
+2024-10-07 07:37:54 POST:array (
+)
+2024-10-07 07:39:02 POST:array (
+)
+2024-10-07 07:39:07 loggedIn:
+2024-10-07 07:39:10 POST:array (
+)
+2024-10-07 07:42:23 POST:array (
+)
+2024-10-07 07:42:25 loggedIn:
+2024-10-07 07:42:27 POST:array (
+)
+2024-10-07 07:42:32 POST:array (
+)
+2024-10-07 07:42:41 POST:array (
+)
+2024-10-07 07:42:41 loggedIn:
+2024-10-07 07:42:41 array (
+)
+2024-10-07 07:42:49 POST:array (
+)
+2024-10-07 07:42:49 loggedIn:
+2024-10-07 07:42:49 array (
+)
+2024-10-07 07:43:03 POST:array (
+)
+2024-10-07 07:43:03 loggedIn:
+2024-10-07 07:43:03 array (
+)
+2024-10-07 07:43:44 loggedIn:
+2024-10-07 07:44:00 loggedIn:
+2024-10-07 07:44:01 loggedIn:
+2024-10-07 07:44:01 loggedIn:
+2024-10-07 07:44:24 loggedIn:
+2024-10-07 07:44:27 loggedIn:
+2024-10-07 07:44:36 loggedIn:
+2024-10-07 07:45:05 loggedIn:
+2024-10-07 07:45:13 POST:array (
+)
+2024-10-07 07:45:13 loggedIn:
+2024-10-07 07:45:13 array (
+)
+2024-10-07 07:45:20 loggedIn:
+2024-10-07 07:45:29 loggedIn:
+2024-10-07 07:45:29 kentta:name,arvo:Riku Kilpimaa,apu:
+2024-10-07 07:45:29 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 07:45:29 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 07:45:29 kentta:password2,arvo:asdasdasdasd,apu:
+2024-10-07 07:45:29 array (
+)
+2024-10-07 07:45:29 INSERT INTO users (name, email, password, created) VALUES ('Riku Kilpimaa', 'RikuKilpimaa@hotmail.fi', '$2y$10$tgMlj0EFyG34EUJ5F4qHjuTTrqF23QeNtqKka3v2NBjBPbiAx/3rW', '2024-10-07 07:45:29')
+2024-10-07 07:45:29 lisays:1
+2024-10-07 07:45:29 INSERT INTO signup_tokens (users_id,token) VALUES (52,'8a3c377c449efb119dc748b2b260a03d')
+2024-10-07 07:45:32 Viesti lähetetty: RikuKilpimaa@hotmail.fi!
+2024-10-07 07:45:42 loggedIn:
+2024-10-07 07:48:26 loggedIn:
+2024-10-07 07:49:05 loggedIn:
+2024-10-07 07:50:53 loggedIn:
+2024-10-07 07:51:29 loggedIn:
+2024-10-07 07:51:32 POST:array (
+)
+2024-10-07 07:51:32 loggedIn:
+2024-10-07 07:51:32 array (
+)
+2024-10-07 07:51:51 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 07:51:51 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 07:51:51 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 07:51:51 kentta:rememberme,arvo:checked,apu:
+2024-10-07 07:51:51 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 07:51:51 Poistettiin: 0 rememberme_token.
+2024-10-07 07:51:51 Lisättiin: 1 rememberme_token.
+2024-10-07 07:51:51 loggedIn:1
+2024-10-07 07:52:19 loggedIn:1
+2024-10-07 07:52:22 loggedIn:1
+2024-10-07 07:52:24 loggedIn:1
+2024-10-07 07:52:26 loggedIn:1
+2024-10-07 07:52:27 loggedIn:1
+2024-10-07 07:55:35 ,session ja cookie
+2024-10-07 07:55:35 array (
+  'loggedIn' => '1',
+  'user_id' => '52',
+  'yrityskerrat' => 0,
+)
+2024-10-07 07:55:35 array (
+  'rememberme' => '7fa1b1e0b4bc821f7cac863e26ecdaeb:bd253d6004771a70daf09dfc13d71b5ea0a781a9d46b555a3ebe18f51217ac65',
+  'PHPSESSID' => 'c3kvg9btgb2utfn6cj5885f3gh',
+)
+2024-10-07 07:55:35 Poistettiin: 1 rememberme_token.
+2024-10-07 07:55:35 loggedIn:
+2024-10-07 07:55:38 POST:array (
+)
+2024-10-07 07:55:38 loggedIn:
+2024-10-07 07:55:38 array (
+)
+2024-10-07 07:55:48 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 07:55:48 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 07:55:48 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 07:55:48 kentta:rememberme,arvo:checked,apu:
+2024-10-07 07:55:48 SELECT users.id,password,is_active,role FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 07:55:48 Poistettiin: 0 rememberme_token.
+2024-10-07 07:55:48 Lisättiin: 1 rememberme_token.
+2024-10-07 07:55:48 loggedIn:4
+2024-10-07 08:01:01 loggedIn:4
+2024-10-07 08:15:08 loggedIn:4
+2024-10-07 08:15:14 loggedIn:4
+2024-10-07 08:15:16 loggedIn:4
+2024-10-07 08:16:30 loggedIn:4
+2024-10-07 08:16:34 loggedIn:4
+2024-10-07 08:16:35 loggedIn:4
+2024-10-07 08:16:44 ,session ja cookie
+2024-10-07 08:16:44 array (
+  'loggedIn' => '4',
+  'user_id' => '52',
+  'yrityskerrat' => 0,
+)
+2024-10-07 08:16:44 array (
+  'rememberme' => '1e183ca46dbde8b6d91263e054c59cd1:af8258c6835cfefbff99c59bacdbbe8a8f2d58fbc6e57238d975935db615b3d7',
+  'PHPSESSID' => 'ttcb2vglgpnev97glshtq4h85c',
+)
+2024-10-07 08:16:44 Poistettiin: 1 rememberme_token.
+2024-10-07 08:16:44 loggedIn:
+2024-10-07 08:16:48 POST:array (
+)
+2024-10-07 08:16:48 loggedIn:
+2024-10-07 08:16:48 array (
+)
+2024-10-07 08:16:53 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:16:53 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:16:53 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:16:53 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:16:53 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:17:54 loggedIn:
+2024-10-07 08:17:59 POST:array (
+)
+2024-10-07 08:17:59 loggedIn:
+2024-10-07 08:17:59 array (
+)
+2024-10-07 08:18:03 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:18:03 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:18:03 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:18:03 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:18:03 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:18:03 Poistettiin: 0 rememberme_token.
+2024-10-07 08:18:03 Lisättiin: 1 rememberme_token.
+2024-10-07 08:18:03 POST:array (
+)
+2024-10-07 08:18:03 loggedIn:
+2024-10-07 08:18:03 array (
+)
+2024-10-07 08:18:11 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:18:11 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:18:11 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:18:11 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:18:11 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:18:11 Poistettiin: 1 rememberme_token.
+2024-10-07 08:18:11 Lisättiin: 1 rememberme_token.
+2024-10-07 08:18:11 POST:array (
+)
+2024-10-07 08:18:11 loggedIn:
+2024-10-07 08:18:11 array (
+)
+2024-10-07 08:19:18 loggedIn:
+2024-10-07 08:19:34 loggedIn:
+2024-10-07 08:19:34 kentta:name,arvo:,apu:
+2024-10-07 08:19:34 kentta:email,arvo:Riku.Kilpimaa@edu.omnia.fi,apu:
+2024-10-07 08:19:34 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:19:34 kentta:password2,arvo:asdasdasdasd,apu:
+2024-10-07 08:19:34 array (
+  'name' => 'Nimi puuttuu',
+)
+2024-10-07 08:21:05 loggedIn:
+2024-10-07 08:21:05 kentta:firstname,arvo:Riku,apu:
+2024-10-07 08:21:05 kentta:email,arvo:Riku.Kilpimaa@edu.omnia.fi,apu:
+2024-10-07 08:21:05 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:21:05 kentta:password2,arvo:asdasdasdasd,apu:
+2024-10-07 08:21:05 array (
+)
+2024-10-07 08:21:05 INSERT INTO users (firstname, email, password, created) VALUES ('Riku', 'Riku.Kilpimaa@edu.omnia.fi', '$2y$10$6g3ZHQgHVYEU2szetndNLu2QRwxrGHntSnTfwFBVzNy0PCVQUm/VC', '2024-10-07 08:21:05')
+2024-10-07 08:21:05 lisays:1
+2024-10-07 08:21:05 INSERT INTO signup_tokens (users_id,token) VALUES (53,'142d69a84dedf2203298c7a00ff5c85b')
+2024-10-07 08:21:07 Viesti lähetetty: Riku.Kilpimaa@edu.omnia.fi!
+2024-10-07 08:21:14 loggedIn:
+2024-10-07 08:21:16 POST:array (
+)
+2024-10-07 08:21:16 loggedIn:
+2024-10-07 08:21:16 array (
+)
+2024-10-07 08:21:20 POST:array (
+  'email' => 'Riku.Kilpimaa@edu.omnia.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:21:20 kentta:email,arvo:Riku.Kilpimaa@edu.omnia.fi,apu:
+2024-10-07 08:21:20 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:21:20 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:21:20 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'Riku.Kilpimaa@edu.omnia.fi'
+2024-10-07 08:21:20 Poistettiin: 0 rememberme_token.
+2024-10-07 08:21:20 Lisättiin: 1 rememberme_token.
+2024-10-07 08:21:20 loggedIn:user
+2024-10-07 08:21:27 ,session ja cookie
+2024-10-07 08:21:27 array (
+  'loggedIn' => 'user',
+  'user_id' => '53',
+  'yrityskerrat' => 0,
+)
+2024-10-07 08:21:27 array (
+  'PHPSESSID' => 'vcvmav5q4g65lncs9t2r621f9u',
+)
+2024-10-07 08:21:27 loggedIn:
+2024-10-07 08:21:28 POST:array (
+)
+2024-10-07 08:21:28 loggedIn:
+2024-10-07 08:21:28 array (
+)
+2024-10-07 08:21:33 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:21:33 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:21:33 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:21:33 kentta:rememberme,arvo:,apu:
+2024-10-07 08:21:33 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:21:33 Poistettiin: 1 rememberme_token.
+2024-10-07 08:21:33 Lisättiin: 1 rememberme_token.
+2024-10-07 08:22:31 POST:array (
+)
+2024-10-07 08:22:32 POST:array (
+)
+2024-10-07 08:22:34 loggedIn:
+2024-10-07 08:22:36 POST:array (
+)
+2024-10-07 08:22:38 POST:array (
+)
+2024-10-07 08:22:42 POST:array (
+)
+2024-10-07 08:22:56 loggedIn:
+2024-10-07 08:22:57 POST:array (
+)
+2024-10-07 08:22:57 loggedIn:
+2024-10-07 08:22:57 array (
+)
+2024-10-07 08:23:02 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:23:02 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:23:02 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:23:02 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:23:02 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:23:02 Poistettiin: 1 rememberme_token.
+2024-10-07 08:23:02 Lisättiin: 1 rememberme_token.
+2024-10-07 08:23:02 POST:array (
+)
+2024-10-07 08:23:34 loggedIn:
+2024-10-07 08:23:36 POST:array (
+)
+2024-10-07 08:24:00 loggedIn:
+2024-10-07 08:24:01 POST:array (
+)
+2024-10-07 08:24:01 loggedIn:
+2024-10-07 08:24:01 array (
+)
+2024-10-07 08:24:05 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:24:05 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:24:05 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:24:05 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:24:05 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:24:05 Poistettiin: 1 rememberme_token.
+2024-10-07 08:24:05 Lisättiin: 1 rememberme_token.
+2024-10-07 08:24:05 POST:array (
+)
+2024-10-07 08:24:39 POST:array (
+)
+2024-10-07 08:24:39 loggedIn:
+2024-10-07 08:24:39 array (
+)
+2024-10-07 08:24:45 POST:array (
+  'email' => 'Riku.Kilpimaa@edu.omnia.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:24:45 kentta:email,arvo:Riku.Kilpimaa@edu.omnia.fi,apu:
+2024-10-07 08:24:45 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:24:45 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:24:45 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'Riku.Kilpimaa@edu.omnia.fi'
+2024-10-07 08:24:45 Poistettiin: 1 rememberme_token.
+2024-10-07 08:24:45 Lisättiin: 1 rememberme_token.
+2024-10-07 08:24:45 loggedIn:user
+2024-10-07 08:24:49 ,session ja cookie
+2024-10-07 08:24:49 array (
+  'loggedIn' => 'user',
+  'user_id' => '53',
+  'yrityskerrat' => 0,
+)
+2024-10-07 08:24:49 array (
+  'rememberme' => 'b07d935288273e722658363226f23ba0:a7de6bb63e2514252e3d8f81a570f8da939645033e6beb568bbae65d50adaed4',
+  'PHPSESSID' => 'uihq8a1jbmln2athkf4pjpf1h9',
+)
+2024-10-07 08:24:49 Poistettiin: 1 rememberme_token.
+2024-10-07 08:24:49 loggedIn:
+2024-10-07 08:24:50 loggedIn:
+2024-10-07 08:24:58 loggedIn:
+2024-10-07 08:24:58 kentta:firstname,arvo:Riku,apu:
+2024-10-07 08:24:58 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:24:58 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:24:58 kentta:password2,arvo:asdasdasdasd,apu:
+2024-10-07 08:24:58 array (
+)
+2024-10-07 08:24:58 INSERT INTO users (firstname, email, password, created) VALUES ('Riku', 'RikuKilpimaa@hotmail.fi', '$2y$10$.vStIDhu/4xh23fMxmceJeIeNiWAXiuK/RmrKTTtdAee8l/u4H61i', '2024-10-07 08:24:58')
+2024-10-07 08:24:58 lisays:1
+2024-10-07 08:24:58 INSERT INTO signup_tokens (users_id,token) VALUES (54,'dfb0dbcffbc6c7ef32c9d0383ea16e91')
+2024-10-07 08:25:01 Viesti lähetetty: RikuKilpimaa@hotmail.fi!
+2024-10-07 08:25:07 loggedIn:
+2024-10-07 08:25:09 POST:array (
+)
+2024-10-07 08:25:09 loggedIn:
+2024-10-07 08:25:09 array (
+)
+2024-10-07 08:25:14 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:25:14 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:25:14 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:25:14 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:25:14 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:25:15 Poistettiin: 0 rememberme_token.
+2024-10-07 08:25:15 Lisättiin: 1 rememberme_token.
+2024-10-07 08:25:15 loggedIn:user
+2024-10-07 08:25:42 loggedIn:user
+2024-10-07 08:25:44 ,session ja cookie
+2024-10-07 08:25:44 array (
+  'loggedIn' => 'user',
+  'user_id' => '54',
+  'yrityskerrat' => 0,
+)
+2024-10-07 08:25:44 array (
+  'rememberme' => 'b465ad2f8021698bc8fe1adf9c9e878c:41ac94760b4d99887a48b1d8a44f60268fce0613c02303c656cb3db440abd0cb',
+  'PHPSESSID' => 'fegu2jq9pqqrkojotlhe8inmds',
+)
+2024-10-07 08:25:44 Poistettiin: 1 rememberme_token.
+2024-10-07 08:25:44 loggedIn:
+2024-10-07 08:25:46 POST:array (
+)
+2024-10-07 08:25:46 loggedIn:
+2024-10-07 08:25:46 array (
+)
+2024-10-07 08:25:50 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:25:50 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:25:50 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:25:50 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:25:50 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:25:50 Poistettiin: 0 rememberme_token.
+2024-10-07 08:25:50 Lisättiin: 1 rememberme_token.
+2024-10-07 08:25:50 POST:array (
+)
+2024-10-07 08:27:43 POST:array (
+)
+2024-10-07 08:27:46 loggedIn:
+2024-10-07 08:27:58 loggedIn:
+2024-10-07 08:39:52 loggedIn:
+2024-10-07 08:40:53 loggedIn:
+2024-10-07 08:40:54 POST:array (
+)
+2024-10-07 08:40:54 array (
+)
+2024-10-07 08:40:54 loggedIn:
+2024-10-07 08:41:01 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:41:01 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:41:01 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:41:01 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:41:01 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:41:01 Poistettiin: 1 rememberme_token.
+2024-10-07 08:41:01 Lisättiin: 1 rememberme_token.
+2024-10-07 08:41:01 POST:array (
+)
+2024-10-07 08:41:01 array (
+)
+2024-10-07 08:41:01 loggedIn:
+2024-10-07 08:41:30 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:41:30 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:41:30 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:41:30 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:41:30 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:41:30 Poistettiin: 1 rememberme_token.
+2024-10-07 08:41:30 Lisättiin: 1 rememberme_token.
+2024-10-07 08:41:30 POST:array (
+)
+2024-10-07 08:41:30 array (
+)
+2024-10-07 08:41:30 loggedIn:
+2024-10-07 08:44:08 POST:array (
+)
+2024-10-07 08:45:40 POST:array (
+)
+2024-10-07 08:45:40 loggedIn:
+2024-10-07 08:45:40 array (
+)
+2024-10-07 08:45:45 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:45:45 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:45:45 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:45:45 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:45:45 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:45:45 Poistettiin: 1 rememberme_token.
+2024-10-07 08:45:45 Lisättiin: 1 rememberme_token.
+2024-10-07 08:45:45 POST:array (
+)
+2024-10-07 08:45:51 POST:array (
+)
+2024-10-07 08:45:52 POST:array (
+)
+2024-10-07 08:45:53 POST:array (
+)
+2024-10-07 08:45:53 loggedIn:
+2024-10-07 08:45:53 array (
+)
+2024-10-07 08:45:57 POST:array (
+)
+2024-10-07 08:45:57 loggedIn:
+2024-10-07 08:45:57 array (
+)
+2024-10-07 08:46:03 POST:array (
+)
+2024-10-07 08:46:03 loggedIn:
+2024-10-07 08:46:03 array (
+)
+2024-10-07 08:47:20 POST:array (
+)
+2024-10-07 08:47:20 loggedIn:
+2024-10-07 08:47:20 array (
+)
+2024-10-07 08:47:37 loggedIn:
+2024-10-07 08:47:42 POST:array (
+)
+2024-10-07 08:48:03 POST:array (
+)
+2024-10-07 08:48:03 loggedIn:
+2024-10-07 08:48:03 array (
+)
+2024-10-07 08:48:12 POST:array (
+  'email' => 'Riku.Kilpimaa@edu.omnia.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:48:12 kentta:email,arvo:Riku.Kilpimaa@edu.omnia.fi,apu:
+2024-10-07 08:48:12 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:48:12 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:48:12 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'Riku.Kilpimaa@edu.omnia.fi'
+2024-10-07 08:48:12 Poistettiin: 0 rememberme_token.
+2024-10-07 08:48:12 Lisättiin: 1 rememberme_token.
+2024-10-07 08:48:12 loggedIn:user
+2024-10-07 08:48:15 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 08:48:15 array (
+  'loggedIn' => 'user',
+  'user_id' => '53',
+  'yrityskerrat' => 0,
+)
+2024-10-07 08:48:15 array (
+  'rememberme' => '79805c3f72fb423c4c7fe3a00f604fbc:d7ce24a3364ebed0e126f1aa84e506c757d9caca9ad4e1bd412c095e8e188c02',
+  'PHPSESSID' => 'uf4hot8h87rbrnkcl0h2nv41ho',
+)
+2024-10-07 08:48:15 Poistettiin: 1 rememberme_token.
+2024-10-07 08:48:15 loggedIn:
+2024-10-07 08:48:17 POST:array (
+)
+2024-10-07 08:48:17 loggedIn:
+2024-10-07 08:48:17 array (
+)
+2024-10-07 08:48:21 POST:array (
+  'email' => 'Riku.Kilpimaa@edu.omnia.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:48:21 kentta:email,arvo:Riku.Kilpimaa@edu.omnia.fi,apu:
+2024-10-07 08:48:21 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:48:21 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:48:21 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'Riku.Kilpimaa@edu.omnia.fi'
+2024-10-07 08:48:22 Poistettiin: 0 rememberme_token.
+2024-10-07 08:48:22 Lisättiin: 1 rememberme_token.
+2024-10-07 08:48:22 loggedIn:user
+2024-10-07 08:48:24 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 08:48:24 array (
+  'loggedIn' => 'user',
+  'user_id' => '53',
+  'yrityskerrat' => 0,
+)
+2024-10-07 08:48:24 array (
+  'rememberme' => '67b4810ea093fac370930d1c7b519259:53e962f12c3940960aa67ca1abfe617f07b56ddf828b4d3d019d88e3e12656d4',
+  'PHPSESSID' => '2c8bkea5697c0opvenv98mnb97',
+)
+2024-10-07 08:48:24 Poistettiin: 1 rememberme_token.
+2024-10-07 08:48:24 loggedIn:
+2024-10-07 08:48:25 POST:array (
+)
+2024-10-07 08:48:25 loggedIn:
+2024-10-07 08:48:25 array (
+)
+2024-10-07 08:48:29 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:48:29 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:48:29 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:48:29 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:48:29 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:48:29 Poistettiin: 1 rememberme_token.
+2024-10-07 08:48:29 Lisättiin: 1 rememberme_token.
+2024-10-07 08:48:30 POST:array (
+)
+2024-10-07 08:50:04 POST:array (
+)
+2024-10-07 08:50:04 loggedIn:
+2024-10-07 08:50:04 array (
+)
+2024-10-07 08:50:08 loggedIn:
+2024-10-07 08:50:15 loggedIn:
+2024-10-07 08:50:15 kentta:firstname,arvo:Riku,apu:
+2024-10-07 08:50:15 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:50:15 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:50:15 kentta:password2,arvo:asdasdasdasd,apu:
+2024-10-07 08:50:15 array (
+)
+2024-10-07 08:50:15 INSERT INTO users (firstname, email, password, created) VALUES ('Riku', 'RikuKilpimaa@hotmail.fi', '$2y$10$Ir.rmG7kNw9MCTGX1BBaHOlIKHI2.V.XYabalrJ/Nzd/SPpSF/LTy', '2024-10-07 08:50:15')
+2024-10-07 08:50:15 lisays:1
+2024-10-07 08:50:15 INSERT INTO signup_tokens (users_id,token) VALUES (55,'5e5ed539f917973dacb2a3c458f3eca3')
+2024-10-07 08:50:17 Viesti lähetetty: RikuKilpimaa@hotmail.fi!
+2024-10-07 08:50:26 loggedIn:
+2024-10-07 08:50:27 POST:array (
+)
+2024-10-07 08:50:27 loggedIn:
+2024-10-07 08:50:27 array (
+)
+2024-10-07 08:50:32 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:50:32 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:50:32 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:50:32 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:50:32 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:50:32 Poistettiin: 0 rememberme_token.
+2024-10-07 08:50:32 Lisättiin: 1 rememberme_token.
+2024-10-07 08:50:32 loggedIn:user
+2024-10-07 08:50:33 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 08:50:33 array (
+  'loggedIn' => 'user',
+  'user_id' => '55',
+  'yrityskerrat' => 0,
+)
+2024-10-07 08:50:33 array (
+  'rememberme' => 'd3ab3740b55e3cc9196be4e647ae1b4a:5f6c5a89b68a015da0e1cf922233386f4dda8ad7ecbda8fbc3f3bddc3670c54c',
+  'PHPSESSID' => '3o71t7rpj5h8937pnn6empjel4',
+)
+2024-10-07 08:50:33 Poistettiin: 1 rememberme_token.
+2024-10-07 08:50:33 loggedIn:
+2024-10-07 08:50:35 POST:array (
+)
+2024-10-07 08:50:35 loggedIn:
+2024-10-07 08:50:35 array (
+)
+2024-10-07 08:50:39 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:50:39 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:50:39 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:50:39 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:50:39 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:50:40 Poistettiin: 0 rememberme_token.
+2024-10-07 08:50:40 Lisättiin: 1 rememberme_token.
+2024-10-07 08:50:40 loggedIn:user
+2024-10-07 08:50:41 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 08:50:41 array (
+  'loggedIn' => 'user',
+  'user_id' => '55',
+  'yrityskerrat' => 0,
+)
+2024-10-07 08:50:41 array (
+  'rememberme' => 'acc1366330f40774281c4186ea48c6b0:f6684fbbcebf8f1a52a18f1c178c9d2dc63a5af8849636c967d79033532ee3f3',
+  'PHPSESSID' => '49eddn2bqv5vapck99sehecg7c',
+)
+2024-10-07 08:50:41 Poistettiin: 1 rememberme_token.
+2024-10-07 08:50:41 loggedIn:
+2024-10-07 08:50:43 POST:array (
+)
+2024-10-07 08:50:43 loggedIn:
+2024-10-07 08:50:43 array (
+)
+2024-10-07 08:50:46 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:50:46 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:50:46 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:50:46 kentta:rememberme,arvo:,apu:
+2024-10-07 08:50:46 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:50:46 Poistettiin: 0 rememberme_token.
+2024-10-07 08:50:46 Lisättiin: 1 rememberme_token.
+2024-10-07 08:50:46 loggedIn:user
+2024-10-07 08:50:48 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 08:50:48 array (
+  'loggedIn' => 'user',
+  'user_id' => '55',
+  'yrityskerrat' => 0,
+)
+2024-10-07 08:50:48 array (
+  'rememberme' => '022a98a61fabeb2352583de78b47f4ca:5bede45e89b83c4098db18b57f5ed196d08a578667e5139ae10a6c63d62d43dd',
+  'PHPSESSID' => 'a44964akqcgoc7pva382j1l9cm',
+)
+2024-10-07 08:50:48 Poistettiin: 1 rememberme_token.
+2024-10-07 08:50:48 loggedIn:
+2024-10-07 08:50:50 POST:array (
+)
+2024-10-07 08:50:50 loggedIn:
+2024-10-07 08:50:50 array (
+)
+2024-10-07 08:51:07 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:51:07 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:51:07 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:51:07 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:51:07 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:51:07 Poistettiin: 0 rememberme_token.
+2024-10-07 08:51:07 Lisättiin: 1 rememberme_token.
+2024-10-07 08:51:07 POST:array (
+)
+2024-10-07 08:53:30 POST:array (
+)
+2024-10-07 08:53:30 loggedIn:
+2024-10-07 08:53:31 POST:array (
+)
+2024-10-07 08:53:48 loggedIn:
+2024-10-07 08:53:51 POST:array (
+)
+2024-10-07 08:53:51 loggedIn:
+2024-10-07 08:53:51 array (
+)
+2024-10-07 08:53:57 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:53:57 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:53:57 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:53:57 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:53:57 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:53:57 Poistettiin: 1 rememberme_token.
+2024-10-07 08:53:57 Lisättiin: 1 rememberme_token.
+2024-10-07 08:53:57 POST:array (
+)
+2024-10-07 08:54:58 loggedIn:user
+2024-10-07 08:55:02 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 08:55:02 array (
+  'loggedIn' => 'user',
+  'user_id' => 55,
+  'yrityskerrat' => 0,
+  'next_page' => '/SarjakuvaSeuranta/profiili.php',
+)
+2024-10-07 08:55:02 array (
+  'rememberme' => '2b4f13eae6c267b63756b10b036c66d0:61775e3c262badf9ab70889c40d0318bc23815b3bcc171659a717145c63e6dd0',
+  'PHPSESSID' => '4c11csgg38b24ge245rgeojbm4',
+)
+2024-10-07 08:55:02 Poistettiin: 1 rememberme_token.
+2024-10-07 08:55:02 loggedIn:
+2024-10-07 08:55:31 loggedIn:
+2024-10-07 08:55:34 loggedIn:
+2024-10-07 08:55:43 POST:array (
+)
+2024-10-07 08:55:43 loggedIn:
+2024-10-07 08:55:43 array (
+)
+2024-10-07 08:55:47 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:55:47 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:55:47 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:55:47 kentta:rememberme,arvo:,apu:
+2024-10-07 08:55:47 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:55:47 Poistettiin: 0 rememberme_token.
+2024-10-07 08:55:47 Lisättiin: 1 rememberme_token.
+2024-10-07 08:55:47 POST:array (
+)
+2024-10-07 08:57:17 POST:array (
+)
+2024-10-07 08:57:56 loggedIn:user
+2024-10-07 08:58:07 loggedIn:user
+2024-10-07 08:58:08 loggedIn:user
+2024-10-07 08:58:08 loggedIn:user
+2024-10-07 08:58:12 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 08:58:12 array (
+  'loggedIn' => 'user',
+  'user_id' => 55,
+  'yrityskerrat' => 0,
+  'next_page' => '/SarjakuvaSeuranta/profiili.php',
+)
+2024-10-07 08:58:12 array (
+  'rememberme' => 'd1829120e9e61c5e0601143fc9eb18a5:13249a909291a07677dbcbda31dee3f66ae996673d292fc0dca88f266f3c7105',
+  'PHPSESSID' => '8nerhm3qq2df3906292gt5me0d',
+)
+2024-10-07 08:58:12 Poistettiin: 1 rememberme_token.
+2024-10-07 08:58:12 loggedIn:
+2024-10-07 08:58:19 POST:array (
+)
+2024-10-07 08:58:19 loggedIn:
+2024-10-07 08:58:19 array (
+)
+2024-10-07 08:58:23 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:58:23 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:58:23 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:58:23 kentta:rememberme,arvo:,apu:
+2024-10-07 08:58:23 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:58:23 Poistettiin: 0 rememberme_token.
+2024-10-07 08:58:23 Lisättiin: 1 rememberme_token.
+2024-10-07 08:58:23 POST:array (
+)
+2024-10-07 08:58:45 POST:array (
+)
+2024-10-07 08:58:45 loggedIn:
+2024-10-07 08:58:45 array (
+)
+2024-10-07 08:58:47 loggedIn:
+2024-10-07 08:58:53 loggedIn:
+2024-10-07 08:58:53 kentta:firstname,arvo:Riku,apu:
+2024-10-07 08:58:53 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:58:53 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:58:53 kentta:password2,arvo:asdasdasdasd,apu:
+2024-10-07 08:58:53 array (
+)
+2024-10-07 08:58:53 INSERT INTO users (firstname, email, password, created) VALUES ('Riku', 'RikuKilpimaa@hotmail.fi', '$2y$10$RVgG6H1pOga.i1Izmjh8ae36AiNEKEOmAVyFywcgNobGENkUUPfSK', '2024-10-07 08:58:53')
+2024-10-07 08:58:53 lisays:1
+2024-10-07 08:58:53 INSERT INTO signup_tokens (users_id,token) VALUES (56,'baacb68324d280674b7410de7e5e3790')
+2024-10-07 08:58:55 Viesti lähetetty: RikuKilpimaa@hotmail.fi!
+2024-10-07 08:59:15 loggedIn:
+2024-10-07 08:59:16 POST:array (
+)
+2024-10-07 08:59:16 loggedIn:
+2024-10-07 08:59:16 array (
+)
+2024-10-07 08:59:22 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:59:22 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:59:22 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:59:22 kentta:rememberme,arvo:checked,apu:
+2024-10-07 08:59:22 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:59:22 Poistettiin: 0 rememberme_token.
+2024-10-07 08:59:22 Lisättiin: 1 rememberme_token.
+2024-10-07 08:59:22 POST:array (
+)
+2024-10-07 08:59:22 loggedIn:
+2024-10-07 08:59:22 array (
+)
+2024-10-07 08:59:27 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 08:59:27 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 08:59:27 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 08:59:27 kentta:rememberme,arvo:,apu:
+2024-10-07 08:59:27 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 08:59:27 Poistettiin: 1 rememberme_token.
+2024-10-07 08:59:27 Lisättiin: 1 rememberme_token.
+2024-10-07 08:59:27 POST:array (
+)
+2024-10-07 08:59:55 loggedIn:mainuser
+2024-10-07 09:01:17 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 09:01:17 array (
+  'loggedIn' => 'mainuser',
+  'user_id' => 56,
+  'yrityskerrat' => 0,
+  'next_page' => '/SarjakuvaSeuranta/profiili.php',
+)
+2024-10-07 09:01:17 array (
+  'rememberme' => 'dd5d77e67ae5f47301ef2736c628e679:8ab99f1972e0a13c80aaca45aeecea9c500f4cd09aeeaaeadd6213daea888160',
+  'PHPSESSID' => 'apip7hv0ihdmjsbp71r3dvq2cm',
+)
+2024-10-07 09:01:17 Poistettiin: 1 rememberme_token.
+2024-10-07 09:01:17 loggedIn:
+2024-10-07 09:01:18 POST:array (
+)
+2024-10-07 09:01:18 loggedIn:
+2024-10-07 09:01:18 array (
+)
+2024-10-07 09:01:22 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 09:01:22 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 09:01:22 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 09:01:22 kentta:rememberme,arvo:,apu:
+2024-10-07 09:01:22 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 09:01:22 Poistettiin: 0 rememberme_token.
+2024-10-07 09:01:22 Lisättiin: 1 rememberme_token.
+2024-10-07 09:01:22 loggedIn:mainuser
+2024-10-07 09:01:26 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 09:01:26 array (
+  'loggedIn' => 'mainuser',
+  'user_id' => '56',
+  'yrityskerrat' => 0,
+)
+2024-10-07 09:01:26 array (
+  'rememberme' => '7904acb668133a8e2a5e40f1a17e9a1e:b931ed0aaf453a005e7bf50906e397714b281cc0681d6e982cf068dd2b9733e0',
+  'PHPSESSID' => 'lt7n6gdqbq513div6c3hll60v0',
+)
+2024-10-07 09:01:26 Poistettiin: 1 rememberme_token.
+2024-10-07 09:01:26 loggedIn:
+2024-10-07 09:01:36 POST:array (
+)
+2024-10-07 09:01:36 loggedIn:
+2024-10-07 09:01:36 array (
+)
+2024-10-07 09:01:40 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 09:01:40 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 09:01:40 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 09:01:40 kentta:rememberme,arvo:,apu:
+2024-10-07 09:01:40 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 09:01:40 Poistettiin: 0 rememberme_token.
+2024-10-07 09:01:40 Lisättiin: 1 rememberme_token.
+2024-10-07 09:01:40 loggedIn:admin
+2024-10-07 09:09:33 loggedIn:admin
+2024-10-07 09:09:34 loggedIn:admin
+2024-10-07 09:10:37 loggedIn:admin
+2024-10-07 09:12:16 POST:array (
+)
+2024-10-07 09:12:16 loggedIn:admin
+2024-10-07 09:14:27 POST:array (
+)
+2024-10-07 09:14:27 loggedIn:admin
+2024-10-07 09:17:25 POST:array (
+)
+2024-10-07 09:17:25 loggedIn:admin
+2024-10-07 09:18:09 POST:array (
+)
+2024-10-07 09:18:09 loggedIn:admin
+2024-10-07 09:18:37 POST:array (
+)
+2024-10-07 09:18:37 loggedIn:admin
+2024-10-07 09:20:06 POST:array (
+)
+2024-10-07 09:20:06 loggedIn:admin
+2024-10-07 09:20:28 POST:array (
+)
+2024-10-07 09:20:28 loggedIn:admin
+2024-10-07 09:20:36 POST:array (
+  'imgname' => 'Kuva',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'painike' => 'Tallenna',
+)
+2024-10-07 09:20:36 loggedIn:admin
+2024-10-07 09:33:36 POST:array (
+  'imgname' => 'Kuva',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'painike' => 'Tallenna',
+)
+2024-10-07 09:33:36 loggedIn:admin
+2024-10-07 09:33:41 POST:array (
+  'imgname' => 'Kuva',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'painike' => 'Tallenna',
+)
+2024-10-07 09:33:41 loggedIn:admin
+2024-10-07 10:05:11 loggedIn:admin
+2024-10-07 10:05:14 loggedIn:admin
+2024-10-07 11:17:53 loggedIn:admin
+2024-10-07 11:21:20 user_id:56
+2024-10-07 11:21:20 SELECT * FROM users WHERE id = 56
+2024-10-07 11:21:20 current_image:
+2024-10-07 11:21:20 kuvatiedosto:
+2024-10-07 11:21:20 loggedIn:admin
+2024-10-07 11:34:29 user_id:56
+2024-10-07 11:34:29 SELECT * FROM users WHERE id = 56
+2024-10-07 11:34:29 current_image:
+2024-10-07 11:34:29 kuvatiedosto:
+2024-10-07 11:34:29 loggedIn:admin
+2024-10-07 11:34:37 user_id:56
+2024-10-07 11:34:37 _POST:
+2024-10-07 11:34:37 array (
+  'imgname' => 'kuva',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 11:34:37 kentta:imgname,arvo:kuva,apu:
+2024-10-07 11:34:37 kentta:current_image,arvo:,apu:
+2024-10-07 11:34:37 tiedostokentta:image
+2024-10-07 11:34:37 image:
+2024-10-07 11:34:37 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 11:34:37 array (
+)
+2024-10-07 11:34:37 UPDATE users SET image = NULL WHERE id = 56
+2024-10-07 11:34:37 muutos:0
+2024-10-07 11:34:37 loggedIn:admin
+2024-10-07 11:34:41 user_id:56
+2024-10-07 11:34:41 SELECT * FROM users WHERE id = 56
+2024-10-07 11:34:41 current_image:
+2024-10-07 11:34:41 kuvatiedosto:
+2024-10-07 11:34:41 loggedIn:admin
+2024-10-07 11:34:43 loggedIn:admin
+2024-10-07 11:34:46 loggedIn:admin
+2024-10-07 11:34:47 user_id:56
+2024-10-07 11:34:47 SELECT * FROM users WHERE id = 56
+2024-10-07 11:34:47 current_image:
+2024-10-07 11:34:47 kuvatiedosto:
+2024-10-07 11:34:47 loggedIn:admin
+2024-10-07 11:38:34 loggedIn:admin
+2024-10-07 11:38:36 loggedIn:admin
+2024-10-07 11:45:52 loggedIn:admin
+2024-10-07 11:45:52 user_id:56
+2024-10-07 11:45:52 SELECT * FROM users WHERE id = 56
+2024-10-07 11:45:52 current_image:
+2024-10-07 11:45:52 kuvatiedosto:
+2024-10-07 11:46:22 loggedIn:admin
+2024-10-07 11:46:22 user_id:56
+2024-10-07 11:46:22 SELECT * FROM users WHERE id = 56
+2024-10-07 11:46:22 current_image:
+2024-10-07 11:46:22 kuvatiedosto:
+2024-10-07 11:46:53 loggedIn:admin
+2024-10-07 11:46:53 user_id:56
+2024-10-07 11:46:53 SELECT * FROM users WHERE id = 56
+2024-10-07 11:46:53 current_image:
+2024-10-07 11:46:53 kuvatiedosto:
+2024-10-07 11:47:04 user_id:56
+2024-10-07 11:47:04 SELECT * FROM users WHERE id = 56
+2024-10-07 11:47:04 current_image:
+2024-10-07 11:47:04 kuvatiedosto:
+2024-10-07 11:47:04 loggedIn:admin
+2024-10-07 11:47:09 user_id:56
+2024-10-07 11:47:09 _POST:
+2024-10-07 11:47:09 array (
+  'imgname' => 'kuva',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 11:47:09 kentta:imgname,arvo:kuva,apu:
+2024-10-07 11:47:09 kentta:current_image,arvo:,apu:
+2024-10-07 11:47:09 tiedostokentta:image
+2024-10-07 11:47:09 image:
+2024-10-07 11:47:09 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 11:47:09 array (
+)
+2024-10-07 11:47:09 UPDATE users SET image = NULL WHERE id = 56
+2024-10-07 11:47:09 muutos:0
+2024-10-07 11:47:10 loggedIn:admin
+2024-10-07 11:47:10 user_id:56
+2024-10-07 11:47:10 SELECT * FROM users WHERE id = 56
+2024-10-07 11:47:10 current_image:
+2024-10-07 11:47:10 kuvatiedosto:
+2024-10-07 11:47:45 loggedIn:admin
+2024-10-07 11:47:45 user_id:56
+2024-10-07 11:47:45 SELECT * FROM users WHERE id = 56
+2024-10-07 11:47:45 current_image:
+2024-10-07 11:47:45 kuvatiedosto:
+2024-10-07 11:49:47 loggedIn:admin
+2024-10-07 11:49:47 user_id:56
+2024-10-07 11:49:47 SELECT * FROM users WHERE id = 56
+2024-10-07 11:49:47 current_image:
+2024-10-07 11:49:47 kuvatiedosto:
+2024-10-07 12:00:52 loggedIn:admin
+2024-10-07 12:00:52 user_id:56
+2024-10-07 12:00:52 SELECT * FROM users WHERE id = 56
+2024-10-07 12:00:52 current_image:
+2024-10-07 12:00:52 kuvatiedosto:
+2024-10-07 12:01:25 loggedIn:admin
+2024-10-07 12:01:25 user_id:56
+2024-10-07 12:01:25 SELECT * FROM users WHERE id = 56
+2024-10-07 12:01:25 current_image:
+2024-10-07 12:01:25 kuvatiedosto:
+2024-10-07 12:01:42 loggedIn:admin
+2024-10-07 12:01:42 user_id:56
+2024-10-07 12:01:42 SELECT * FROM users WHERE id = 56
+2024-10-07 12:01:42 current_image:
+2024-10-07 12:01:42 kuvatiedosto:
+2024-10-07 12:02:36 loggedIn:admin
+2024-10-07 12:02:36 user_id:56
+2024-10-07 12:02:36 SELECT * FROM users WHERE id = 56
+2024-10-07 12:02:36 current_image:
+2024-10-07 12:02:36 kuvatiedosto:
+2024-10-07 12:03:18 loggedIn:admin
+2024-10-07 12:03:18 user_id:56
+2024-10-07 12:03:18 SELECT * FROM users WHERE id = 56
+2024-10-07 12:03:18 current_image:
+2024-10-07 12:03:18 kuvatiedosto:
+2024-10-07 12:03:41 loggedIn:admin
+2024-10-07 12:03:41 user_id:56
+2024-10-07 12:03:41 SELECT * FROM users WHERE id = 56
+2024-10-07 12:03:41 current_image:
+2024-10-07 12:03:41 kuvatiedosto:
+2024-10-07 12:03:42 user_id:56
+2024-10-07 12:03:42 SELECT * FROM users WHERE id = 56
+2024-10-07 12:03:42 current_image:
+2024-10-07 12:03:42 kuvatiedosto:
+2024-10-07 12:03:42 loggedIn:admin
+2024-10-07 12:11:16 user_id:56
+2024-10-07 12:11:16 _POST:
+2024-10-07 12:11:16 array (
+  'imgname' => 'kuva',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 12:11:16 kentta:imgname,arvo:kuva,apu:
+2024-10-07 12:11:16 kentta:current_image,arvo:,apu:
+2024-10-07 12:11:16 tiedostokentta:image
+2024-10-07 12:11:16 image:
+2024-10-07 12:11:16 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 12:11:16 array (
+)
+2024-10-07 12:11:16 UPDATE users SET image = NULL WHERE id = 56
+2024-10-07 12:11:16 muutos:0
+2024-10-07 12:11:16 loggedIn:admin
+2024-10-07 12:11:16 user_id:56
+2024-10-07 12:11:16 SELECT * FROM users WHERE id = 56
+2024-10-07 12:11:16 current_image:
+2024-10-07 12:11:16 kuvatiedosto:
+
+
+uusi
+
+
+2024-10-07 12:11:52 user_id:56
+2024-10-07 12:11:52 SELECT * FROM users WHERE id = 56
+2024-10-07 12:11:52 current_image:
+2024-10-07 12:11:52 kuvatiedosto:
+2024-10-07 12:11:52 loggedIn:admin
+2024-10-07 12:11:58 user_id:56
+2024-10-07 12:11:58 _POST:
+2024-10-07 12:11:58 array (
+  'imgname' => 'kuva',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 12:11:58 kentta:imgname,arvo:kuva,apu:
+2024-10-07 12:11:58 kentta:current_image,arvo:,apu:
+2024-10-07 12:11:58 tiedostokentta:image
+2024-10-07 12:11:58 image:
+2024-10-07 12:11:58 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 12:11:58 array (
+)
+2024-10-07 12:11:58 UPDATE users SET image = NULL WHERE id = 56
+2024-10-07 12:11:58 muutos:0
+2024-10-07 12:11:58 loggedIn:admin
+2024-10-07 12:11:58 user_id:56
+2024-10-07 12:11:58 SELECT * FROM users WHERE id = 56
+2024-10-07 12:11:58 current_image:
+2024-10-07 12:11:58 kuvatiedosto:
+2024-10-07 12:17:36 loggedIn:admin
+2024-10-07 12:17:36 user_id:56
+2024-10-07 12:17:36 SELECT * FROM users WHERE id = 56
+2024-10-07 12:17:36 current_image:
+2024-10-07 12:17:36 kuvatiedosto:
+2024-10-07 12:17:37 user_id:56
+2024-10-07 12:17:37 SELECT * FROM users WHERE id = 56
+2024-10-07 12:17:37 current_image:
+2024-10-07 12:17:37 kuvatiedosto:
+2024-10-07 12:17:37 loggedIn:admin
+2024-10-07 12:17:42 user_id:56
+2024-10-07 12:17:42 _POST:
+2024-10-07 12:17:42 array (
+  'imgname' => 'kuva',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 12:17:42 kentta:imgname,arvo:kuva,apu:
+2024-10-07 12:17:42 kentta:current_image,arvo:,apu:
+2024-10-07 12:17:42 tiedostokentta:image
+2024-10-07 12:17:42 image:
+2024-10-07 12:17:42 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 12:17:42 array (
+)
+2024-10-07 12:17:42 UPDATE users SET image = NULL WHERE id = 56
+2024-10-07 12:17:42 muutos:0
+2024-10-07 12:17:42 loggedIn:admin
+2024-10-07 12:17:42 user_id:56
+2024-10-07 12:17:42 SELECT * FROM users WHERE id = 56
+2024-10-07 12:17:42 current_image:
+2024-10-07 12:17:42 kuvatiedosto:
+2024-10-07 12:21:30 loggedIn:admin
+2024-10-07 12:21:30 user_id:56
+2024-10-07 12:21:30 SELECT * FROM users WHERE id = 56
+2024-10-07 12:21:30 current_image:
+2024-10-07 12:21:30 kuvatiedosto:
+2024-10-07 12:21:31 user_id:56
+2024-10-07 12:21:31 SELECT * FROM users WHERE id = 56
+2024-10-07 12:21:31 current_image:
+2024-10-07 12:21:31 kuvatiedosto:
+2024-10-07 12:21:31 loggedIn:admin
+2024-10-07 12:21:40 user_id:56
+2024-10-07 12:21:40 _POST:
+2024-10-07 12:21:40 array (
+  'imgname' => 'kuva',
+  'current_image' => '',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 12:21:40 kentta:imgname,arvo:kuva,apu:
+2024-10-07 12:21:40 kentta:current_image,arvo:,apu:
+2024-10-07 12:21:40 tiedostokentta:image
+2024-10-07 12:21:40 image:
+2024-10-07 12:21:40 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 12:21:40 array (
+)
+2024-10-07 12:21:40 UPDATE users SET image = NULL WHERE id = 56
+2024-10-07 12:21:40 muutos:0
+2024-10-07 12:21:40 loggedIn:admin
+2024-10-07 12:21:40 user_id:56
+2024-10-07 12:21:40 SELECT * FROM users WHERE id = 56
+2024-10-07 12:21:40 current_image:
+2024-10-07 12:21:40 kuvatiedosto:
+2024-10-07 12:25:43 loggedIn:admin
+2024-10-07 12:25:43 user_id:56
+2024-10-07 12:25:43 SELECT * FROM users WHERE id = 56
+2024-10-07 12:25:43 current_image:
+2024-10-07 12:25:43 kuvatiedosto:
+
+
+uusi
+
+2024-10-07 12:25:57 user_id:56
+2024-10-07 12:25:57 SELECT * FROM users WHERE id = 56
+2024-10-07 12:25:57 current_image:
+2024-10-07 12:25:57 kuvatiedosto:
+2024-10-07 12:25:57 loggedIn:admin
+2024-10-07 12:26:01 user_id:56
+2024-10-07 12:26:01 _POST:
+2024-10-07 12:26:01 array (
+  'imgname' => 'kuva',
+  'current_image' => '',
+  'image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA.png',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 12:26:01 kentta:imgname,arvo:kuva,apu:
+2024-10-07 12:26:01 kentta:current_image,arvo:,apu:
+2024-10-07 12:26:01 tiedostokentta:image
+2024-10-07 12:26:01 image:
+2024-10-07 12:26:01 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 12:26:01 array (
+)
+2024-10-07 12:26:01 UPDATE users SET image = NULL WHERE id = 56
+2024-10-07 12:26:01 muutos:0
+2024-10-07 12:26:01 loggedIn:admin
+2024-10-07 12:26:01 user_id:56
+2024-10-07 12:26:01 SELECT * FROM users WHERE id = 56
+2024-10-07 12:26:01 current_image:
+2024-10-07 12:26:01 kuvatiedosto:
+2024-10-07 12:35:15 loggedIn:admin
+2024-10-07 12:35:15 user_id:56
+2024-10-07 12:35:15 SELECT * FROM users WHERE id = 56
+2024-10-07 12:35:15 current_image:
+2024-10-07 12:35:15 kuvatiedosto:
+2024-10-07 12:35:16 user_id:56
+2024-10-07 12:35:16 SELECT * FROM users WHERE id = 56
+2024-10-07 12:35:16 current_image:
+2024-10-07 12:35:16 kuvatiedosto:
+2024-10-07 12:35:16 loggedIn:admin
+2024-10-07 12:35:25 user_id:56
+2024-10-07 12:35:25 _POST:
+2024-10-07 12:35:25 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 12:35:25 kentta:imgname,arvo:kuva,apu:
+2024-10-07 12:35:25 kentta:current_image,arvo:,apu:
+2024-10-07 12:35:25 tiedostokentta:image
+2024-10-07 12:35:25 tiedostokentta:image
+2024-10-07 12:35:25 tiedosto:C:\xampp\tmp\phpB02C.tmp, kohde:profiili_kuvat/VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_738b18.png
+2024-10-07 12:35:25 tiedostotyyppi:png, koko:3015206
+2024-10-07 12:35:25 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_738b18.png,mime: image/png, png, 3015206 tavua
+2024-10-07 12:35:25 image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_738b18.png
+2024-10-07 12:35:25 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 12:35:25 array (
+)
+2024-10-07 12:35:25 UPDATE users SET image = 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_738b18.png' WHERE id = 56
+2024-10-07 12:35:25 muutos:1
+2024-10-07 12:35:25 loggedIn:admin
+2024-10-07 12:35:25 user_id:56
+2024-10-07 12:35:25 SELECT * FROM users WHERE id = 56
+2024-10-07 12:35:25 current_image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_738b18.png
+2024-10-07 12:35:25 kuvatiedosto:
+2024-10-07 12:35:28 user_id:56
+2024-10-07 12:35:28 SELECT * FROM users WHERE id = 56
+2024-10-07 12:35:28 current_image:
+2024-10-07 12:35:28 kuvatiedosto:
+2024-10-07 12:35:28 loggedIn:admin
+2024-10-07 12:35:30 loggedIn:admin
+2024-10-07 12:35:31 loggedIn:admin
+2024-10-07 12:35:31 user_id:56
+2024-10-07 12:35:31 SELECT * FROM users WHERE id = 56
+2024-10-07 12:35:31 current_image:
+2024-10-07 12:35:31 kuvatiedosto:
+2024-10-07 12:35:32 user_id:56
+2024-10-07 12:35:32 SELECT * FROM users WHERE id = 56
+2024-10-07 12:35:32 current_image:
+2024-10-07 12:35:32 kuvatiedosto:
+2024-10-07 12:35:32 loggedIn:admin
+2024-10-07 12:36:09 user_id:56
+2024-10-07 12:36:09 loggedIn:admin
+2024-10-07 12:37:07 user_id:56
+2024-10-07 12:37:07 loggedIn:admin
+2024-10-07 12:37:15 user_id:56
+2024-10-07 12:37:15 loggedIn:admin
+2024-10-07 12:38:10 user_id:56
+2024-10-07 12:38:10 loggedIn:admin
+2024-10-07 12:38:51 user_id:56
+2024-10-07 12:38:51 loggedIn:admin
+2024-10-07 12:38:53 user_id:56
+2024-10-07 12:38:53 loggedIn:admin
+2024-10-07 12:38:59 user_id:56
+2024-10-07 12:38:59 _POST:
+2024-10-07 12:38:59 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 12:38:59 kentta:imgname,arvo:kuva,apu:
+2024-10-07 12:38:59 kentta:current_image,arvo:,apu:
+2024-10-07 12:38:59 tiedostokentta:image
+2024-10-07 12:38:59 tiedostokentta:image
+2024-10-07 12:38:59 tiedosto:C:\xampp\tmp\phpF3CF.tmp, kohde:profiili_kuvat/VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_2cac6a.png
+2024-10-07 12:38:59 tiedostotyyppi:png, koko:3015206
+2024-10-07 12:38:59 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_2cac6a.png,mime: image/png, png, 3015206 tavua
+2024-10-07 12:38:59 image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_2cac6a.png
+2024-10-07 12:38:59 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 12:38:59 array (
+)
+2024-10-07 12:38:59 UPDATE users SET image = 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_2cac6a.png' WHERE id = 56
+2024-10-07 12:38:59 muutos:1
+2024-10-07 12:38:59 loggedIn:admin
+2024-10-07 12:38:59 user_id:56
+2024-10-07 12:38:59 SELECT * FROM users WHERE id = 56
+2024-10-07 12:38:59 current_image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_2cac6a.png
+2024-10-07 12:38:59 kuvatiedosto:
+2024-10-07 12:39:27 loggedIn:admin
+2024-10-07 12:39:27 user_id:56
+2024-10-07 12:39:27 SELECT * FROM users WHERE id = 56
+2024-10-07 12:39:27 current_image:
+2024-10-07 12:39:27 kuvatiedosto:
+2024-10-07 12:39:42 loggedIn:admin
+2024-10-07 12:39:42 user_id:56
+2024-10-07 12:39:42 SELECT * FROM users WHERE id = 56
+2024-10-07 12:39:42 current_image:
+2024-10-07 12:39:42 kuvatiedosto:
+2024-10-07 12:39:43 loggedIn:admin
+2024-10-07 12:39:43 user_id:56
+2024-10-07 12:39:43 SELECT * FROM users WHERE id = 56
+2024-10-07 12:39:43 current_image:
+2024-10-07 12:39:43 kuvatiedosto:
+2024-10-07 12:39:43 user_id:56
+2024-10-07 12:39:43 loggedIn:admin
+2024-10-07 12:39:48 user_id:56
+2024-10-07 12:39:48 _POST:
+2024-10-07 12:39:48 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 12:39:48 kentta:imgname,arvo:kuva,apu:
+2024-10-07 12:39:48 kentta:current_image,arvo:,apu:
+2024-10-07 12:39:48 tiedostokentta:image
+2024-10-07 12:39:48 tiedostokentta:image
+2024-10-07 12:39:48 tiedosto:C:\xampp\tmp\phpB2DA.tmp, kohde:profiili_kuvat/VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_22749c.png
+2024-10-07 12:39:48 tiedostotyyppi:png, koko:3015206
+2024-10-07 12:39:48 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_22749c.png,mime: image/png, png, 3015206 tavua
+2024-10-07 12:39:48 image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_22749c.png
+2024-10-07 12:39:48 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 12:39:48 array (
+)
+2024-10-07 12:39:48 UPDATE users SET image = 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_22749c.png' WHERE id = 56
+2024-10-07 12:39:48 muutos:1
+2024-10-07 12:39:48 loggedIn:admin
+2024-10-07 12:39:48 user_id:56
+2024-10-07 12:39:48 SELECT * FROM users WHERE id = 56
+2024-10-07 12:39:48 current_image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_22749c.png
+2024-10-07 12:39:48 kuvatiedosto:
+2024-10-07 12:39:52 loggedIn:admin
+2024-10-07 12:39:52 user_id:56
+2024-10-07 12:39:52 SELECT * FROM users WHERE id = 56
+2024-10-07 12:39:52 current_image:
+2024-10-07 12:39:52 kuvatiedosto:
+2024-10-07 12:39:54 loggedIn:admin
+2024-10-07 12:39:54 user_id:56
+2024-10-07 12:39:54 SELECT * FROM users WHERE id = 56
+2024-10-07 12:39:54 current_image:
+2024-10-07 12:39:54 kuvatiedosto:
+2024-10-07 12:39:56 user_id:56
+2024-10-07 12:39:56 loggedIn:admin
+2024-10-07 12:40:00 user_id:56
+2024-10-07 12:40:00 _POST:
+2024-10-07 12:40:00 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 12:40:00 kentta:imgname,arvo:kuva,apu:
+2024-10-07 12:40:00 kentta:current_image,arvo:,apu:
+2024-10-07 12:40:00 tiedostokentta:image
+2024-10-07 12:40:00 tiedostokentta:image
+2024-10-07 12:40:00 tiedosto:C:\xampp\tmp\phpE15E.tmp, kohde:profiili_kuvat/VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_77e3cc.png
+2024-10-07 12:40:00 tiedostotyyppi:png, koko:3015206
+2024-10-07 12:40:00 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_77e3cc.png,mime: image/png, png, 3015206 tavua
+2024-10-07 12:40:00 image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_77e3cc.png
+2024-10-07 12:40:00 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 12:40:00 array (
+)
+2024-10-07 12:40:00 UPDATE users SET image = 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_77e3cc.png' WHERE id = 56
+2024-10-07 12:40:00 muutos:1
+2024-10-07 12:40:00 loggedIn:admin
+2024-10-07 12:40:00 user_id:56
+2024-10-07 12:40:00 SELECT * FROM users WHERE id = 56
+2024-10-07 12:40:00 current_image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_77e3cc.png
+2024-10-07 12:40:00 kuvatiedosto:
+2024-10-07 12:40:15 loggedIn:admin
+2024-10-07 12:40:15 user_id:56
+2024-10-07 12:40:15 SELECT * FROM users WHERE id = 56
+2024-10-07 12:40:15 current_image:
+2024-10-07 12:40:15 kuvatiedosto:
+2024-10-07 12:40:27 loggedIn:admin
+2024-10-07 12:40:27 user_id:56
+2024-10-07 12:40:27 SELECT * FROM users WHERE id = 56
+2024-10-07 12:40:27 current_image:
+2024-10-07 12:40:27 kuvatiedosto:
+2024-10-07 12:40:36 loggedIn:admin
+2024-10-07 12:40:36 user_id:56
+2024-10-07 12:40:36 SELECT * FROM users WHERE id = 56
+2024-10-07 12:40:36 current_image:
+2024-10-07 12:40:36 kuvatiedosto:
+2024-10-07 12:42:38 loggedIn:admin
+2024-10-07 12:42:38 user_id:56
+2024-10-07 12:42:38 SELECT * FROM users WHERE id = 56
+2024-10-07 12:42:38 current_image:
+2024-10-07 12:42:38 kuvatiedosto:
+2024-10-07 12:43:49 loggedIn:admin
+2024-10-07 12:43:49 user_id:56
+2024-10-07 12:43:49 SELECT * FROM users WHERE id = 56
+2024-10-07 12:43:49 current_image:
+2024-10-07 12:43:49 kuvatiedosto:
+2024-10-07 12:43:50 loggedIn:admin
+2024-10-07 12:43:50 user_id:56
+2024-10-07 12:43:50 SELECT * FROM users WHERE id = 56
+2024-10-07 12:43:50 current_image:
+2024-10-07 12:43:50 kuvatiedosto:
+2024-10-07 12:43:51 loggedIn:admin
+2024-10-07 12:43:51 user_id:56
+2024-10-07 12:43:51 SELECT * FROM users WHERE id = 56
+2024-10-07 12:43:51 current_image:
+2024-10-07 12:43:51 kuvatiedosto:
+2024-10-07 12:44:09 loggedIn:admin
+2024-10-07 12:44:09 user_id:56
+2024-10-07 12:44:09 SELECT * FROM users WHERE id = 56
+2024-10-07 12:44:09 current_image:
+2024-10-07 12:44:09 kuvatiedosto:
+2024-10-07 12:44:10 loggedIn:admin
+2024-10-07 12:44:10 user_id:56
+2024-10-07 12:44:10 SELECT * FROM users WHERE id = 56
+2024-10-07 12:44:10 current_image:
+2024-10-07 12:44:10 kuvatiedosto:
+2024-10-07 12:44:10 loggedIn:admin
+2024-10-07 12:44:10 user_id:56
+2024-10-07 12:44:10 SELECT * FROM users WHERE id = 56
+2024-10-07 12:44:10 current_image:
+2024-10-07 12:44:10 kuvatiedosto:

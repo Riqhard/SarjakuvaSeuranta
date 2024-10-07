@@ -44,7 +44,7 @@ if (isset($_POST['painike']) and !$message){
                 $stmt->fetch();
 
                 // Päivitä nimi
-                $update_query = "UPDATE users SET name = ? WHERE id = ?";
+                $update_query = "UPDATE users SET firstname = ? WHERE id = ?";
                 $update_stmt = $yhteys->prepare($update_query);
                 if (!$update_stmt) {
                     die("Tietokantayhteys ei toimi: " . $yhteys->error);

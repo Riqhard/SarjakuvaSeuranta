@@ -1,28 +1,25 @@
-<?php
+<?php 
 include "asetukset.php";
 include "db.php";
 include "rememberme.php";
 include "debuggeri.php";
 if ($loggedIn = loggedIn()) {
-  header("location: profiili.php");
-  exit;
-  }
-
-$title = "login";
+    header("location: profiili.php");
+    exit;
+    }
+$title = 'Kirjautuminen';
 $navbar = false;
 $css = "login.css";
-
+/* Lomakkeen kentät, nimet samat kuin users-taulussa. */
 $kentat = ['email','password','rememberme'];
 $kentat_suomi = ['sähköpostiosoite','salasana','muista minut'];
 $pakolliset = ['email','password'];
 include "virheilmoitukset.php";
 include 'kasittelija_login.php';
 echo "<script>const virheilmoitukset = $virheilmoitukset_json</script>";
-include 'header.php';
+include "header.php"; 
 debuggeri($errors);
 ?>
-
-
 
 <div class="login_logo">
 <a href="index.php">

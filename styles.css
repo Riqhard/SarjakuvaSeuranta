@@ -161,6 +161,7 @@ form{
     flex-grow: 4;
     object-fit: cover;
 }
+
 #sailio{
     padding-top: 3px;
     max-width: 1200px; 

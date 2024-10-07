@@ -61,6 +61,7 @@ function active($sivu,$active){
 
 ?>
 <?php
+
 if ($navbar ?? true){
 switch ($loggedIn) {
   case 'admin':

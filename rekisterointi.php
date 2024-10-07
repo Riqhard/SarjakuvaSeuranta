@@ -57,7 +57,7 @@ debuggeri($errors);
 if (empty($errors)) {
     $created = date('Y-m-d H:i:s');
     $password = password_hash($password, PASSWORD_DEFAULT);
-    $query = "INSERT INTO users (name, email, password, created) VALUES ('$name', '$email', '$password', '$created')";
+    $query = "INSERT INTO users (firstname, email, password, created) VALUES ('$firstname', '$email', '$password', '$created')";
     debuggeri($query);
     $result = mysqli_my_query($query);
     $lisays = $yhteys->affected_rows;

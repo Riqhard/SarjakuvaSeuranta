@@ -16,19 +16,19 @@ function hae_kuva($kentta){
         if (!isset($_FILES[$kentta])) continue;    
         if (is_uploaded_file($_FILES[$kentta]['tmp_name'])) {
            $random = randomString(3);
-           $maxsize = PROFIILIKUVAKOKO;
+           $maxsize = SARJAKUVAKUVAKOKO;
            $temp_file = $_FILES[$kentta]["tmp_name"];       
            $filesize = $_FILES[$kentta]['size'];
            $pathinfo = pathinfo($_FILES[$kentta]["name"]);
            $filetype = strtolower($pathinfo['extension']);
            $image = $pathinfo['filename']."_$random.$filetype";
-           $target_dir = PROFIILIKUVAKANSIO;
+           $target_dir = SARJAKUVAKUVAKANSIO;
            $target_file = "$target_dir/$image";
            /* Check if image file is a actual image or fake image */
            if (!$check = getimagesize($temp_file)) $virhe = "Kuva ei kelpaa.";
            elseif (file_exists($target_file)) $virhe = "Kuvatiedosto on jo olemassa.";
            elseif (!in_array($filetype,$allowed_images)) $virhe = "Väärä tiedostotyyppi.";
-           elseif ($filesize > $maxsize) $virhe = "Kuvan koon tulee olla korkeintaan 5 MB.";
+           elseif ($filesize > $maxsize) $virhe = "Kuvan koon tulee olla korkeintaan 10 MB.";
            debuggeri("File $image,mime: {$check['mime']}, $filetype, $filesize tavua");
            if (!$virhe){
               if (!move_uploaded_file($temp_file,$target_file)) 

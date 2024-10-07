@@ -29,6 +29,9 @@ $patterns['name'] = "/^[a-zåäöA-ZÅÄÖ '\-]+$/";
 $patterns['mobilenumber'] = "/^[0-9]{7,15}$/";
 $patterns['email'] = "/^[$w]+[$w.+-]*@[$w-]+(\.[$w-]{2,})?\.[a-zA-Z]{2,}$/";
 $patterns['image'] = "/^[^\s]+\.(jpe?g|png|gif|bmp)$/"; 
+
+$patterns['imgname'] = "/^[A-ZÅÄÖa-zåäö0-9\s\.\,\!\?\-\:\']{2,100}$/";
+
 $patterns['rememberme'] = "/^checked$/";
 
 $patterns['title'] = "/^[A-ZÅÄÖa-zåäö0-9\s\.\,\!\?\-\:\']{2,100}$/";
@@ -90,6 +93,8 @@ $virheilmoitukset['new_password2']['customError'] = "Salasanat eivät täsmää"
 $virheilmoitukset['email']['emailExistsError'] = "Sähköpostiosoite on jo käytössä";     
 $virheilmoitukset['firstname']['nameExistsError'] = "Nimi on jo käytössä";  
 $virheilmoitukset['lastname']['nameExistsError'] = "Nimi on jo käytössä";  
+
+$virheilmoitukset['imgname']['valueMissing'] = "Anna profiili kuvalle nimi";
  
 $virheilmoitukset['title']['valueMissing'] = "Anna sarjakuvalle nimi";
 $virheilmoitukset['description']['valueMissing'] = "Anna sarjakuvan kuvaus";
