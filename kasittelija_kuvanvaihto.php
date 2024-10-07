@@ -41,9 +41,7 @@ function hae_kuva($kentat_tiedosto){
         $virhe = false;   
         $image = "";
         foreach ($kentat_tiedosto as $kentta){
-            debuggeri("tiedostokentta:$kentta"); 
             if (!isset($_FILES[$kentta])) continue;   
-            debuggeri("tiedostokentta:$kentta"); 
             if (is_uploaded_file($_FILES[$kentta]['tmp_name'])) {
             $random = randomString(3);
             $maxsize = PROFIILIKUVAKOKO;

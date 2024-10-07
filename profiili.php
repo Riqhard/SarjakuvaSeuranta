@@ -36,14 +36,9 @@ if (isset($thisid)) {
         <div>Email: <?php echo $email ?></div>
 
         <div class="sisalto_otsikko">Profiili kuva:</div>
+        <img src="<?php echo htmlspecialchars($current_image, ENT_QUOTES, 'UTF-8'); ?>" width="300">
 
-        <img src="profiili_kuvat/<?php
-        if (empty($current_image)) {
-            echo "placeholder.png";
-        } else {
-            echo $current_image;
-        }
-        ?>" alt="Profiili kuva" width="300">
+
 
     </div>
 
@@ -54,7 +49,7 @@ if (isset($thisid)) {
     <a href="changeprofilepicture.php">Vaihda profiili kuva</a><br>
     <a href="changeemail.php">Vaihda Sähköpostiosoite</a><br>
     <a href="changepassword.php">Vaihda Salasana</a><br>
-    <a href='poistaprofiili.php?id=<?php echo $thisid; ?>' onclick='return confirm("Haluatko varmasti poistaa tämän sarjakuvan?")'>Poista Profiili</a>
+    <a href='poistaprofiili.php?id=<?php echo $thisid; ?>' onclick='return confirm("Haluatko varmasti poistaa käyttäjän? Tätä toimintoa on pysyvä.")'>Poista Profiili</a>
     </div>
 
 </div>

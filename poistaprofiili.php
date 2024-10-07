@@ -32,19 +32,20 @@ if (isset($_GET['id'])) {
     }
 
     // Poista käyttäjä tietokannasta
-    $query = "DELETE FROM users WHERE id = ?";
+    // $query = "DELETE FROM users WHERE id = ?";
+    $query = "UPDATE users SET is_active = ? WHERE id = ?";
     $stmt = $yhteys->prepare($query);
     if (!$stmt) {
         die("Tietokantayhteys ei toimi: " . $yhteys->error);
     }
 
-    $stmt->bind_param("i", $id);
+    $stmt->bind_param("si", "0", $id);
     if (!$stmt->execute()) {
-        die("Käyttäjän poisto epäonnistui: " . $stmt->error);
+        die("Käyttäjä on siirretty unactivated tilaan: " . $stmt->error);
     }
    
     // Uudelleenohjataan takaisin pääsivulle
-    header("Location: index.php");
+    header("Location: logout.php");
     exit();
 } else {
     echo "ID:tä ei ole asetettu.";

@@ -88,7 +88,7 @@ if ($success != "success") { ?>
 <div class="uutis_otsikko">
 
 <div class="login_logo">
-<a href="index.php">
+<a href="profiili.php">
 <img src="pictures/BatmanCut.png" alt="Profiilikuva" class="profile-image">
 </a>
 </div>

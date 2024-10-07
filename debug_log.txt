@@ -2622,3 +2622,192 @@ uusi
 2024-10-07 12:44:10 SELECT * FROM users WHERE id = 56
 2024-10-07 12:44:10 current_image:
 2024-10-07 12:44:10 kuvatiedosto:
+2024-10-07 19:04:29 loggedIn:admin
+2024-10-07 19:04:29 user_id:56
+2024-10-07 19:04:29 SELECT * FROM users WHERE id = 56
+2024-10-07 19:04:29 current_image:
+2024-10-07 19:04:29 kuvatiedosto:
+2024-10-07 19:05:24 loggedIn:admin
+2024-10-07 19:05:24 user_id:56
+2024-10-07 19:05:24 SELECT * FROM users WHERE id = 56
+2024-10-07 19:05:24 current_image:
+2024-10-07 19:05:24 kuvatiedosto:
+2024-10-07 19:06:38 loggedIn:admin
+2024-10-07 19:06:38 user_id:56
+2024-10-07 19:06:38 SELECT * FROM users WHERE id = 56
+2024-10-07 19:06:38 current_image:
+2024-10-07 19:06:38 kuvatiedosto:
+2024-10-07 19:27:43 loggedIn:admin
+2024-10-07 19:27:48 loggedIn:admin
+2024-10-07 19:27:50 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-07 19:27:50 array (
+  'loggedIn' => 'admin',
+  'user_id' => '56',
+  'yrityskerrat' => 0,
+)
+2024-10-07 19:27:50 array (
+  'rememberme' => '1fcf08f866fe33eafb2b221edcb724a7:486b7004ecabade9936e9b0424d8c406715d19642e7a17d0c4056295ec56dd44',
+  'PHPSESSID' => 'sttdfbh09ubqvhfilbavdfq9i3',
+)
+2024-10-07 19:27:50 Poistettiin: 1 rememberme_token.
+2024-10-07 19:27:50 loggedIn:
+2024-10-07 19:27:52 loggedIn:
+2024-10-07 19:28:03 loggedIn:
+2024-10-07 19:28:15 loggedIn:
+2024-10-07 19:28:20 POST:array (
+)
+2024-10-07 19:28:20 loggedIn:
+2024-10-07 19:28:20 array (
+)
+2024-10-07 19:28:25 loggedIn:
+2024-10-07 19:28:25 POST:array (
+)
+2024-10-07 19:28:25 loggedIn:
+2024-10-07 19:28:25 array (
+)
+2024-10-07 19:28:26 loggedIn:
+2024-10-07 19:28:28 POST:array (
+)
+2024-10-07 19:28:28 loggedIn:
+2024-10-07 19:28:28 array (
+)
+2024-10-07 19:28:34 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-07 19:28:34 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-07 19:28:34 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-07 19:28:34 kentta:rememberme,arvo:checked,apu:
+2024-10-07 19:28:34 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-07 19:28:34 Poistettiin: 0 rememberme_token.
+2024-10-07 19:28:34 Lisättiin: 1 rememberme_token.
+2024-10-07 19:28:34 loggedIn:admin
+2024-10-07 19:28:34 SELECT image FROM users WHERE id = 56
+2024-10-07 19:28:34 current_image:
+2024-10-07 19:28:34 kuvatiedosto:
+2024-10-07 19:28:48 POST:array (
+)
+2024-10-07 19:28:48 loggedIn:admin
+2024-10-07 19:28:48 array (
+)
+2024-10-07 19:29:06 POST:array (
+  'password' => '2222222222222222',
+  'new_password' => '1123123123123',
+  'new_password2' => '123123123123',
+  'painike' => '',
+)
+2024-10-07 19:29:06 kentta:password,arvo:2222222222222222,apu:
+2024-10-07 19:29:06 kentta:new_password,arvo:1123123123123,apu:
+2024-10-07 19:29:06 kentta:new_password2,arvo:123123123123,apu:
+2024-10-07 19:29:06 loggedIn:admin
+2024-10-07 19:29:06 array (
+  'password' => 'Väärä salasana',
+)
+2024-10-07 19:29:11 POST:array (
+)
+2024-10-07 19:29:11 loggedIn:admin
+2024-10-07 19:29:11 array (
+)
+2024-10-07 19:29:11 loggedIn:admin
+2024-10-07 19:29:11 SELECT image FROM users WHERE id = 56
+2024-10-07 19:29:11 current_image:
+2024-10-07 19:29:11 kuvatiedosto:
+2024-10-07 19:29:17 POST:array (
+)
+2024-10-07 19:29:17 loggedIn:admin
+2024-10-07 19:29:17 array (
+)
+2024-10-07 19:29:18 loggedIn:admin
+2024-10-07 19:29:18 SELECT image FROM users WHERE id = 56
+2024-10-07 19:29:18 current_image:
+2024-10-07 19:29:18 kuvatiedosto:
+2024-10-07 19:29:19 user_id:56
+2024-10-07 19:29:19 loggedIn:admin
+2024-10-07 19:29:21 loggedIn:admin
+2024-10-07 19:29:21 SELECT image FROM users WHERE id = 56
+2024-10-07 19:29:21 current_image:
+2024-10-07 19:29:21 kuvatiedosto:
+2024-10-07 19:29:22 POST:array (
+)
+2024-10-07 19:29:22 loggedIn:admin
+2024-10-07 19:29:22 array (
+)
+2024-10-07 19:29:23 loggedIn:admin
+2024-10-07 19:29:23 SELECT image FROM users WHERE id = 56
+2024-10-07 19:29:23 current_image:
+2024-10-07 19:29:23 kuvatiedosto:
+2024-10-07 19:32:28 loggedIn:admin
+2024-10-07 19:32:28 SELECT image FROM users WHERE id = 56
+2024-10-07 19:32:28 current_image:
+2024-10-07 19:32:28 kuvatiedosto:
+2024-10-07 19:41:26 user_id:56
+2024-10-07 19:41:26 loggedIn:admin
+2024-10-07 19:41:27 loggedIn:admin
+2024-10-07 19:42:44 loggedIn:admin
+2024-10-07 19:42:44 SELECT image FROM users WHERE id = 56
+2024-10-07 19:42:44 current_image:
+2024-10-07 19:42:44 kuvatiedosto:
+2024-10-07 19:43:08 loggedIn:admin
+2024-10-07 19:43:08 SELECT image FROM users WHERE id = 56
+2024-10-07 19:43:08 current_image:
+2024-10-07 19:43:08 kuvatiedosto:
+2024-10-07 19:43:13 loggedIn:admin
+2024-10-07 19:43:14 loggedIn:admin
+2024-10-07 19:43:14 SELECT image FROM users WHERE id = 56
+2024-10-07 19:43:14 current_image:
+2024-10-07 19:43:14 kuvatiedosto:
+2024-10-07 19:43:27 loggedIn:admin
+2024-10-07 19:43:30 loggedIn:admin
+2024-10-07 19:43:57 loggedIn:admin
+2024-10-07 19:43:57 kentta:title,arvo:Viivi ja wagner n24,apu:
+2024-10-07 19:43:57 kentta:description,arvo:Hassun hauska,apu:
+2024-10-07 19:43:57 kentta:chapters,arvo:75,apu:
+2024-10-07 19:43:57 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_9426d4.png,mime: image/png, png, 3015206 tavua
+2024-10-07 19:43:57 array (
+)
+2024-10-07 19:43:57 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Viivi ja wagner n24', 'Hassun hauska', 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_9426d4.png', '75')
+2024-10-07 19:43:57 lisays:1
+2024-10-07 19:44:00 loggedIn:admin
+2024-10-07 19:44:28 loggedIn:admin
+2024-10-07 19:44:29 loggedIn:admin
+2024-10-07 19:44:40 loggedIn:admin
+2024-10-07 19:44:42 loggedIn:admin
+2024-10-07 19:45:01 loggedIn:admin
+2024-10-07 19:45:01 loggedIn:admin
+2024-10-07 19:45:02 loggedIn:admin
+2024-10-07 19:45:38 loggedIn:admin
+2024-10-07 21:38:44 loggedIn:admin
+2024-10-07 21:38:44 SELECT image FROM users WHERE id = ?
+2024-10-07 21:39:20 loggedIn:admin
+2024-10-07 21:39:20 SELECT image FROM users WHERE id = ?
+2024-10-07 21:40:27 loggedIn:admin
+2024-10-07 21:40:27 SELECT image FROM users WHERE id = ?
+2024-10-07 21:41:07 loggedIn:admin
+2024-10-07 21:41:07 SELECT image FROM users WHERE id = ?
+2024-10-07 21:41:59 loggedIn:admin
+2024-10-07 21:41:59 SELECT image FROM users WHERE id = ?
+2024-10-07 21:43:46 user_id:56
+2024-10-07 21:43:46 loggedIn:admin
+2024-10-07 21:43:52 user_id:56
+2024-10-07 21:43:52 _POST:
+2024-10-07 21:43:52 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-07 21:43:52 kentta:imgname,arvo:kuva,apu:
+2024-10-07 21:43:52 kentta:current_image,arvo:,apu:
+2024-10-07 21:43:52 tiedosto:C:\xampp\tmp\phpCE6E.tmp, kohde:profiili_kuvat/VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_3270b9.png
+2024-10-07 21:43:52 tiedostotyyppi:png, koko:3015206
+2024-10-07 21:43:52 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_3270b9.png,mime: image/png, png, 3015206 tavua
+2024-10-07 21:43:52 image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_3270b9.png
+2024-10-07 21:43:52 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-07 21:43:52 array (
+)
+2024-10-07 21:43:52 UPDATE users SET image = 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_3270b9.png' WHERE id = 56
+2024-10-07 21:43:52 muutos:1
+2024-10-07 21:43:52 loggedIn:admin
+2024-10-07 21:43:52 SELECT image FROM users WHERE id = ?
+2024-10-07 21:46:44 loggedIn:admin
+2024-10-07 21:46:44 SELECT image FROM users WHERE id = ?
