@@ -4,13 +4,8 @@ $publicKey = '';
 $privateKey = '';
 $ts = time();  // Get current timestamp
 
-
-require __DIR__ . '/vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
-$privateKey = $_ENV['APIKEY'];
-$publicKey = $_ENV['APIKEYPUBLIC'];
-$password = $_ENV['SPSALASANA'];
+$privateKey = $marvel_APIKEY;
+$publicKey = $marvel_APIKEYPUBLIC;
 
 $localurl = "http://localhost/sarjakuvaseuranta/.env";
 // Create the hash

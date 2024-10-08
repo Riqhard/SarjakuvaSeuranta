@@ -32,6 +32,8 @@ if ($LOCAL) {
     $db_username = $db_username_local; 
     $db_password = $db_password_local;
     $EMAIL_ADMIN = $admin_mail;
+    $marvel_APIKEYPUBLIC = $marvel_APIKEYPUBLIC_local;
+    $marvel_APIKEY = $marvel_APIKEY_local;
     $port = "3306";
     }
 elseif (strpos($_SERVER['HTTP_HOST'],"azurewebsites") !== false){
@@ -41,6 +43,8 @@ elseif (strpos($_SERVER['HTTP_HOST'],"azurewebsites") !== false){
     $db_server = $_ENV['MYSQL_HOSTNAME'] ?? getenv('MYSQL_HOSTNAME');
     $db_username = $_ENV['MYSQL_USERNAME'] ?? getenv('MYSQL_USERNAME');
     $db_password = $_ENV['MYSQL_PASSWORD'] ?? getenv('MYSQL_PASSWORD');
+    $marvel_APIKEYPUBLIC = $_ENV['MYSQL_APIKEYPUBLIC'] ?? getenv('MYSQL_APIKEYPUBLIC');
+    $marvel_APIKEY = $_ENV['MYSQL_APIKEY'] ?? getenv('MYSQL_APIKEY');
     $port = $_ENV['MYSQL_PORT'] ?? getenv('MYSQL_PORT');
     /* Mailtrap */
     $EMAIL_ADMIN = $_ENV['EMAIL_ADMIN'] ?? getenv('EMAIL_ADMIN'); 
