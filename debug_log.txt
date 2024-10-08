@@ -2840,3 +2840,324 @@ uusi
 2024-10-07 21:48:57 SELECT image FROM users WHERE id = ?
 2024-10-07 21:48:59 user_id:56
 2024-10-07 21:48:59 loggedIn:admin
+2024-10-08 07:35:32 loggedIn:admin
+2024-10-08 07:35:32 SELECT image FROM users WHERE id = ?
+2024-10-08 07:35:35 user_id:56
+2024-10-08 07:35:35 loggedIn:admin
+2024-10-08 07:36:41 user_id:56
+2024-10-08 07:36:41 loggedIn:admin
+2024-10-08 07:36:42 loggedIn:admin
+2024-10-08 07:36:42 SELECT image FROM users WHERE id = ?
+2024-10-08 07:36:44 user_id:56
+2024-10-08 07:36:44 loggedIn:admin
+2024-10-08 07:36:51 user_id:56
+2024-10-08 07:36:51 _POST:
+2024-10-08 07:36:51 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-08 07:36:51 kentta:imgname,arvo:kuva,apu:
+2024-10-08 07:36:51 kentta:current_image,arvo:,apu:
+2024-10-08 07:36:51 tiedosto:C:\xampp\tmp\phpB384.tmp, kohde:profiili_kuvat/VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_634ed5.png
+2024-10-08 07:36:51 tiedostotyyppi:png, koko:3015206
+2024-10-08 07:36:51 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_634ed5.png,mime: image/png, png, 3015206 tavua
+2024-10-08 07:36:51 image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_634ed5.png
+2024-10-08 07:36:51 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-08 07:36:51 array (
+)
+2024-10-08 07:36:51 UPDATE users SET image = 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_634ed5.png' WHERE id = 56
+2024-10-08 07:36:51 muutos:1
+2024-10-08 07:36:51 loggedIn:admin
+2024-10-08 07:36:51 SELECT image FROM users WHERE id = ?
+2024-10-08 07:36:53 user_id:56
+2024-10-08 07:36:53 loggedIn:admin
+2024-10-08 07:38:48 loggedIn:admin
+2024-10-08 07:38:48 SELECT image FROM users WHERE id = ?
+2024-10-08 07:38:50 user_id:56
+2024-10-08 07:38:50 loggedIn:admin
+2024-10-08 07:38:54 user_id:56
+2024-10-08 07:38:54 _POST:
+2024-10-08 07:38:54 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-08 07:38:54 kentta:imgname,arvo:kuva,apu:
+2024-10-08 07:38:54 kentta:current_image,arvo:,apu:
+2024-10-08 07:38:54 tiedosto:C:\xampp\tmp\php9313.tmp, kohde:profiili_kuvat/fingerpori-17_205801.jpg
+2024-10-08 07:38:54 tiedostotyyppi:jpg, koko:8991
+2024-10-08 07:38:54 File fingerpori-17_205801.jpg,mime: image/jpeg, jpg, 8991 tavua
+2024-10-08 07:38:54 image:fingerpori-17_205801.jpg
+2024-10-08 07:38:54 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-08 07:38:54 array (
+)
+2024-10-08 07:38:54 UPDATE users SET image = 'fingerpori-17_205801.jpg' WHERE id = 56
+2024-10-08 07:38:54 muutos:1
+2024-10-08 07:38:54 loggedIn:admin
+2024-10-08 07:38:54 SELECT image FROM users WHERE id = ?
+2024-10-08 07:38:56 user_id:56
+2024-10-08 07:38:56 loggedIn:admin
+2024-10-08 07:39:01 user_id:56
+2024-10-08 07:39:01 _POST:
+2024-10-08 07:39:01 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-08 07:39:01 kentta:imgname,arvo:kuva,apu:
+2024-10-08 07:39:01 kentta:current_image,arvo:,apu:
+2024-10-08 07:39:01 tiedosto:C:\xampp\tmp\phpAF75.tmp, kohde:profiili_kuvat/fingerpori-17_66bc8c.jpg
+2024-10-08 07:39:01 tiedostotyyppi:jpg, koko:8991
+2024-10-08 07:39:01 File fingerpori-17_66bc8c.jpg,mime: image/jpeg, jpg, 8991 tavua
+2024-10-08 07:39:01 image:fingerpori-17_66bc8c.jpg
+2024-10-08 07:39:01 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-08 07:39:01 array (
+)
+2024-10-08 07:39:01 UPDATE users SET image = 'fingerpori-17_66bc8c.jpg' WHERE id = 56
+2024-10-08 07:39:01 muutos:1
+2024-10-08 07:39:01 loggedIn:admin
+2024-10-08 07:39:01 SELECT image FROM users WHERE id = ?
+2024-10-08 07:45:07 loggedIn:admin
+2024-10-08 07:45:44 loggedIn:admin
+2024-10-08 07:46:39 loggedIn:admin
+2024-10-08 07:47:08 loggedIn:admin
+2024-10-08 07:47:09 loggedIn:admin
+2024-10-08 07:47:09 loggedIn:admin
+2024-10-08 07:48:33 loggedIn:admin
+2024-10-08 07:48:45 loggedIn:admin
+2024-10-08 07:56:04 loggedIn:admin
+2024-10-08 07:56:06 loggedIn:admin
+2024-10-08 07:58:43 loggedIn:admin
+2024-10-08 07:58:47 loggedIn:admin
+2024-10-08 07:59:05 loggedIn:admin
+2024-10-08 08:05:46 loggedIn:admin
+2024-10-08 08:08:30 loggedIn:admin
+2024-10-08 08:09:29 loggedIn:admin
+2024-10-08 08:09:38 loggedIn:admin
+2024-10-08 08:09:43 loggedIn:admin
+2024-10-08 08:11:06 loggedIn:admin
+2024-10-08 08:11:47 loggedIn:admin
+2024-10-08 08:12:13 loggedIn:admin
+2024-10-08 08:12:57 loggedIn:admin
+2024-10-08 08:20:52 loggedIn:admin
+2024-10-08 08:20:57 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-08 08:20:57 array (
+  'loggedIn' => 'admin',
+  'user_id' => '56',
+  'yrityskerrat' => 0,
+  'current_image' => 'fingerpori-17_66bc8c.jpg',
+  'kuvatiedosto' => 'profiili_kuvat/fingerpori-17_66bc8c.jpg',
+)
+2024-10-08 08:20:57 array (
+  'rememberme' => '7b566e369c634c76cb300fe464931863:503bc97a425bdc355a9c7c3c21a83d6dd8bb62e2caa8696bea35881e67f61861',
+  'PHPSESSID' => 'spslt6rpl1sthgq7khm3rf647k',
+)
+2024-10-08 08:20:57 Poistettiin: 1 rememberme_token.
+2024-10-08 08:20:57 loggedIn:
+2024-10-08 08:20:59 loggedIn:
+2024-10-08 08:21:13 loggedIn:
+2024-10-08 08:21:13 kentta:firstname,arvo:Riku,apu:
+2024-10-08 08:21:13 kentta:email,arvo:RalliRoope@jippii.fi,apu:
+2024-10-08 08:21:13 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-08 08:21:13 kentta:password2,arvo:asdasdasdasd,apu:
+2024-10-08 08:21:13 array (
+)
+2024-10-08 08:21:13 INSERT INTO users (firstname, email, password, created) VALUES ('Riku', 'RalliRoope@jippii.fi', '$2y$10$vhX1R4uqTJIMorctCIZTduKIAp3iuGsVsvItI/I5W0N4y9WJsL08O', '2024-10-08 08:21:13')
+2024-10-08 08:21:13 lisays:1
+2024-10-08 08:21:13 INSERT INTO signup_tokens (users_id,token) VALUES (57,'f0169856a589cc1363da1122be66e4aa')
+2024-10-08 08:21:16 Viesti lähetetty: RalliRoope@jippii.fi!
+2024-10-08 08:21:18 loggedIn:
+2024-10-08 08:21:19 POST:array (
+)
+2024-10-08 08:21:19 loggedIn:
+2024-10-08 08:21:19 array (
+)
+2024-10-08 08:21:25 POST:array (
+  'email' => 'RalliRoope@jippii.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-08 08:21:25 kentta:email,arvo:RalliRoope@jippii.fi,apu:
+2024-10-08 08:21:25 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-08 08:21:25 kentta:rememberme,arvo:checked,apu:
+2024-10-08 08:21:25 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RalliRoope@jippii.fi'
+2024-10-08 08:21:25 Poistettiin: 0 rememberme_token.
+2024-10-08 08:21:25 Lisättiin: 1 rememberme_token.
+2024-10-08 08:21:25 loggedIn:user
+2024-10-08 08:21:25 SELECT image FROM users WHERE id = ?
+2024-10-08 08:21:28 loggedIn:user
+2024-10-08 08:21:28 SELECT image FROM users WHERE id = ?
+2024-10-08 08:21:30 loggedIn:user
+2024-10-08 08:21:31 loggedIn:user
+2024-10-08 08:21:31 SELECT image FROM users WHERE id = ?
+2024-10-08 08:21:41 user_id:57
+2024-10-08 08:21:41 loggedIn:user
+2024-10-08 08:21:47 user_id:57
+2024-10-08 08:21:47 _POST:
+2024-10-08 08:21:47 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-08 08:21:47 kentta:imgname,arvo:kuva,apu:
+2024-10-08 08:21:47 kentta:current_image,arvo:,apu:
+2024-10-08 08:21:47 tiedosto:C:\xampp\tmp\phpD57F.tmp, kohde:profiili_kuvat/fingerpori-17_7fa910.jpg
+2024-10-08 08:21:47 tiedostotyyppi:jpg, koko:8991
+2024-10-08 08:21:47 File fingerpori-17_7fa910.jpg,mime: image/jpeg, jpg, 8991 tavua
+2024-10-08 08:21:47 image:fingerpori-17_7fa910.jpg
+2024-10-08 08:21:47 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-08 08:21:47 array (
+)
+2024-10-08 08:21:47 UPDATE users SET image = 'fingerpori-17_7fa910.jpg' WHERE id = 57
+2024-10-08 08:21:47 muutos:1
+2024-10-08 08:21:47 loggedIn:user
+2024-10-08 08:21:47 SELECT image FROM users WHERE id = ?
+2024-10-08 08:21:49 user_id:57
+2024-10-08 08:21:49 loggedIn:user
+2024-10-08 08:23:00 user_id:57
+2024-10-08 08:23:00 loggedIn:user
+2024-10-08 08:23:11 user_id:57
+2024-10-08 08:23:11 _POST:
+2024-10-08 08:23:11 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-08 08:23:11 kentta:imgname,arvo:kuva,apu:
+2024-10-08 08:23:11 kentta:current_image,arvo:,apu:
+2024-10-08 08:23:11 tiedosto:C:\xampp\tmp\php1E8A.tmp, kohde:profiili_kuvat/VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_94a623.png
+2024-10-08 08:23:11 tiedostotyyppi:png, koko:3015206
+2024-10-08 08:23:11 File VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_94a623.png,mime: image/png, png, 3015206 tavua
+2024-10-08 08:23:11 image:VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_94a623.png
+2024-10-08 08:23:11 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-08 08:23:11 array (
+)
+2024-10-08 08:23:11 UPDATE users SET image = 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_94a623.png' WHERE id = 57
+2024-10-08 08:23:11 muutos:1
+2024-10-08 08:23:11 loggedIn:user
+2024-10-08 08:23:11 SELECT image FROM users WHERE id = ?
+2024-10-08 08:23:20 POST:array (
+)
+2024-10-08 08:23:20 loggedIn:user
+2024-10-08 08:23:20 array (
+)
+2024-10-08 08:23:21 loggedIn:user
+2024-10-08 08:23:21 SELECT image FROM users WHERE id = ?
+2024-10-08 08:23:23 POST:array (
+)
+2024-10-08 08:23:23 loggedIn:user
+2024-10-08 08:23:23 array (
+)
+2024-10-08 08:23:24 loggedIn:user
+2024-10-08 08:23:24 SELECT image FROM users WHERE id = ?
+2024-10-08 08:23:25 POST:array (
+)
+2024-10-08 08:23:25 loggedIn:user
+2024-10-08 08:23:25 array (
+)
+2024-10-08 08:23:26 loggedIn:user
+2024-10-08 08:23:26 SELECT image FROM users WHERE id = ?
+2024-10-08 08:23:33 loggedIn:user
+2024-10-08 08:23:34 loggedIn:user
+2024-10-08 08:25:37 loggedIn:user
+2024-10-08 08:25:40 loggedIn:user
+2024-10-08 08:25:41 loggedIn:user
+2024-10-08 08:26:38 loggedIn:user
+2024-10-08 08:27:13 loggedIn:user
+2024-10-08 08:27:16 loggedIn:user
+2024-10-08 08:28:10 loggedIn:user
+2024-10-08 08:28:15 loggedIn:user
+2024-10-08 08:28:48 loggedIn:user
+2024-10-08 08:29:06 loggedIn:user
+2024-10-08 08:29:08 loggedIn:user
+2024-10-08 08:29:16 loggedIn:user
+2024-10-08 08:29:18 loggedIn:user
+2024-10-08 08:29:39 loggedIn:user
+2024-10-08 08:30:15 loggedIn:user
+2024-10-08 08:30:18 loggedIn:user
+2024-10-08 08:30:30 loggedIn:user
+2024-10-08 08:30:54 loggedIn:user
+2024-10-08 08:31:40 loggedIn:user
+2024-10-08 08:31:49 loggedIn:user
+2024-10-08 08:33:10 loggedIn:user
+2024-10-08 08:33:50 loggedIn:user
+2024-10-08 08:34:01 loggedIn:user
+2024-10-08 08:34:02 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2024-10-08 08:34:02 array (
+  'loggedIn' => 'user',
+  'user_id' => '57',
+  'yrityskerrat' => 0,
+  'current_image' => 'VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_94a623.png',
+  'kuvatiedosto' => 'profiili_kuvat/VIIVI ja WAGNER No 24 - PARISUHDEKRIISISUKLAA_94a623.png',
+)
+2024-10-08 08:34:02 array (
+  'rememberme' => 'c7a9ed068991503abc3ffa327b3dfcf6:3e4540656fe1b3b809cef288c0b23b8e692298bcd3ffddc1f40f7a6bae0c63df',
+  'PHPSESSID' => 'oli6jm3ikodsg7b77c1btrlbuh',
+)
+2024-10-08 08:34:02 Poistettiin: 1 rememberme_token.
+2024-10-08 08:34:02 loggedIn:
+2024-10-08 08:34:05 POST:array (
+)
+2024-10-08 08:34:05 loggedIn:
+2024-10-08 08:34:05 array (
+)
+2024-10-08 08:34:10 POST:array (
+  'email' => 'RikuKilpimaa@hotmail.fi',
+  'password' => 'asdasdasdasd',
+  'rememberme' => 'checked',
+  'painike' => 'Kirjaudu',
+)
+2024-10-08 08:34:10 kentta:email,arvo:RikuKilpimaa@hotmail.fi,apu:
+2024-10-08 08:34:10 kentta:password,arvo:asdasdasdasd,apu:
+2024-10-08 08:34:10 kentta:rememberme,arvo:checked,apu:
+2024-10-08 08:34:10 SELECT users.id,password,is_active,name FROM users LEFT JOIN roles ON role = roles.id WHERE email = 'RikuKilpimaa@hotmail.fi'
+2024-10-08 08:34:10 Poistettiin: 0 rememberme_token.
+2024-10-08 08:34:10 Lisättiin: 1 rememberme_token.
+2024-10-08 08:34:11 loggedIn:admin
+2024-10-08 08:34:11 SELECT image FROM users WHERE id = ?
+2024-10-08 08:34:17 loggedIn:admin
+2024-10-08 08:34:19 loggedIn:admin
+2024-10-08 08:35:08 loggedIn:admin
+2024-10-08 08:35:31 loggedIn:admin
+2024-10-08 08:37:36 loggedIn:admin
+2024-10-08 08:37:36 kentta:title,arvo:Fingerpori #1,apu:1
+2024-10-08 08:37:36 kentta:title,arvo:Fingerpori #1,pattern:/^[A-ZÅÄÖa-zåäö0-9\s\.\,\!\?\-\:\']{2,100}$/
+2024-10-08 08:37:36 kentta:description,arvo:Fingerpori on mystinen maakunta jossakin päin Suomea. Sarjan maisemista löytyy niin kaupunkia kuin maalaispitäjääkin, ja sitä julkaisevat Helsingin Sanomien lisäksi jo mm. Aamulehti, Pohjalainen ja Karjalainen. Fingerporin lähistöllä sijaitsevat esimerkiksi Vatikaani, Mordor ja Mustanaamion pääkalloluola. Keskeisiä hahmoja ovat arkipäivän ihmettelijä Heimo Vesa ja suorasukainen kahvilanemäntä Rivo-Riitta.
+
+Nauruhermoon iskevissä stripeissä historia toistaa vitsejään, sanaleikkiä lyödään ja käsitteitä levitellään.,apu:
+2024-10-08 08:37:36 kentta:chapters,arvo:56,apu:
+2024-10-08 08:37:36 array (
+  'title' => 'Virheellinen titteli',
+)
+2024-10-08 08:37:51 loggedIn:admin
+2024-10-08 08:37:51 kentta:title,arvo:Fingerpori - 1,apu:
+2024-10-08 08:37:51 kentta:description,arvo:Fingerpori on mystinen maakunta jossakin päin Suomea. Sarjan maisemista löytyy niin kaupunkia kuin maalaispitäjääkin, ja sitä julkaisevat Helsingin Sanomien lisäksi jo mm. Aamulehti, Pohjalainen ja Karjalainen. Fingerporin lähistöllä sijaitsevat esimerkiksi Vatikaani, Mordor ja Mustanaamion pääkalloluola. Keskeisiä hahmoja ovat arkipäivän ihmettelijä Heimo Vesa ja suorasukainen kahvilanemäntä Rivo-Riitta.
+
+Nauruhermoon iskevissä stripeissä historia toistaa vitsejään, sanaleikkiä lyödään ja käsitteitä levitellään.,apu:
+2024-10-08 08:37:51 kentta:chapters,arvo:56,apu:
+2024-10-08 08:37:51 File Fingerpori-1_830fd9.jpg,mime: image/jpeg, jpg, 9024 tavua
+2024-10-08 08:37:51 array (
+)
+2024-10-08 08:37:51 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Fingerpori - 1', 'Fingerpori on mystinen maakunta jossakin päin Suomea. Sarjan maisemista löytyy niin kaupunkia kuin maalaispitäjääkin, ja sitä julkaisevat Helsingin Sanomien lisäksi jo mm. Aamulehti, Pohjalainen ja Karjalainen. Fingerporin lähistöllä sijaitsevat esimerkiksi Vatikaani, Mordor ja Mustanaamion pääkalloluola. Keskeisiä hahmoja ovat arkipäivän ihmettelijä Heimo Vesa ja suorasukainen kahvilanemäntä Rivo-Riitta.\r\n\r\nNauruhermoon iskevissä stripeissä historia toistaa vitsejään, sanaleikkiä lyödään ja käsitteitä levitellään.', 'Fingerpori-1_830fd9.jpg', '56')
+2024-10-08 08:37:51 lisays:1
+2024-10-08 08:37:53 loggedIn:admin
+2024-10-08 08:37:53 SELECT image FROM users WHERE id = ?
+2024-10-08 08:37:56 loggedIn:admin
+2024-10-08 08:37:57 loggedIn:admin
+2024-10-08 08:38:16 loggedIn:admin
+2024-10-08 08:38:23 loggedIn:admin
+2024-10-08 08:38:36 loggedIn:admin
+2024-10-08 08:39:29 loggedIn:admin
+2024-10-08 08:39:50 loggedIn:admin
+2024-10-08 08:42:16 loggedIn:admin
+2024-10-08 08:45:03 loggedIn:admin
+2024-10-08 08:45:30 loggedIn:admin
+2024-10-08 08:46:37 loggedIn:admin
+2024-10-08 08:47:07 loggedIn:admin
+2024-10-08 08:47:34 loggedIn:admin
+2024-10-08 08:47:47 loggedIn:admin
+2024-10-08 08:48:24 loggedIn:admin
+2024-10-08 08:48:49 loggedIn:admin
+2024-10-08 08:51:19 loggedIn:admin
+2024-10-08 08:51:41 loggedIn:admin
+2024-10-08 08:54:45 loggedIn:admin
+2024-10-08 08:54:51 loggedIn:admin
+2024-10-08 08:55:00 loggedIn:admin
+2024-10-08 08:55:31 loggedIn:admin

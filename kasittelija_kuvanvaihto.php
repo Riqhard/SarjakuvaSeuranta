@@ -109,16 +109,17 @@ if (isset($_POST['nappula'])){
         $result = mysqli_my_query($query);
         $muutos = $yhteys->affected_rows;
         debuggeri("muutos:$muutos");
+
+
         if ($muutos) {
-            $_SESSION['message'] = "Tiedot on tallennettu.";
-            $_SESSION['success'] = "success";
-            $_SESSION['display'] = "d-block";
-            }
-        else {
-            $_SESSION['message'] = "Tietoja ei muutettu.";
-            $_SESSION['success'] = "info";
-            $_SESSION['display'] = "d-block";
-            }
+            $message = "Sähköpostiosoite päivitetty onnistuneesti.";
+            $success = "success";
+            $display = "d-block";
+        } else {
+            $message = "Sähköpostin päivitys epäonnistui.";
+            $success = "danger";
+            $display = "d-block";
+        }
         $_SESSION['current_image'] = $current_image;
         $_SESSION['kuvatiedosto'] = $kuvatiedosto;
         header("Location: profiili.php");
@@ -126,9 +127,9 @@ if (isset($_POST['nappula'])){
 
     }
     else {
-        $_SESSION['message'] = "Tietoja ei muutettu.";
-        $_SESSION['success'] = "danger";
-        $_SESSION['display'] = "d-block";
+        $message = "Tietoja ei muutettu.";
+        $success = "danger";
+        $display = "d-block";
         $_SESSION['current_image'] = $current_image;
         $_SESSION['kuvatiedosto'] = $kuvatiedosto;
         header("Location: profiili.php");

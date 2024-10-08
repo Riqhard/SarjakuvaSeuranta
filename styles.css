@@ -347,6 +347,15 @@ nav {
 
 
 
+.sarjakuva_lista{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 750px;
+  margin: auto;
+}
+  
 ul {
     list-style-type: none;
     padding: 0;
@@ -355,6 +364,9 @@ li {
   background-color: #AF5B5B;
   border: 1px solid #000;
   border-radius: 3px;
+  margin-top: 4px;
+  width: 100%;
+  
 }
 /* Joka toinen listan item eri väriseksi */
 li:nth-child(even) {
@@ -373,13 +385,13 @@ li:nth-child(even) {
     border-radius: 3px;
 }
 #results{
-  text-align: left;
+  text-align: center;
 }
 
 img.titlekuva {
-  max-width: 100px;
+  max-width: 400px;
+  max-height: 400px;
   height: auto;
-  margin-right: 10px;
 }
   
 
@@ -430,7 +442,7 @@ border-radius: 8px;
   cursor: pointer;
   display: block;
   margin-left: auto;
-  margin-right: 45%;
+  margin-right: 40%;
   border-radius: 8px;
   
   width: 150px;
@@ -440,4 +452,49 @@ border-radius: 8px;
   background-color: #333;
   color: white;
   border-radius: 8px;
+}
+
+.hakukentta{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+}
+.hakunappula{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+}
+
+.tulokset{
+  border: 1px solid #000;
+  border-radius: 3px;
+  max-width: 750px;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+}
+
+.tulokset .odd {
+  background-color: #6c5baf;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+.tulokset .even {
+  background-color: #AF5B5B;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin-top: 4px;
 }

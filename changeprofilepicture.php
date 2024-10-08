@@ -6,6 +6,7 @@ include "db.php";
 include "rememberme.php";
 $loggedIn = secure_page();
 
+$message = "";
 $css = "login.css";
 $navbar = false;
 $title = 'Vaihda Profiili kuva';
@@ -58,7 +59,7 @@ include "header.php";
 <?= $errors['image'] ?? ""; ?>
 </div>
 <div class="previewDiv mt-1 col-sm-8 d-none" id="previewDiv">
-<img class="previewImage" src="" id="previewImage" width="" height="">
+<img class="previewImage" src="" id="previewImage" width="400px" height="">
 <br>
 <button type="button" class="btn btn-outline-secondary float-end btn-sm mt-1" onclick="tyhjennaKuva('image')">Poista</button>
 </div>

@@ -21,21 +21,21 @@
 
 switch ($loggedIn) {
   case 'admin':
-    echo "<li>
+    echo "<div class='sarjakuva_lista'><li>
     <img class='titlekuva' src='$imagePath' alt='" . htmlspecialchars($row['title']) . "'> <br>
-    <strong>Title:</strong> " . htmlspecialchars($row['title']) . " <br>
-    <strong>Page count:</strong> " . htmlspecialchars($row['chapters']) . " <br>
-    <strong>Description:</strong><br> " . htmlspecialchars($row['description']) . " <br>
+    <strong>" . htmlspecialchars($row['title']) . " </strong><br>
+    <strong>Sivumäärä:</strong> " . htmlspecialchars($row['chapters']) . " <br>
+    <strong>Kuvaus:</strong><br> " . htmlspecialchars($row['description']) . " <br>
     <a class='mt-3 btn btn-primary delete-button' href='delete_comic.php?id=" . $row['sarjakuva_id'] . "&image=" . urlencode($row['image']) . "' onclick='return confirm(\"Haluatko varmasti poistaa tämän sarjakuvan?\")'>Poista</a>
-  </li>";
+  </li></div>";
     break;
   case true:
-    echo "<li>
+    echo "<div class='sarjakuva_lista'><li>
     <img class='titlekuva' src='$imagePath' alt='" . htmlspecialchars($row['title']) . "'> <br>
-    <strong>Title:</strong> " . htmlspecialchars($row['title']) . " <br>
-    <strong>Page count:</strong> " . htmlspecialchars($row['chapters']) . " <br>
-    <strong>Description:</strong><br> " . htmlspecialchars($row['description']) . " <br>
-   </li>";
+    <strong>" . htmlspecialchars($row['title']) . " </strong><br>
+    <strong>Sivumäärä:</strong> " . htmlspecialchars($row['chapters']) . " <br>
+    <strong>Kuvaus:</strong><br> " . htmlspecialchars($row['description']) . " <br>
+   </li></div>";
     break;
   default:
     header("location: login.php");
