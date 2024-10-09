@@ -96,7 +96,32 @@ if (isset($_GET['nappula'])){
         $index = 0;
         foreach ($data['data']['results'] as $comic) {
             $class = ($index % 2 == 0) ? 'even' : 'odd';
-            echo "<div class='$class'>" . htmlspecialchars($comic['title'], ENT_QUOTES, 'UTF-8') . "</div>";
+            echo "<div class='$class'>";
+            echo "<h3>" . htmlspecialchars($comic['title'], ENT_QUOTES, 'UTF-8') . "</h3>";
+            echo "<p>" . htmlspecialchars($comic['description'] ?? 'No description available', ENT_QUOTES, 'UTF-8') . "</p>";
+            echo "<p>Page Count: " . htmlspecialchars($comic['pageCount'], ENT_QUOTES, 'UTF-8') . "</p>";
+            echo "<p>Creators: ";
+            if (isset($comic['creators']['items'])) {
+                $creators = array_map(function($creator) {
+                    return htmlspecialchars($creator['name'], ENT_QUOTES, 'UTF-8');
+                }, $comic['creators']['items']);
+                echo implode(', ', $creators);
+            } else {
+                echo "No creators available";
+            }
+            echo "</p>";
+            if (isset($comic['images'][0])) {
+                $imagePath = htmlspecialchars($comic['images'][0]['path'], ENT_QUOTES, 'UTF-8');
+                $imageExtension = htmlspecialchars($comic['images'][0]['extension'], ENT_QUOTES, 'UTF-8');
+                echo "<img src='{$imagePath}.{$imageExtension}' alt='" . htmlspecialchars($comic['title'], ENT_QUOTES, 'UTF-8') . "' width='300'>";
+            } else {
+                echo "<p>No image available</p>";
+            }
+            echo "</div>";
+
+
+
+
             $index++;
         }
     } else {
