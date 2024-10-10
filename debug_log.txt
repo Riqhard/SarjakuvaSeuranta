@@ -1,1 +1,66 @@
 2024-10-10 08:13:45 loggedIn:admin
+2024-10-10 09:07:41 loggedIn:admin
+2024-10-10 09:07:43 loggedIn:admin
+2024-10-10 09:07:43 SELECT image FROM users WHERE id = ?
+2024-10-10 09:07:45 user_id:56
+2024-10-10 09:07:45 loggedIn:admin
+2024-10-10 09:07:50 user_id:56
+2024-10-10 09:07:50 _POST:
+2024-10-10 09:07:50 array (
+  'imgname' => 'diablo',
+  'nappula' => 'Tallenna',
+)
+2024-10-10 09:07:50 kentta:imgname,arvo:diablo,apu:
+2024-10-10 09:07:50 kentta:current_image,arvo:,apu:
+2024-10-10 09:07:50 tiedosto:C:\xampp\tmp\php26A2.tmp, kohde:profiili_kuvat/diablo-iv-lilith-diablo-4-2022-games-3840x2160-5969_933b2f.png
+2024-10-10 09:07:50 tiedostotyyppi:png, koko:3625567
+2024-10-10 09:07:50 File diablo-iv-lilith-diablo-4-2022-games-3840x2160-5969_933b2f.png,mime: image/png, png, 3625567 tavua
+2024-10-10 09:07:50 image:diablo-iv-lilith-diablo-4-2022-games-3840x2160-5969_933b2f.png
+2024-10-10 09:07:50 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-10 09:07:50 array (
+)
+2024-10-10 09:07:50 UPDATE users SET image = 'diablo-iv-lilith-diablo-4-2022-games-3840x2160-5969_933b2f.png' WHERE id = 56
+2024-10-10 09:07:50 muutos:1
+2024-10-10 09:07:50 loggedIn:admin
+2024-10-10 09:07:50 SELECT image FROM users WHERE id = ?
+2024-10-10 09:07:53 user_id:56
+2024-10-10 09:07:53 loggedIn:admin
+2024-10-10 09:07:59 user_id:56
+2024-10-10 09:07:59 _POST:
+2024-10-10 09:07:59 array (
+  'imgname' => 'diablo',
+  'nappula' => 'Tallenna',
+)
+2024-10-10 09:07:59 kentta:imgname,arvo:diablo,apu:
+2024-10-10 09:07:59 kentta:current_image,arvo:,apu:
+2024-10-10 09:07:59 tiedosto:C:\xampp\tmp\php46AF.tmp, kohde:profiili_kuvat/diablo-immortal-2021-5k-6m_b54278.jpg
+2024-10-10 09:07:59 tiedostotyyppi:jpg, koko:13228079
+2024-10-10 09:07:59 File diablo-immortal-2021-5k-6m_b54278.jpg,mime: image/jpeg, jpg, 13228079 tavua
+2024-10-10 09:07:59 image:diablo-immortal-2021-5k-6m_b54278.jpg
+2024-10-10 09:07:59 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-10 09:07:59 array (
+  'image' => 'Kuvan koon tulee olla korkeintaan 10 MB.',
+)
+2024-10-10 09:07:59 loggedIn:admin
+2024-10-10 09:07:59 SELECT image FROM users WHERE id = ?
+2024-10-10 09:08:01 user_id:56
+2024-10-10 09:08:01 loggedIn:admin
+2024-10-10 09:08:10 user_id:56
+2024-10-10 09:08:10 _POST:
+2024-10-10 09:08:10 array (
+  'imgname' => 'kuva',
+  'nappula' => 'Tallenna',
+)
+2024-10-10 09:08:10 kentta:imgname,arvo:kuva,apu:
+2024-10-10 09:08:10 kentta:current_image,arvo:,apu:
+2024-10-10 09:08:10 tiedosto:C:\xampp\tmp\php7188.tmp, kohde:profiili_kuvat/Asterix Ja Kadonnut Kilpi_5dbb1e.jpg
+2024-10-10 09:08:10 tiedostotyyppi:jpg, koko:303209
+2024-10-10 09:08:10 File Asterix Ja Kadonnut Kilpi_5dbb1e.jpg,mime: image/jpeg, jpg, 303209 tavua
+2024-10-10 09:08:10 image:Asterix Ja Kadonnut Kilpi_5dbb1e.jpg
+2024-10-10 09:08:10 C:\xampp\htdocs\SarjakuvaSeuranta\kasittelija_kuvanvaihto.php, virheet:
+2024-10-10 09:08:10 array (
+)
+2024-10-10 09:08:10 UPDATE users SET image = 'Asterix Ja Kadonnut Kilpi_5dbb1e.jpg' WHERE id = 56
+2024-10-10 09:08:10 muutos:1
+2024-10-10 09:08:10 loggedIn:admin
+2024-10-10 09:08:10 SELECT image FROM users WHERE id = ?

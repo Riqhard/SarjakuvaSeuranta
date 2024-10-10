@@ -24,9 +24,9 @@ function poista_tunniste($image){
     
 function vanha_kuva($user_id){
     $query = "SELECT image FROM users WHERE id = $user_id";
-    $result = mysqli_my_query($query);
-    return ($row = $result->fetch_row()) ? $row[0] : "";
-}
+    $result = mysqli_my_query($query)[0];
+    return $result ? $result->fetch_row()[0] : "";
+    }
     
 function poista_vanha_kuva($user_id){
     $image = vanha_kuva($user_id);

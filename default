@@ -4,20 +4,13 @@ server {
 
         #proxy_cache_valid 200 1s;
 
-    client_max_body_size 8M;
-
+    client_max_body_size 10M;
     listen 8080;
-
     listen [::]:8080;
-
     root /home/site/wwwroot;
-
     index  index.php index.html index.htm;
-
     server_name  example.com www.example.com; 
-
     port_in_redirect off;
-
     location / {            
 
         index  index.php index.html index.htm hostingstart.html;
