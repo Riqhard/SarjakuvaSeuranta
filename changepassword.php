@@ -65,7 +65,7 @@ debuggeri($errors);
 <label for="new_password2" class="text-nowrap col-sm-4 form-label">Uusi Salasana uudestaan</label>
 <div class="col-sm-8">
 <input type="password" class="mb-1 form-control <?= is_invalid('new_password2'); ?>" name="new_password2" id="new_password2" 
-       placeholder="Uusi salasana" pattern="<?= pattern('new_password2'); ?>" required>
+       placeholder="Uusi salasana uudelleen" pattern="<?= pattern('new_password2'); ?>" required>
 <div class="invalid-feedback">
 <?= $errors['new_password2'] ?? ""; ?>    
 </div>

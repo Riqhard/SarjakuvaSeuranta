@@ -42,13 +42,13 @@ debuggeri($errors);
 <label for="firstname" class="col-sm-4 form-label">Uusi nimi</label>
 <div class="col-sm-8">
 <input type="name" class="mb-1 form-control <?= is_invalid('firstname'); ?>" name="firstname" id="firstname" 
-       placeholder="etunimi.sukunimi@palvelu.fi" value="<?= arvo("firstname"); ?>"
+       placeholder="Uusinimi" value="<?= arvo("firstname"); ?>"
        pattern="<?= pattern('firstname'); ?>" required>
 <div class="invalid-feedback"><?= $errors['firstname'] ?? ""; ?>    </div>
 </div>
 </div>
 
-<button name='painike' type="submit" class="mt-3 float-end btn btn-primary">Vaihda sähköposti</button>
+<button name='painike' type="submit" class="mt-3 float-end btn btn-primary">Vaihda Nimi</button>
 </fieldset>
 
 </form>

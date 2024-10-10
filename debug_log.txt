@@ -64,3 +64,103 @@
 2024-10-10 09:08:10 muutos:1
 2024-10-10 09:08:10 loggedIn:admin
 2024-10-10 09:08:10 SELECT image FROM users WHERE id = ?
+2024-10-10 12:25:41 loggedIn:admin
+2024-10-10 12:26:15 loggedIn:admin
+2024-10-10 12:26:15 kentta:title,arvo:Asterix 1: Asterix gallialainen,apu:
+2024-10-10 12:26:15 kentta:description,arvo:Goscinnyn René – Uderzon Albert:
+
+Asterix gallialainen ei juhli suosituimpien Asterix-albumien listoilla, mutta ensimmäisenä Asterix-seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.
+
+René Goscinnyn ja Albert Uderzon luoma maailma ei synny täysin valmiina, ja osa hahmoista muuttaakin muotoaan tämän albumin jälkeen ja muutamat jopa sen sivuilla. Tämä kaikki tekee tästä Suomessa hieman pienemmälle huomiolle jääneestä sarjakuvan merkkipaalusta todella mielenkiintoisen ja tuoreen lukukokemuksen,apu:1
+2024-10-10 12:26:15 kentta:description,arvo:Goscinnyn René – Uderzon Albert:
+
+Asterix gallialainen ei juhli suosituimpien Asterix-albumien listoilla, mutta ensimmäisenä Asterix-seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.
+
+René Goscinnyn ja Albert Uderzon luoma maailma ei synny täysin valmiina, ja osa hahmoista muuttaakin muotoaan tämän albumin jälkeen ja muutamat jopa sen sivuilla. Tämä kaikki tekee tästä Suomessa hieman pienemmälle huomiolle jääneestä sarjakuvan merkkipaalusta todella mielenkiintoisen ja tuoreen lukukokemuksen,pattern:/^[A-ZÅÄÖa-zåäö0-9\s\.\,\!\?\-\:\'"\(\)
+]{2,1000}$/
+2024-10-10 12:26:15 kentta:chapters,arvo:32,apu:
+2024-10-10 12:26:15 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-10-10 12:26:30 loggedIn:admin
+2024-10-10 12:26:30 kentta:title,arvo:Asterix 1 Asterix gallialainen,apu:
+2024-10-10 12:26:30 kentta:description,arvo:Goscinnyn René – Uderzon Albert:
+
+Asterix gallialainen ei juhli suosituimpien Asterix-albumien listoilla, mutta ensimmäisenä Asterix-seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.
+
+René Goscinnyn ja Albert Uderzon luoma maailma ei synny täysin valmiina, ja osa hahmoista muuttaakin muotoaan tämän albumin jälkeen ja muutamat jopa sen sivuilla. Tämä kaikki tekee tästä Suomessa hieman pienemmälle huomiolle jääneestä sarjakuvan merkkipaalusta todella mielenkiintoisen ja tuoreen lukukokemuksen.,apu:1
+2024-10-10 12:26:30 kentta:description,arvo:Goscinnyn René – Uderzon Albert:
+
+Asterix gallialainen ei juhli suosituimpien Asterix-albumien listoilla, mutta ensimmäisenä Asterix-seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.
+
+René Goscinnyn ja Albert Uderzon luoma maailma ei synny täysin valmiina, ja osa hahmoista muuttaakin muotoaan tämän albumin jälkeen ja muutamat jopa sen sivuilla. Tämä kaikki tekee tästä Suomessa hieman pienemmälle huomiolle jääneestä sarjakuvan merkkipaalusta todella mielenkiintoisen ja tuoreen lukukokemuksen.,pattern:/^[A-ZÅÄÖa-zåäö0-9\s\.\,\!\?\-\:\'"\(\)
+]{2,1000}$/
+2024-10-10 12:26:30 kentta:chapters,arvo:32,apu:
+2024-10-10 12:26:30 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-10-10 12:26:50 loggedIn:admin
+2024-10-10 12:26:50 kentta:title,arvo:Asterix 1 Asterix gallialainen,apu:
+2024-10-10 12:26:50 kentta:description,arvo:Goscinnyn Rene Uderzon Albert:
+
+Asterix gallialainen ei juhli suosituimpien Asterix-albumien listoilla, mutta ensimmäisenä Asterix-seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.
+
+René Goscinnyn ja Albert Uderzon luoma maailma ei synny täysin valmiina, ja osa hahmoista muuttaakin muotoaan tämän albumin jälkeen ja muutamat jopa sen sivuilla. Tämä kaikki tekee tästä Suomessa hieman pienemmälle huomiolle jääneestä sarjakuvan merkkipaalusta todella mielenkiintoisen ja tuoreen lukukokemuksen.,apu:1
+2024-10-10 12:26:50 kentta:description,arvo:Goscinnyn Rene Uderzon Albert:
+
+Asterix gallialainen ei juhli suosituimpien Asterix-albumien listoilla, mutta ensimmäisenä Asterix-seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.
+
+René Goscinnyn ja Albert Uderzon luoma maailma ei synny täysin valmiina, ja osa hahmoista muuttaakin muotoaan tämän albumin jälkeen ja muutamat jopa sen sivuilla. Tämä kaikki tekee tästä Suomessa hieman pienemmälle huomiolle jääneestä sarjakuvan merkkipaalusta todella mielenkiintoisen ja tuoreen lukukokemuksen.,pattern:/^[A-ZÅÄÖa-zåäö0-9\s\.\,\!\?\-\:\'"\(\)
+]{2,1000}$/
+2024-10-10 12:26:50 kentta:chapters,arvo:32,apu:
+2024-10-10 12:26:50 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-10-10 12:27:18 loggedIn:admin
+2024-10-10 12:27:18 kentta:title,arvo:Asterix 1 Asterix gallialainen,apu:
+2024-10-10 12:27:18 kentta:description,arvo:Asterix gallialainen ei juhli suosituimpien Asterix albumien listoilla, mutta ensimmäisenä Asterix seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.
+
+René Goscinnyn ja Albert Uderzon luoma maailma ei synny täysin valmiina, ja osa hahmoista muuttaakin muotoaan tämän albumin jälkeen ja muutamat jopa sen sivuilla. Tämä kaikki tekee tästä Suomessa hieman pienemmälle huomiolle jääneestä sarjakuvan merkkipaalusta todella mielenkiintoisen ja tuoreen lukukokemuksen.,apu:1
+2024-10-10 12:27:18 kentta:description,arvo:Asterix gallialainen ei juhli suosituimpien Asterix albumien listoilla, mutta ensimmäisenä Asterix seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.
+
+René Goscinnyn ja Albert Uderzon luoma maailma ei synny täysin valmiina, ja osa hahmoista muuttaakin muotoaan tämän albumin jälkeen ja muutamat jopa sen sivuilla. Tämä kaikki tekee tästä Suomessa hieman pienemmälle huomiolle jääneestä sarjakuvan merkkipaalusta todella mielenkiintoisen ja tuoreen lukukokemuksen.,pattern:/^[A-ZÅÄÖa-zåäö0-9\s\.\,\!\?\-\:\'"\(\)
+]{2,1000}$/
+2024-10-10 12:27:18 kentta:chapters,arvo:32,apu:
+2024-10-10 12:27:18 array (
+  'description' => 'Virheellinen kuvaus',
+)
+2024-10-10 12:27:44 loggedIn:admin
+2024-10-10 12:27:44 kentta:title,arvo:Asterix 1 Asterix gallialainen,apu:
+2024-10-10 12:27:44 kentta:description,arvo:Asterix gallialainen ei juhli suosituimpien Asterix-albumien listoilla, mutta ensimmäisenä Asterix-seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.,apu:
+2024-10-10 12:27:44 kentta:chapters,arvo:32,apu:
+2024-10-10 12:27:44 File Asterix Gallialainen_adb0cf.jpg,mime: image/jpeg, jpg, 359882 tavua
+2024-10-10 12:27:44 array (
+)
+2024-10-10 12:27:44 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Asterix 1 Asterix gallialainen', 'Asterix gallialainen ei juhli suosituimpien Asterix-albumien listoilla, mutta ensimmäisenä Asterix-seikkailuna se kuuluu jokaisen Asterixinsa vakavasti ottavan kirjahyllyyn. Asterix otti ensiaskeleensa vuonna 1959 ja albumiksi koottuna tämä tarina julkaistiin Ranskassa 1961. Suomennettua laitosta jouduimme odottamaan vuoteen 1974.', 'Asterix Gallialainen_adb0cf.jpg', '32')
+2024-10-10 12:27:44 lisays:1
+2024-10-10 12:27:46 loggedIn:admin
+2024-10-10 12:27:46 SELECT image FROM users WHERE id = ?
+2024-10-10 12:27:49 loggedIn:admin
+2024-10-10 12:27:50 loggedIn:admin
+2024-10-10 12:27:51 loggedIn:admin
+2024-10-10 12:27:55 loggedIn:admin
+2024-10-10 12:28:19 loggedIn:admin
+2024-10-10 12:28:19 kentta:title,arvo:Asterix 19: Asterix ja ennustaja,apu:
+2024-10-10 12:28:19 kentta:description,arvo:Gallialaiskylään saapuu matkailija Propellix, joka väittää olevansa ennustaja. Kyläläiset uskovat hänen väittämiinsä ennustuksiin ja tarjoavat hänelle vastineeksi ruokaa ja lahjoja. Asterix, joka ei suostu uskomaan ennustuksia, kehittää suunnitelman, jonka avulla paljastaa Propellix ihmisten hyväntahtoisuutta hyväkseen käyttäväksi huijariksi. Myös roomalaiset kiinnostuvat Propellixista,apu:
+2024-10-10 12:28:19 kentta:chapters,arvo:26,apu:
+2024-10-10 12:28:19 File Asterix Ennustaja_d33aba.jpg,mime: image/jpeg, jpg, 227543 tavua
+2024-10-10 12:28:19 array (
+)
+2024-10-10 12:28:19 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Asterix 19: Asterix ja ennustaja', 'Gallialaiskylään saapuu matkailija Propellix, joka väittää olevansa ennustaja. Kyläläiset uskovat hänen väittämiinsä ennustuksiin ja tarjoavat hänelle vastineeksi ruokaa ja lahjoja. Asterix, joka ei suostu uskomaan ennustuksia, kehittää suunnitelman, jonka avulla paljastaa Propellix ihmisten hyväntahtoisuutta hyväkseen käyttäväksi huijariksi. Myös roomalaiset kiinnostuvat Propellixista', 'Asterix Ennustaja_d33aba.jpg', '26')
+2024-10-10 12:28:19 lisays:1
+2024-10-10 12:28:21 loggedIn:admin
+2024-10-10 12:28:39 loggedIn:admin
+2024-10-10 12:28:39 kentta:title,arvo:Asterix 17: Jumaltenrannan nousu ja tuho,apu:
+2024-10-10 12:28:39 kentta:description,arvo:Caesar päättää sulauttaa gallialaiset osaksi roomalaista kulttuuria rakennuttamalla Asterixin kotikylän lähistölle lähiön. Goscinnyn ja Uderzon pilkkakirveet rouhivat modernia arkkitehtuuria ja talouskeinottelua säälimättömästi ja hysteerisen hauskasti.,apu:
+2024-10-10 12:28:39 kentta:chapters,arvo:27,apu:
+2024-10-10 12:28:39 File Asterix Jumaltenrannan_978b5a.jpg,mime: image/jpeg, jpg, 183708 tavua
+2024-10-10 12:28:39 array (
+)
+2024-10-10 12:28:39 INSERT INTO sarjakuvat (title, description, image, chapters) VALUES ('Asterix 17: Jumaltenrannan nousu ja tuho', 'Caesar päättää sulauttaa gallialaiset osaksi roomalaista kulttuuria rakennuttamalla Asterixin kotikylän lähistölle lähiön. Goscinnyn ja Uderzon pilkkakirveet rouhivat modernia arkkitehtuuria ja talouskeinottelua säälimättömästi ja hysteerisen hauskasti.', 'Asterix Jumaltenrannan_978b5a.jpg', '27')
+2024-10-10 12:28:39 lisays:1
+2024-10-10 12:28:40 loggedIn:admin
