@@ -516,3 +516,18 @@ René Goscinnyn ja Albert Uderzon luoma maailma ei synny täysin valmiina, ja os
 2025-01-26 21:02:07 loggedIn:admin
 2025-01-26 21:02:07 SELECT image FROM users WHERE id = ?
 2025-01-27 11:53:32 loggedIn:admin
+2025-01-27 12:00:56 loggedIn:admin
+2025-01-27 12:00:58 C:\xampp\htdocs\SarjakuvaSeuranta\logout.php,session ja cookie:
+2025-01-27 12:00:58 array (
+  'loggedIn' => 'admin',
+  'user_id' => '56',
+  'yrityskerrat' => 0,
+)
+2025-01-27 12:00:58 array (
+  'rememberme' => '0c42d380acbc1ad0c44e4e6673e629b8:7e5e92424320f347a6089d0efd33138d7a6dfcd18d418d200f51dd039cbf22c3',
+  'PHPSESSID' => 'pbdplf6q7ucm0eh152ijuemm31',
+)
+2025-01-27 12:00:58 Poistettiin: 1 rememberme_token.
+2025-01-27 12:00:58 loggedIn:
+2025-01-27 12:01:00 loggedIn:
+2025-01-27 12:01:13 loggedIn:
