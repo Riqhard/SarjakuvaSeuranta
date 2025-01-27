@@ -58,7 +58,7 @@ function hae_kuva($kentat_tiedosto){
             if (!$check = getimagesize($temp_file)) $virhe = "Kuva ei kelpaa.";
             elseif (file_exists($target_file)) $virhe = "Kuvatiedosto on jo olemassa.";
             elseif (!in_array($filetype,$allowed_images)) $virhe = "Väärä tiedostotyyppi.";
-            elseif ($filesize > $maxsize) $virhe = "Kuvan koon tulee olla korkeintaan 10 MB.";
+            elseif ($filesize > $maxsize) $virhe = "Kuvan koon tulee olla korkeintaan 1 MB.";
             debuggeri("File $image,mime: {$check['mime']}, $filetype, $filesize tavua");
             if (!$virhe){
                 if (!move_uploaded_file($temp_file,$target_file)) 
@@ -79,12 +79,14 @@ if (isset($_POST['nappula'])){
         [$image,$virhe] = hae_kuva($kentat_tiedosto);
         debuggeri("image:$image");
 
-        if ($virhe) $errors['image'] = $virhe;
-        elseif (!$image && $current_image) {
+        
+
+        if ($virhe){
+            $errors['image'] = $virhe;
+        }elseif (!$image && $current_image) {
             $image = "'$current_image'";
             $kuvatiedosto = PROFIILIKUVAKANSIO . "/" . $current_image;
-        }
-        elseif ($image) {
+        }elseif ($image) {
             /* Huom. Vanha kuva poistetaan, joten myös 
                current_image saa uuden profiilikuvanimen. */
             poista_vanha_kuva($user_id);
@@ -112,17 +114,18 @@ if (isset($_POST['nappula'])){
 
 
         if ($muutos) {
-            $message = "Sähköpostiosoite päivitetty onnistuneesti.";
+            $message = "Kuvan vaihto päivitetty.";
             $success = "success";
             $display = "d-block";
+            $_SESSION['current_image'] = $current_image;
+            $_SESSION['kuvatiedosto'] = $kuvatiedosto;
+            header("Location: profiili.php");
         } else {
-            $message = "Sähköpostin päivitys epäonnistui.";
+            $message = "Kuvan vaihdon päivitys epäonnistui.";
             $success = "danger";
             $display = "d-block";
         }
-        $_SESSION['current_image'] = $current_image;
-        $_SESSION['kuvatiedosto'] = $kuvatiedosto;
-        header("Location: profiili.php");
+
         exit;
 
     }

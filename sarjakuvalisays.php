@@ -28,7 +28,7 @@ function hae_kuva($kentta){
            if (!$check = getimagesize($temp_file)) $virhe = "Kuva ei kelpaa.";
            elseif (file_exists($target_file)) $virhe = "Kuvatiedosto on jo olemassa.";
            elseif (!in_array($filetype,$allowed_images)) $virhe = "Väärä tiedostotyyppi.";
-           elseif ($filesize > $maxsize) $virhe = "Kuvan koon tulee olla korkeintaan 10 MB.";
+           elseif ($filesize > $maxsize) $virhe = "Kuvan koon tulee olla korkeintaan 1 MB.";
            debuggeri("File $image,mime: {$check['mime']}, $filetype, $filesize tavua");
            if (!$virhe){
               if (!move_uploaded_file($temp_file,$target_file)) 

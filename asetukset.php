@@ -7,9 +7,9 @@ $PALVELUOSOITE = "asiakaspalvelu@sarjakuvat.fi";
 
 define("OLETUSSIVU","profiili.php");
 define("SARJAKUVAKUVAKANSIO","sarjakuvien_kuvat");
-define("SARJAKUVAKUVAKOKO",5242880);
+define("SARJAKUVAKUVAKOKO",1048576);
 define("PROFIILIKUVAKANSIO","profiili_kuvat");
-define("PROFIILIKUVAKOKO",5242880);
+define("PROFIILIKUVAKOKO",1048576);
 define("EMAIL_FROM","wohjelmointi@gmail.com");
 define("EMAIL_FROM_NAME","Ohjelmointikurssi");
 

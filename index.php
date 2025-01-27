@@ -15,12 +15,12 @@ include 'header.php';
 <div id="sailio">
     <div class="uutis_otsikko">
 
-    <h3>Sarjakuvien laaja maailma</h3>
+    <h3>Sarjakuvien Seurantatyökalumme</h3>
     </div>
     
     <div id="sisalto">
-    <h4>Uudet Julkaisut.</h4>
-    <p>Sarjakuvamaailmassa tapahtuu jatkuvasti, ja uudet julkaisut pitävät fanit innostuneina. 
+    <h4>Uusien Julkaisuiden Lisääminen.</h4>
+    <p>Sarjakuvamaailmassa tapahtuu jatkuvasti, ja uudet julkaisut päivitetään sivustolle mahdollisimman pian. 
     Seurantatyökalumme avulla voit pysyä ajan tasalla uusimmista sarjakuvista ja niiden julkaisuista. 
     Olitpa kiinnostunut supersankareista, fantasiaa täynnä olevista tarinoista tai realistisista draamoista, löydät helposti seuraavan luettavasi.</p>
     </div>
@@ -36,20 +36,20 @@ include 'header.php';
     <h4>Keräilijän Unelma.</h4>
     <p>Jos olet innokas sarjakuvien keräilijä, tiedät, kuinka tärkeää on pitää kokoelmasi ajan tasalla. 
         Sarjakuvien seurantasivumme avulla voit hallita, mitä sinulta puuttuu ja mitä olet jo lukenut. 
-        Kerää kaikki suosikkisi ja seuraa tulevia lisäyksiä, jotta kokoelmasi on aina täydellinen.</p>
+        Kerää kaikki suosikkisi ja seuraa tulevia lisäyksiä, jotta kokoelmasi on aina täydellinen. (Kesken)</p>
     </div>
 
     <div id="sisalto">
         <h4>Suositukset Sinulle.</h4>
     <p>Haluatko löytää uusia sarjakuvia? Suositusjärjestelmämme ehdottaa sinulle samankaltaisia sarjakuvia perustuen siihen, mitä olet jo lukenut ja mistä pidät. 
-        Tämä on täydellinen tapa laajentaa kokoelmaasi ja löytää uusia suosikkeja.</p>
+        Tämä on täydellinen tapa laajentaa kokoelmaasi ja löytää uusia suosikkeja. (Kesken)</p>
     </div>
 
     <div id="sisalto">
         <h4>Yhteisön Arviot ja Keskustelut. </h4>
     <p>Osallistu keskusteluun muiden sarjakuvaharrastajien kanssa! 
         Voit jättää omia arvostelujasi ja lukea, mitä muut ovat mieltä eri tarinoista ja hahmoista. 
-        Jaa ajatuksiasi ja saa uusia näkökulmia sarjakuvista, joita rakastat.</p>
+        Jaa ajatuksiasi ja saa uusia näkökulmia sarjakuvista, joita rakastat. (Kesken)</p>
     
     </div>
     
